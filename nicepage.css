@@ -29980,33 +29980,33 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
  .u-header {background-image: none}
-.u-header .u-sheet-1 {min-height: 100px}
-.u-header .u-menu-1 {margin: 29px 100px 0 auto}
+.u-header .u-sheet-1 {min-height: 92px}
+.u-header .u-menu-1 {margin: 3px 100px 0 auto}
 .u-header .u-nav-1 {font-size: 1rem; letter-spacing: 0; font-weight: 700; text-transform: none}
 .u-header .u-nav-2 {font-size: 1.25rem}
 .u-header .u-social-icons-1 {white-space: nowrap; height: 32px; min-height: 16px; width: 74px; min-width: 42px; animation-duration: 6500ms; margin: -35px 8px 0 auto}
 .u-header .u-icon-1 {height: 100%}
 .u-header .u-icon-2 {height: 100%}
-.u-header .u-group-1 {width: 330px; min-height: 92px; margin: -62px auto 6px 166px}
+.u-header .u-group-1 {width: 330px; min-height: 87px; height: auto; margin: -62px auto -24px 166px}
 .u-header .u-container-layout-1 {padding: 1px}
 .u-header .u-image-1 {margin: 14px auto 0 0}
 .u-header .u-logo-image-1 {max-width: 64px; max-height: 64px}
 .u-header .u-text-1 {font-family: "Baloo Bhai"; margin: -78px 39px 0 72px}
-.u-header .u-shape-1 {width: 128px; height: 29px; background-image: none; margin: -15px 90px 0 auto}
+.u-header .u-shape-1 {width: 172px; height: 29px; background-image: none; margin: -15px 46px 0 auto}
 .u-header .u-text-2 {margin: -25px -23px 0 122px}
-.u-header .u-shape-2 {width: 86px; height: 42px; background-image: none; margin: -25px auto 0} 
+.u-header .u-shape-2 {width: 53px; height: 37px; background-image: none; margin: -25px auto 0} 
 @media (max-width: 1199px){ .u-header .u-menu-1 {margin-right: 0}
-.u-header .u-group-1 {width: 330px; min-height: 92px; margin-top: -62px; margin-bottom: 0; margin-left: 149px}
+.u-header .u-group-1 {width: 330px; min-height: 87px; margin-top: -62px; margin-left: 149px}
 .u-header .u-image-1 {margin-top: 10px; width: 64px; height: 32px}
 .u-header .u-text-1 {margin-top: -74px; margin-left: 156px}
-.u-header .u-shape-1 {margin-top: -29px; margin-right: 90px; margin-left: 195px}
+.u-header .u-shape-1 {width: 172px; margin-top: -29px; margin-left: 195px}
 .u-header .u-text-2 {margin-top: -11px; margin-right: 670px; margin-left: 99px}
-.u-header .u-shape-2 {width: 86px; margin-top: -23px; margin-left: 199px} }
+.u-header .u-shape-2 {width: 53px; margin-top: -23px; margin-left: 199px} }
 @media (max-width: 991px){ .u-header .u-text-2 {margin-right: 549px; margin-left: 0} }
 @media (max-width: 767px){ .u-header .u-image-1 {width: auto}
 .u-header .u-text-2 {margin-right: 369px} }
 @media (max-width: 575px){ .u-header .u-social-icons-1 {margin-left: 351px}
-.u-header .u-group-1 {margin-bottom: 6px; margin-left: 10px}
+.u-header .u-group-1 {margin-left: 10px}
 .u-header .u-text-1 {width: auto; margin-top: -64px; margin-left: 72px}
 .u-header .u-shape-1 {margin-left: 93px}
 .u-header .u-text-2 {width: auto; margin-right: 69px; margin-left: auto}
