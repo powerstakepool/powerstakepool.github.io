@@ -12,10 +12,7 @@
 .u-section-1 .u-btn-2 {padding: 0}
 .u-section-1 .u-btn-3 {padding: 0}
 .u-section-1 .u-btn-4 {padding: 0}
-.u-section-1 .u-btn-5 {padding: 0}
-.u-section-1 .u-social-icons-1 {white-space: nowrap; height: 45px; min-height: 16px; width: 100px; min-width: 42px; animation-duration: 1000ms; margin: 10px 39px 0 auto}
-.u-section-1 .u-icon-1 {height: 100%}
-.u-section-1 .u-icon-2 {height: 100%} 
+.u-section-1 .u-btn-5 {padding: 0} 
 
 @media (max-width: 1199px){ .u-section-1 {min-height: 624px}
 .u-section-1 .u-sheet-1 {min-height: 823px}

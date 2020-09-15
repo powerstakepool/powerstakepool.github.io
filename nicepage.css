@@ -29983,13 +29983,12 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
  .u-header {background-image: none}
 .u-header .u-sheet-1 {min-height: 92px}
-.u-header .u-menu-1 {margin: 3px 100px 0 auto}
+.u-header .u-menu-1 {margin: 16px 100px 0 auto}
 .u-header .u-nav-1 {font-size: 1rem; letter-spacing: 0; font-weight: 700; text-transform: none}
 .u-header .u-nav-2 {font-size: 1.25rem}
-.u-header .u-social-icons-1 {white-space: nowrap; height: 32px; min-height: 16px; width: 74px; min-width: 42px; animation-duration: 6500ms; margin: -35px 8px 0 auto}
+.u-header .u-social-icons-1 {white-space: nowrap; height: 32px; min-height: 16px; width: 32px; min-width: 16px; animation-duration: 6500ms; margin: -35px 26px 0 auto}
 .u-header .u-icon-1 {height: 100%}
-.u-header .u-icon-2 {height: 100%}
-.u-header .u-group-1 {width: 330px; min-height: 87px; margin: -62px auto -24px 166px}
+.u-header .u-group-1 {width: 330px; min-height: 87px; margin: -62px auto 16px 166px}
 .u-header .u-container-layout-1 {padding: 1px}
 .u-header .u-image-1 {margin: 11px auto 0 0}
 .u-header .u-logo-image-1 {max-width: 64px; max-height: 64px}
@@ -30008,7 +30007,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-shape-2 {width: 53px; margin-right: 118px; margin-left: auto} }
 @media (max-width: 991px){ .u-header .u-sheet-1 {min-height: 97px}
 .u-header .u-menu-1 {margin-top: 31px; margin-right: 16px}
-.u-header .u-social-icons-1 {width: 74px; min-width: 42px; margin-right: 77px}
+.u-header .u-social-icons-1 {width: 32px; min-width: 16px; margin-right: 77px}
 .u-header .u-group-1 {width: 488px; min-height: 98px; margin-top: -66px; margin-bottom: 0; margin-left: 7px}
 .u-header .u-container-layout-1 {padding-bottom: 0}
 .u-header .u-image-1 {margin-top: 23px; margin-left: 90px}
@@ -30026,10 +30025,10 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-text-2 {margin-top: -25px; margin-right: 20px; margin-left: 125px}
 .u-header .u-shape-2 {margin-left: 141px} }
 @media (max-width: 575px){ .u-header .u-sheet-1 {min-height: 88px}
-.u-header .u-menu-1 {margin-top: 8px}
+.u-header .u-menu-1 {margin-top: 41px}
 .u-header .u-social-icons-1 {width: 68px; min-width: 36px; margin-top: -69px; margin-right: 16px}
-.u-header .u-group-1 {min-height: 67px; margin-top: -27px; margin-bottom: -27px; margin-left: 0}
-.u-header .u-image-1 {width: auto}
+.u-header .u-group-1 {min-height: 67px; margin-top: -27px; margin-bottom: 6px; margin-left: 0}
+.u-header .u-image-1 {height: 32px}
 .u-header .u-text-1 {margin-right: 73px; margin-left: 64px}
 .u-header .u-shape-1 {height: 23px; margin-top: -11px; margin-right: 32px; margin-left: auto}
 .u-header .u-text-2 {font-size: 0.875rem; margin-top: -22px; margin-right: 32px; margin-left: 98px}
