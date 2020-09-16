@@ -30317,19 +30317,19 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-menu-1 {margin-right: 0}
 .u-header .u-social-icons-1 {margin-right: 61px}
 .u-header .u-group-1 {width: 299px; min-height: 78px; margin-top: -55px}
-.u-header .u-image-1 {margin-top: -1px; margin-left: 9px}
-.u-header .u-text-1 {margin-top: -64px; margin-right: 65px; margin-left: 78px}
+.u-header .u-image-1 {margin-top: 6px; margin-left: 14px}
+.u-header .u-text-1 {margin-top: -71px; margin-right: 65px; margin-left: 78px}
 .u-header .u-shape-1 {margin-top: -17px; margin-right: auto; margin-left: 115px}
 .u-header .u-text-2 {margin-top: -25px; margin-right: 20px; margin-left: 125px}
 .u-header .u-shape-2 {margin-left: 141px} }
-@media (max-width: 575px){ .u-header .u-sheet-1 {min-height: 113px}
-.u-header .u-menu-1 {margin-top: 59px; margin-right: 1px}
-.u-header .u-social-icons-1 {margin-top: -81px; margin-right: auto; margin-left: 310px}
-.u-header .u-group-1 {min-height: 67px; margin-top: -34px; margin-bottom: 20px}
-.u-header .u-text-1 {margin-right: 73px; margin-left: 64px}
-.u-header .u-shape-1 {height: 23px; margin-top: -11px; margin-right: 32px; margin-left: auto}
-.u-header .u-text-2 {font-size: 0.875rem; margin-top: -22px; margin-right: 32px; margin-left: 98px}
-.u-header .u-shape-2 {width: 39px; margin-top: -21px; margin-left: 119px} }
+@media (max-width: 575px){ .u-header .u-menu-1 {margin-top: 59px; margin-right: 1px}
+.u-header .u-social-icons-1 {margin-top: -82px; margin-right: 1px}
+.u-header .u-group-1 {min-height: 67px; margin-top: -32px; margin-bottom: 14px}
+.u-header .u-image-1 {margin-top: -1px; margin-left: 11px}
+.u-header .u-text-1 {margin-top: -64px; margin-right: 62px; margin-left: 75px}
+.u-header .u-shape-1 {height: 23px; margin-top: -11px; margin-right: 22px; margin-left: auto}
+.u-header .u-text-2 {font-size: 0.875rem; margin-top: -22px; margin-right: 56px; margin-left: 106px}
+.u-header .u-shape-2 {width: 39px; margin-top: -21px; margin-left: 125px} }
  .u-footer {background-image: none}
 .u-footer .u-sheet-1 {min-height: 71px}
 .u-footer .u-social-icons-1 {white-space: nowrap; height: 32px; min-height: 16px; width: 32px; min-width: 16px; animation-duration: 6500ms; margin: 19px 19px 0 auto}
