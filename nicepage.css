@@ -29986,7 +29986,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-menu-1 {margin: 29px 99px 0 auto}
 .u-header .u-nav-1 {font-size: 1rem; letter-spacing: 0; font-weight: 700; text-transform: none}
 .u-header .u-nav-2 {font-size: 1.25rem}
-.u-header .u-social-icons-1 {white-space: nowrap; height: 32px; min-height: 16px; width: 32px; min-width: 16px; animation-duration: 6500ms; margin: -38px 28px 0 auto}
+.u-header .u-social-icons-1 {white-space: nowrap; height: 32px; min-height: 16px; width: 32px; min-width: 16px; animation-duration: 6500ms; margin: -38px 21px 0 auto}
 .u-header .u-icon-1 {height: 100%}
 .u-header .u-group-1 {width: 330px; min-height: 87px; margin: -57px auto 0 166px}
 .u-header .u-container-layout-1 {padding: 1px}
@@ -29996,10 +29996,10 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-shape-1 {width: 172px; height: 29px; background-image: none; margin: -15px 46px 0 auto}
 .u-header .u-text-2 {font-size: 1rem; margin: -24px -15px 0 114px}
 .u-header .u-shape-2 {width: 53px; height: 37px; background-image: none; margin: -25px auto 0 131px} 
-@media (max-width: 1199px){ .u-header .u-sheet-1 {min-height: 95px}
+@media (max-width: 1199px){ .u-header .u-sheet-1 {min-height: 98px}
 .u-header .u-menu-1 {width: auto; margin-right: 76px}
-.u-header .u-social-icons-1 {height: 34px; width: 34px; margin-right: 14px}
-.u-header .u-group-1 {width: 330px; min-height: 95px; margin-top: -57px; margin-left: 0}
+.u-header .u-social-icons-1 {height: 34px; width: 34px; margin-top: -34px; margin-right: 4px}
+.u-header .u-group-1 {width: 330px; min-height: 95px; margin-top: -61px; margin-left: 0}
 .u-header .u-image-1 {margin-top: 20px; margin-left: 34px}
 .u-header .u-text-1 {width: auto; margin-top: -70px; margin-right: 76px; margin-left: 98px}
 .u-header .u-shape-1 {width: 172px; margin-top: -16px; margin-right: 18px}
@@ -30007,8 +30007,8 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-shape-2 {width: 53px; margin-right: 118px; margin-left: auto} }
 @media (max-width: 991px){ .u-header .u-sheet-1 {min-height: 97px}
 .u-header .u-menu-1 {margin-right: 16px}
-.u-header .u-social-icons-1 {height: 34px; width: 34px; margin-right: 66px}
-.u-header .u-group-1 {width: 488px; min-height: 98px; margin-left: 7px}
+.u-header .u-social-icons-1 {height: 34px; width: 34px; margin-top: -34px; margin-right: 72px}
+.u-header .u-group-1 {width: 488px; min-height: 98px; margin-top: -61px; margin-left: 7px}
 .u-header .u-container-layout-1 {padding-bottom: 0}
 .u-header .u-image-1 {width: auto; margin-top: 23px; margin-left: 90px}
 .u-header .u-text-1 {margin-top: -75px; margin-right: 178px; margin-left: 154px}
@@ -30017,17 +30017,18 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-shape-2 {margin-right: auto} }
 @media (max-width: 767px){ .u-header .u-sheet-1 {min-height: 94px}
 .u-header .u-menu-1 {margin-right: 0}
-.u-header .u-social-icons-1 {margin-right: 51px}
-.u-header .u-group-1 {width: 299px; min-height: 78px; margin-bottom: 10px}
+.u-header .u-social-icons-1 {margin-right: 61px}
+.u-header .u-group-1 {width: 299px; min-height: 78px; margin-bottom: 14px}
 .u-header .u-image-1 {margin-top: -1px; margin-left: 0}
 .u-header .u-text-1 {margin-top: -64px; margin-right: 65px; margin-left: 78px}
 .u-header .u-shape-1 {margin-top: -17px; margin-right: auto; margin-left: 115px}
 .u-header .u-text-2 {margin-top: -25px; margin-right: 20px; margin-left: 125px}
 .u-header .u-shape-2 {margin-left: 141px} }
-@media (max-width: 575px){ .u-header .u-sheet-1 {min-height: 88px}
-.u-header .u-social-icons-1 {margin-right: auto; margin-left: 350px}
-.u-header .u-group-1 {min-height: 67px; margin-bottom: 15px; margin-left: 0}
-.u-header .u-image-1 {height: 32px}
+@media (max-width: 575px){ .u-header .u-sheet-1 {min-height: 100px}
+.u-header .u-menu-1 {margin-top: 54px; margin-right: 1px}
+.u-header .u-social-icons-1 {margin-top: -71px; margin-right: auto; margin-left: 310px}
+.u-header .u-group-1 {min-height: 67px; margin-top: -40px; margin-bottom: 18px; margin-left: 0}
+.u-header .u-image-1 {width: auto}
 .u-header .u-text-1 {margin-right: 73px; margin-left: 64px}
 .u-header .u-shape-1 {height: 23px; margin-top: -11px; margin-right: 32px; margin-left: auto}
 .u-header .u-text-2 {font-size: 0.875rem; margin-top: -22px; margin-right: 32px; margin-left: 98px}
