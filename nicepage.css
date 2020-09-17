@@ -30435,7 +30435,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-2 {font-size: 1.25rem}
 .u-header .u-social-icons-1 {white-space: nowrap; height: 32px; min-height: 16px; width: 32px; min-width: 16px; animation-duration: 6500ms; margin: -38px 21px 0 auto}
 .u-header .u-icon-1 {height: 100%}
-.u-header .u-group-1 {width: 330px; min-height: 87px; margin: -57px auto 0 134px}
+.u-header .u-group-1 {width: 330px; min-height: 87px; height: auto; margin: -57px auto 0 109px}
 .u-header .u-container-layout-1 {padding: 1px}
 .u-header .u-image-1 {margin: 11px auto 0 9px}
 .u-header .u-logo-image-1 {max-width: 64px; max-height: 64px}
@@ -30455,7 +30455,7 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 991px){ .u-header .u-sheet-1 {min-height: 100px}
 .u-header .u-menu-1 {margin-right: 16px}
 .u-header .u-social-icons-1 {height: 34px; width: 34px; margin-right: 72px}
-.u-header .u-group-1 {width: 488px; min-height: 98px; margin-top: -55px; margin-left: 0}
+.u-header .u-group-1 {width: 488px; min-height: 98px; margin-left: 0}
 .u-header .u-container-layout-1 {padding-bottom: 0}
 .u-header .u-image-1 {width: auto; margin-top: 23px; margin-left: 90px}
 .u-header .u-text-1 {margin-top: -76px; margin-right: 178px; margin-left: 154px}
@@ -30465,15 +30465,15 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 767px){ .u-header .u-sheet-1 {min-height: 94px}
 .u-header .u-menu-1 {margin-right: 0}
 .u-header .u-social-icons-1 {margin-right: 61px}
-.u-header .u-group-1 {width: 299px; min-height: 78px; margin-top: -55px}
+.u-header .u-group-1 {width: 299px; min-height: 78px}
 .u-header .u-image-1 {margin-top: 6px; margin-left: 14px}
 .u-header .u-text-1 {margin-top: -71px; margin-right: 65px; margin-left: 78px}
 .u-header .u-shape-1 {margin-top: -17px; margin-right: auto; margin-left: 115px}
 .u-header .u-text-2 {margin-top: -25px; margin-right: 20px; margin-left: 125px}
 .u-header .u-shape-2 {margin-left: 141px} }
-@media (max-width: 575px){ .u-header .u-menu-1 {margin-top: 59px; margin-right: 1px}
-.u-header .u-social-icons-1 {margin-top: -82px; margin-right: 1px}
-.u-header .u-group-1 {min-height: 67px; margin-top: -32px; margin-bottom: 14px}
+@media (max-width: 575px){ .u-header .u-menu-1 {margin-right: 1px}
+.u-header .u-social-icons-1 {margin-right: 1px}
+.u-header .u-group-1 {min-height: 67px}
 .u-header .u-image-1 {margin-top: -1px; margin-left: 11px}
 .u-header .u-text-1 {margin-top: -64px; margin-right: 62px; margin-left: 75px}
 .u-header .u-shape-1 {height: 23px; margin-top: -11px; margin-right: 22px; margin-left: auto}
