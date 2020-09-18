@@ -132,14 +132,14 @@
 .u-section-4 .u-text-2 {width: auto; margin-top: 15px; margin-right: 74px; margin-left: 15px}
 .u-section-4 .u-image-3 {margin-top: 309px; margin-left: 0} }
 
-@media (max-width: 575px){ .u-section-4 .u-sheet-1 {min-height: 635px}
-.u-section-4 .u-layout-wrap-1 {width: 340px; margin: 1px auto 1px 7px}
+@media (max-width: 575px){ .u-section-4 .u-sheet-1 {min-height: 766px}
+.u-section-4 .u-layout-wrap-1 {width: 340px; margin: 1px auto 60px 7px}
 .u-section-4 .u-layout-cell-1 {min-height: 423px}
 .u-section-4 .u-container-layout-1 {padding-top: 45px}
-.u-section-4 .u-image-1 {width: 280px; height: 138px; margin-top: 205px; margin-left: auto}
-.u-section-4 .u-image-2 {width: 280px; height: 106px; margin-top: 9px; margin-right: auto; margin-bottom: -95px}
+.u-section-4 .u-image-1 {width: 280px; height: 138px; margin-top: 250px; margin-left: auto}
+.u-section-4 .u-image-2 {width: 280px; height: 106px; margin-top: 20px; margin-right: auto; margin-bottom: -151px}
 .u-section-4 .u-layout-cell-2 {min-height: 211px}
 .u-section-4 .u-container-layout-2 {padding-bottom: 30px}
 .u-section-4 .u-text-1 {font-weight: 700; margin-top: -405px; margin-left: 0}
-.u-section-4 .u-text-2 {font-size: 0.875rem; margin-top: 0; margin-right: -20px; margin-left: 0}
-.u-section-4 .u-image-3 {height: 110px; width: 280px; margin-top: 265px; margin-left: auto} }
+.u-section-4 .u-text-2 {font-size: 1rem; margin-top: 0; margin-right: -20px; margin-left: 0}
+.u-section-4 .u-image-3 {height: 110px; width: 280px; margin-top: 306px; margin-left: auto; margin-bottom: -41px} }
