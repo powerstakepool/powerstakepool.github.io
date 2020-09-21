@@ -12,7 +12,7 @@
 .u-section-1 .u-btn-5 {border-style: solid; font-size: 0.875rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; background-image: none; margin: 18px 18px 0 auto; padding: 13px 48px}
 .u-section-1 .u-layout-cell-2 {min-height: 500px}
 .u-section-1 .u-container-layout-2 {padding: 10px}
-.u-section-1 .u-video-1 {height: 346px; margin: 28px auto 0 0} 
+.u-section-1 .u-video-1 {height: 346px; animation-duration: 6000ms; margin: 28px auto 0 0} 
 
 @media (max-width: 1199px){ .u-section-1 .u-layout-wrap-1 {min-height: 278px; margin-right: initial; margin-left: initial}
 .u-section-1 .u-layout-cell-1 {min-height: 412px}
