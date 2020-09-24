@@ -13339,7 +13339,7 @@ section.u-image,
   object-fit: contain;
   background-size: contain;
 }
-.u-video,
+div.u-video,
 .u-background-video {
   overflow: hidden;
 }
@@ -13674,8 +13674,8 @@ section.u-image,
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.u-enable-responsive .u-spacing-100:not(.u-text) > li:not(:last-child) {
-  margin-top: 100px;
+.u-enable-responsive .u-spacing-100 > li + li {
+  margin: 100px 0 0 0 !important;
 }
 .u-spacing-99:not(.u-text) > li:not(:last-child) {
   margin-right: 99px;
@@ -13688,8 +13688,8 @@ section.u-image,
   padding-top: 99px;
   padding-bottom: 99px;
 }
-.u-enable-responsive .u-spacing-99:not(.u-text) > li:not(:last-child) {
-  margin-top: 99px;
+.u-enable-responsive .u-spacing-99 > li + li {
+  margin: 99px 0 0 0 !important;
 }
 .u-spacing-98:not(.u-text) > li:not(:last-child) {
   margin-right: 98px;
@@ -13702,8 +13702,8 @@ section.u-image,
   padding-top: 98px;
   padding-bottom: 98px;
 }
-.u-enable-responsive .u-spacing-98:not(.u-text) > li:not(:last-child) {
-  margin-top: 98px;
+.u-enable-responsive .u-spacing-98 > li + li {
+  margin: 98px 0 0 0 !important;
 }
 .u-spacing-97:not(.u-text) > li:not(:last-child) {
   margin-right: 97px;
@@ -13716,8 +13716,8 @@ section.u-image,
   padding-top: 97px;
   padding-bottom: 97px;
 }
-.u-enable-responsive .u-spacing-97:not(.u-text) > li:not(:last-child) {
-  margin-top: 97px;
+.u-enable-responsive .u-spacing-97 > li + li {
+  margin: 97px 0 0 0 !important;
 }
 .u-spacing-96:not(.u-text) > li:not(:last-child) {
   margin-right: 96px;
@@ -13730,8 +13730,8 @@ section.u-image,
   padding-top: 96px;
   padding-bottom: 96px;
 }
-.u-enable-responsive .u-spacing-96:not(.u-text) > li:not(:last-child) {
-  margin-top: 96px;
+.u-enable-responsive .u-spacing-96 > li + li {
+  margin: 96px 0 0 0 !important;
 }
 .u-spacing-95:not(.u-text) > li:not(:last-child) {
   margin-right: 95px;
@@ -13744,8 +13744,8 @@ section.u-image,
   padding-top: 95px;
   padding-bottom: 95px;
 }
-.u-enable-responsive .u-spacing-95:not(.u-text) > li:not(:last-child) {
-  margin-top: 95px;
+.u-enable-responsive .u-spacing-95 > li + li {
+  margin: 95px 0 0 0 !important;
 }
 .u-spacing-94:not(.u-text) > li:not(:last-child) {
   margin-right: 94px;
@@ -13758,8 +13758,8 @@ section.u-image,
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.u-enable-responsive .u-spacing-94:not(.u-text) > li:not(:last-child) {
-  margin-top: 94px;
+.u-enable-responsive .u-spacing-94 > li + li {
+  margin: 94px 0 0 0 !important;
 }
 .u-spacing-93:not(.u-text) > li:not(:last-child) {
   margin-right: 93px;
@@ -13772,8 +13772,8 @@ section.u-image,
   padding-top: 93px;
   padding-bottom: 93px;
 }
-.u-enable-responsive .u-spacing-93:not(.u-text) > li:not(:last-child) {
-  margin-top: 93px;
+.u-enable-responsive .u-spacing-93 > li + li {
+  margin: 93px 0 0 0 !important;
 }
 .u-spacing-92:not(.u-text) > li:not(:last-child) {
   margin-right: 92px;
@@ -13786,8 +13786,8 @@ section.u-image,
   padding-top: 92px;
   padding-bottom: 92px;
 }
-.u-enable-responsive .u-spacing-92:not(.u-text) > li:not(:last-child) {
-  margin-top: 92px;
+.u-enable-responsive .u-spacing-92 > li + li {
+  margin: 92px 0 0 0 !important;
 }
 .u-spacing-91:not(.u-text) > li:not(:last-child) {
   margin-right: 91px;
@@ -13800,8 +13800,8 @@ section.u-image,
   padding-top: 91px;
   padding-bottom: 91px;
 }
-.u-enable-responsive .u-spacing-91:not(.u-text) > li:not(:last-child) {
-  margin-top: 91px;
+.u-enable-responsive .u-spacing-91 > li + li {
+  margin: 91px 0 0 0 !important;
 }
 .u-spacing-90:not(.u-text) > li:not(:last-child) {
   margin-right: 90px;
@@ -13814,8 +13814,8 @@ section.u-image,
   padding-top: 90px;
   padding-bottom: 90px;
 }
-.u-enable-responsive .u-spacing-90:not(.u-text) > li:not(:last-child) {
-  margin-top: 90px;
+.u-enable-responsive .u-spacing-90 > li + li {
+  margin: 90px 0 0 0 !important;
 }
 .u-spacing-89:not(.u-text) > li:not(:last-child) {
   margin-right: 89px;
@@ -13828,8 +13828,8 @@ section.u-image,
   padding-top: 89px;
   padding-bottom: 89px;
 }
-.u-enable-responsive .u-spacing-89:not(.u-text) > li:not(:last-child) {
-  margin-top: 89px;
+.u-enable-responsive .u-spacing-89 > li + li {
+  margin: 89px 0 0 0 !important;
 }
 .u-spacing-88:not(.u-text) > li:not(:last-child) {
   margin-right: 88px;
@@ -13842,8 +13842,8 @@ section.u-image,
   padding-top: 88px;
   padding-bottom: 88px;
 }
-.u-enable-responsive .u-spacing-88:not(.u-text) > li:not(:last-child) {
-  margin-top: 88px;
+.u-enable-responsive .u-spacing-88 > li + li {
+  margin: 88px 0 0 0 !important;
 }
 .u-spacing-87:not(.u-text) > li:not(:last-child) {
   margin-right: 87px;
@@ -13856,8 +13856,8 @@ section.u-image,
   padding-top: 87px;
   padding-bottom: 87px;
 }
-.u-enable-responsive .u-spacing-87:not(.u-text) > li:not(:last-child) {
-  margin-top: 87px;
+.u-enable-responsive .u-spacing-87 > li + li {
+  margin: 87px 0 0 0 !important;
 }
 .u-spacing-86:not(.u-text) > li:not(:last-child) {
   margin-right: 86px;
@@ -13870,8 +13870,8 @@ section.u-image,
   padding-top: 86px;
   padding-bottom: 86px;
 }
-.u-enable-responsive .u-spacing-86:not(.u-text) > li:not(:last-child) {
-  margin-top: 86px;
+.u-enable-responsive .u-spacing-86 > li + li {
+  margin: 86px 0 0 0 !important;
 }
 .u-spacing-85:not(.u-text) > li:not(:last-child) {
   margin-right: 85px;
@@ -13884,8 +13884,8 @@ section.u-image,
   padding-top: 85px;
   padding-bottom: 85px;
 }
-.u-enable-responsive .u-spacing-85:not(.u-text) > li:not(:last-child) {
-  margin-top: 85px;
+.u-enable-responsive .u-spacing-85 > li + li {
+  margin: 85px 0 0 0 !important;
 }
 .u-spacing-84:not(.u-text) > li:not(:last-child) {
   margin-right: 84px;
@@ -13898,8 +13898,8 @@ section.u-image,
   padding-top: 84px;
   padding-bottom: 84px;
 }
-.u-enable-responsive .u-spacing-84:not(.u-text) > li:not(:last-child) {
-  margin-top: 84px;
+.u-enable-responsive .u-spacing-84 > li + li {
+  margin: 84px 0 0 0 !important;
 }
 .u-spacing-83:not(.u-text) > li:not(:last-child) {
   margin-right: 83px;
@@ -13912,8 +13912,8 @@ section.u-image,
   padding-top: 83px;
   padding-bottom: 83px;
 }
-.u-enable-responsive .u-spacing-83:not(.u-text) > li:not(:last-child) {
-  margin-top: 83px;
+.u-enable-responsive .u-spacing-83 > li + li {
+  margin: 83px 0 0 0 !important;
 }
 .u-spacing-82:not(.u-text) > li:not(:last-child) {
   margin-right: 82px;
@@ -13926,8 +13926,8 @@ section.u-image,
   padding-top: 82px;
   padding-bottom: 82px;
 }
-.u-enable-responsive .u-spacing-82:not(.u-text) > li:not(:last-child) {
-  margin-top: 82px;
+.u-enable-responsive .u-spacing-82 > li + li {
+  margin: 82px 0 0 0 !important;
 }
 .u-spacing-81:not(.u-text) > li:not(:last-child) {
   margin-right: 81px;
@@ -13940,8 +13940,8 @@ section.u-image,
   padding-top: 81px;
   padding-bottom: 81px;
 }
-.u-enable-responsive .u-spacing-81:not(.u-text) > li:not(:last-child) {
-  margin-top: 81px;
+.u-enable-responsive .u-spacing-81 > li + li {
+  margin: 81px 0 0 0 !important;
 }
 .u-spacing-80:not(.u-text) > li:not(:last-child) {
   margin-right: 80px;
@@ -13954,8 +13954,8 @@ section.u-image,
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.u-enable-responsive .u-spacing-80:not(.u-text) > li:not(:last-child) {
-  margin-top: 80px;
+.u-enable-responsive .u-spacing-80 > li + li {
+  margin: 80px 0 0 0 !important;
 }
 .u-spacing-79:not(.u-text) > li:not(:last-child) {
   margin-right: 79px;
@@ -13968,8 +13968,8 @@ section.u-image,
   padding-top: 79px;
   padding-bottom: 79px;
 }
-.u-enable-responsive .u-spacing-79:not(.u-text) > li:not(:last-child) {
-  margin-top: 79px;
+.u-enable-responsive .u-spacing-79 > li + li {
+  margin: 79px 0 0 0 !important;
 }
 .u-spacing-78:not(.u-text) > li:not(:last-child) {
   margin-right: 78px;
@@ -13982,8 +13982,8 @@ section.u-image,
   padding-top: 78px;
   padding-bottom: 78px;
 }
-.u-enable-responsive .u-spacing-78:not(.u-text) > li:not(:last-child) {
-  margin-top: 78px;
+.u-enable-responsive .u-spacing-78 > li + li {
+  margin: 78px 0 0 0 !important;
 }
 .u-spacing-77:not(.u-text) > li:not(:last-child) {
   margin-right: 77px;
@@ -13996,8 +13996,8 @@ section.u-image,
   padding-top: 77px;
   padding-bottom: 77px;
 }
-.u-enable-responsive .u-spacing-77:not(.u-text) > li:not(:last-child) {
-  margin-top: 77px;
+.u-enable-responsive .u-spacing-77 > li + li {
+  margin: 77px 0 0 0 !important;
 }
 .u-spacing-76:not(.u-text) > li:not(:last-child) {
   margin-right: 76px;
@@ -14010,8 +14010,8 @@ section.u-image,
   padding-top: 76px;
   padding-bottom: 76px;
 }
-.u-enable-responsive .u-spacing-76:not(.u-text) > li:not(:last-child) {
-  margin-top: 76px;
+.u-enable-responsive .u-spacing-76 > li + li {
+  margin: 76px 0 0 0 !important;
 }
 .u-spacing-75:not(.u-text) > li:not(:last-child) {
   margin-right: 75px;
@@ -14024,8 +14024,8 @@ section.u-image,
   padding-top: 75px;
   padding-bottom: 75px;
 }
-.u-enable-responsive .u-spacing-75:not(.u-text) > li:not(:last-child) {
-  margin-top: 75px;
+.u-enable-responsive .u-spacing-75 > li + li {
+  margin: 75px 0 0 0 !important;
 }
 .u-spacing-74:not(.u-text) > li:not(:last-child) {
   margin-right: 74px;
@@ -14038,8 +14038,8 @@ section.u-image,
   padding-top: 74px;
   padding-bottom: 74px;
 }
-.u-enable-responsive .u-spacing-74:not(.u-text) > li:not(:last-child) {
-  margin-top: 74px;
+.u-enable-responsive .u-spacing-74 > li + li {
+  margin: 74px 0 0 0 !important;
 }
 .u-spacing-73:not(.u-text) > li:not(:last-child) {
   margin-right: 73px;
@@ -14052,8 +14052,8 @@ section.u-image,
   padding-top: 73px;
   padding-bottom: 73px;
 }
-.u-enable-responsive .u-spacing-73:not(.u-text) > li:not(:last-child) {
-  margin-top: 73px;
+.u-enable-responsive .u-spacing-73 > li + li {
+  margin: 73px 0 0 0 !important;
 }
 .u-spacing-72:not(.u-text) > li:not(:last-child) {
   margin-right: 72px;
@@ -14066,8 +14066,8 @@ section.u-image,
   padding-top: 72px;
   padding-bottom: 72px;
 }
-.u-enable-responsive .u-spacing-72:not(.u-text) > li:not(:last-child) {
-  margin-top: 72px;
+.u-enable-responsive .u-spacing-72 > li + li {
+  margin: 72px 0 0 0 !important;
 }
 .u-spacing-71:not(.u-text) > li:not(:last-child) {
   margin-right: 71px;
@@ -14080,8 +14080,8 @@ section.u-image,
   padding-top: 71px;
   padding-bottom: 71px;
 }
-.u-enable-responsive .u-spacing-71:not(.u-text) > li:not(:last-child) {
-  margin-top: 71px;
+.u-enable-responsive .u-spacing-71 > li + li {
+  margin: 71px 0 0 0 !important;
 }
 .u-spacing-70:not(.u-text) > li:not(:last-child) {
   margin-right: 70px;
@@ -14094,8 +14094,8 @@ section.u-image,
   padding-top: 70px;
   padding-bottom: 70px;
 }
-.u-enable-responsive .u-spacing-70:not(.u-text) > li:not(:last-child) {
-  margin-top: 70px;
+.u-enable-responsive .u-spacing-70 > li + li {
+  margin: 70px 0 0 0 !important;
 }
 .u-spacing-69:not(.u-text) > li:not(:last-child) {
   margin-right: 69px;
@@ -14108,8 +14108,8 @@ section.u-image,
   padding-top: 69px;
   padding-bottom: 69px;
 }
-.u-enable-responsive .u-spacing-69:not(.u-text) > li:not(:last-child) {
-  margin-top: 69px;
+.u-enable-responsive .u-spacing-69 > li + li {
+  margin: 69px 0 0 0 !important;
 }
 .u-spacing-68:not(.u-text) > li:not(:last-child) {
   margin-right: 68px;
@@ -14122,8 +14122,8 @@ section.u-image,
   padding-top: 68px;
   padding-bottom: 68px;
 }
-.u-enable-responsive .u-spacing-68:not(.u-text) > li:not(:last-child) {
-  margin-top: 68px;
+.u-enable-responsive .u-spacing-68 > li + li {
+  margin: 68px 0 0 0 !important;
 }
 .u-spacing-67:not(.u-text) > li:not(:last-child) {
   margin-right: 67px;
@@ -14136,8 +14136,8 @@ section.u-image,
   padding-top: 67px;
   padding-bottom: 67px;
 }
-.u-enable-responsive .u-spacing-67:not(.u-text) > li:not(:last-child) {
-  margin-top: 67px;
+.u-enable-responsive .u-spacing-67 > li + li {
+  margin: 67px 0 0 0 !important;
 }
 .u-spacing-66:not(.u-text) > li:not(:last-child) {
   margin-right: 66px;
@@ -14150,8 +14150,8 @@ section.u-image,
   padding-top: 66px;
   padding-bottom: 66px;
 }
-.u-enable-responsive .u-spacing-66:not(.u-text) > li:not(:last-child) {
-  margin-top: 66px;
+.u-enable-responsive .u-spacing-66 > li + li {
+  margin: 66px 0 0 0 !important;
 }
 .u-spacing-65:not(.u-text) > li:not(:last-child) {
   margin-right: 65px;
@@ -14164,8 +14164,8 @@ section.u-image,
   padding-top: 65px;
   padding-bottom: 65px;
 }
-.u-enable-responsive .u-spacing-65:not(.u-text) > li:not(:last-child) {
-  margin-top: 65px;
+.u-enable-responsive .u-spacing-65 > li + li {
+  margin: 65px 0 0 0 !important;
 }
 .u-spacing-64:not(.u-text) > li:not(:last-child) {
   margin-right: 64px;
@@ -14178,8 +14178,8 @@ section.u-image,
   padding-top: 64px;
   padding-bottom: 64px;
 }
-.u-enable-responsive .u-spacing-64:not(.u-text) > li:not(:last-child) {
-  margin-top: 64px;
+.u-enable-responsive .u-spacing-64 > li + li {
+  margin: 64px 0 0 0 !important;
 }
 .u-spacing-63:not(.u-text) > li:not(:last-child) {
   margin-right: 63px;
@@ -14192,8 +14192,8 @@ section.u-image,
   padding-top: 63px;
   padding-bottom: 63px;
 }
-.u-enable-responsive .u-spacing-63:not(.u-text) > li:not(:last-child) {
-  margin-top: 63px;
+.u-enable-responsive .u-spacing-63 > li + li {
+  margin: 63px 0 0 0 !important;
 }
 .u-spacing-62:not(.u-text) > li:not(:last-child) {
   margin-right: 62px;
@@ -14206,8 +14206,8 @@ section.u-image,
   padding-top: 62px;
   padding-bottom: 62px;
 }
-.u-enable-responsive .u-spacing-62:not(.u-text) > li:not(:last-child) {
-  margin-top: 62px;
+.u-enable-responsive .u-spacing-62 > li + li {
+  margin: 62px 0 0 0 !important;
 }
 .u-spacing-61:not(.u-text) > li:not(:last-child) {
   margin-right: 61px;
@@ -14220,8 +14220,8 @@ section.u-image,
   padding-top: 61px;
   padding-bottom: 61px;
 }
-.u-enable-responsive .u-spacing-61:not(.u-text) > li:not(:last-child) {
-  margin-top: 61px;
+.u-enable-responsive .u-spacing-61 > li + li {
+  margin: 61px 0 0 0 !important;
 }
 .u-spacing-60:not(.u-text) > li:not(:last-child) {
   margin-right: 60px;
@@ -14234,8 +14234,8 @@ section.u-image,
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.u-enable-responsive .u-spacing-60:not(.u-text) > li:not(:last-child) {
-  margin-top: 60px;
+.u-enable-responsive .u-spacing-60 > li + li {
+  margin: 60px 0 0 0 !important;
 }
 .u-spacing-59:not(.u-text) > li:not(:last-child) {
   margin-right: 59px;
@@ -14248,8 +14248,8 @@ section.u-image,
   padding-top: 59px;
   padding-bottom: 59px;
 }
-.u-enable-responsive .u-spacing-59:not(.u-text) > li:not(:last-child) {
-  margin-top: 59px;
+.u-enable-responsive .u-spacing-59 > li + li {
+  margin: 59px 0 0 0 !important;
 }
 .u-spacing-58:not(.u-text) > li:not(:last-child) {
   margin-right: 58px;
@@ -14262,8 +14262,8 @@ section.u-image,
   padding-top: 58px;
   padding-bottom: 58px;
 }
-.u-enable-responsive .u-spacing-58:not(.u-text) > li:not(:last-child) {
-  margin-top: 58px;
+.u-enable-responsive .u-spacing-58 > li + li {
+  margin: 58px 0 0 0 !important;
 }
 .u-spacing-57:not(.u-text) > li:not(:last-child) {
   margin-right: 57px;
@@ -14276,8 +14276,8 @@ section.u-image,
   padding-top: 57px;
   padding-bottom: 57px;
 }
-.u-enable-responsive .u-spacing-57:not(.u-text) > li:not(:last-child) {
-  margin-top: 57px;
+.u-enable-responsive .u-spacing-57 > li + li {
+  margin: 57px 0 0 0 !important;
 }
 .u-spacing-56:not(.u-text) > li:not(:last-child) {
   margin-right: 56px;
@@ -14290,8 +14290,8 @@ section.u-image,
   padding-top: 56px;
   padding-bottom: 56px;
 }
-.u-enable-responsive .u-spacing-56:not(.u-text) > li:not(:last-child) {
-  margin-top: 56px;
+.u-enable-responsive .u-spacing-56 > li + li {
+  margin: 56px 0 0 0 !important;
 }
 .u-spacing-55:not(.u-text) > li:not(:last-child) {
   margin-right: 55px;
@@ -14304,8 +14304,8 @@ section.u-image,
   padding-top: 55px;
   padding-bottom: 55px;
 }
-.u-enable-responsive .u-spacing-55:not(.u-text) > li:not(:last-child) {
-  margin-top: 55px;
+.u-enable-responsive .u-spacing-55 > li + li {
+  margin: 55px 0 0 0 !important;
 }
 .u-spacing-54:not(.u-text) > li:not(:last-child) {
   margin-right: 54px;
@@ -14318,8 +14318,8 @@ section.u-image,
   padding-top: 54px;
   padding-bottom: 54px;
 }
-.u-enable-responsive .u-spacing-54:not(.u-text) > li:not(:last-child) {
-  margin-top: 54px;
+.u-enable-responsive .u-spacing-54 > li + li {
+  margin: 54px 0 0 0 !important;
 }
 .u-spacing-53:not(.u-text) > li:not(:last-child) {
   margin-right: 53px;
@@ -14332,8 +14332,8 @@ section.u-image,
   padding-top: 53px;
   padding-bottom: 53px;
 }
-.u-enable-responsive .u-spacing-53:not(.u-text) > li:not(:last-child) {
-  margin-top: 53px;
+.u-enable-responsive .u-spacing-53 > li + li {
+  margin: 53px 0 0 0 !important;
 }
 .u-spacing-52:not(.u-text) > li:not(:last-child) {
   margin-right: 52px;
@@ -14346,8 +14346,8 @@ section.u-image,
   padding-top: 52px;
   padding-bottom: 52px;
 }
-.u-enable-responsive .u-spacing-52:not(.u-text) > li:not(:last-child) {
-  margin-top: 52px;
+.u-enable-responsive .u-spacing-52 > li + li {
+  margin: 52px 0 0 0 !important;
 }
 .u-spacing-51:not(.u-text) > li:not(:last-child) {
   margin-right: 51px;
@@ -14360,8 +14360,8 @@ section.u-image,
   padding-top: 51px;
   padding-bottom: 51px;
 }
-.u-enable-responsive .u-spacing-51:not(.u-text) > li:not(:last-child) {
-  margin-top: 51px;
+.u-enable-responsive .u-spacing-51 > li + li {
+  margin: 51px 0 0 0 !important;
 }
 .u-spacing-50:not(.u-text) > li:not(:last-child) {
   margin-right: 50px;
@@ -14374,8 +14374,8 @@ section.u-image,
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.u-enable-responsive .u-spacing-50:not(.u-text) > li:not(:last-child) {
-  margin-top: 50px;
+.u-enable-responsive .u-spacing-50 > li + li {
+  margin: 50px 0 0 0 !important;
 }
 .u-spacing-49:not(.u-text) > li:not(:last-child) {
   margin-right: 49px;
@@ -14388,8 +14388,8 @@ section.u-image,
   padding-top: 49px;
   padding-bottom: 49px;
 }
-.u-enable-responsive .u-spacing-49:not(.u-text) > li:not(:last-child) {
-  margin-top: 49px;
+.u-enable-responsive .u-spacing-49 > li + li {
+  margin: 49px 0 0 0 !important;
 }
 .u-spacing-48:not(.u-text) > li:not(:last-child) {
   margin-right: 48px;
@@ -14402,8 +14402,8 @@ section.u-image,
   padding-top: 48px;
   padding-bottom: 48px;
 }
-.u-enable-responsive .u-spacing-48:not(.u-text) > li:not(:last-child) {
-  margin-top: 48px;
+.u-enable-responsive .u-spacing-48 > li + li {
+  margin: 48px 0 0 0 !important;
 }
 .u-spacing-47:not(.u-text) > li:not(:last-child) {
   margin-right: 47px;
@@ -14416,8 +14416,8 @@ section.u-image,
   padding-top: 47px;
   padding-bottom: 47px;
 }
-.u-enable-responsive .u-spacing-47:not(.u-text) > li:not(:last-child) {
-  margin-top: 47px;
+.u-enable-responsive .u-spacing-47 > li + li {
+  margin: 47px 0 0 0 !important;
 }
 .u-spacing-46:not(.u-text) > li:not(:last-child) {
   margin-right: 46px;
@@ -14430,8 +14430,8 @@ section.u-image,
   padding-top: 46px;
   padding-bottom: 46px;
 }
-.u-enable-responsive .u-spacing-46:not(.u-text) > li:not(:last-child) {
-  margin-top: 46px;
+.u-enable-responsive .u-spacing-46 > li + li {
+  margin: 46px 0 0 0 !important;
 }
 .u-spacing-45:not(.u-text) > li:not(:last-child) {
   margin-right: 45px;
@@ -14444,8 +14444,8 @@ section.u-image,
   padding-top: 45px;
   padding-bottom: 45px;
 }
-.u-enable-responsive .u-spacing-45:not(.u-text) > li:not(:last-child) {
-  margin-top: 45px;
+.u-enable-responsive .u-spacing-45 > li + li {
+  margin: 45px 0 0 0 !important;
 }
 .u-spacing-44:not(.u-text) > li:not(:last-child) {
   margin-right: 44px;
@@ -14458,8 +14458,8 @@ section.u-image,
   padding-top: 44px;
   padding-bottom: 44px;
 }
-.u-enable-responsive .u-spacing-44:not(.u-text) > li:not(:last-child) {
-  margin-top: 44px;
+.u-enable-responsive .u-spacing-44 > li + li {
+  margin: 44px 0 0 0 !important;
 }
 .u-spacing-43:not(.u-text) > li:not(:last-child) {
   margin-right: 43px;
@@ -14472,8 +14472,8 @@ section.u-image,
   padding-top: 43px;
   padding-bottom: 43px;
 }
-.u-enable-responsive .u-spacing-43:not(.u-text) > li:not(:last-child) {
-  margin-top: 43px;
+.u-enable-responsive .u-spacing-43 > li + li {
+  margin: 43px 0 0 0 !important;
 }
 .u-spacing-42:not(.u-text) > li:not(:last-child) {
   margin-right: 42px;
@@ -14486,8 +14486,8 @@ section.u-image,
   padding-top: 42px;
   padding-bottom: 42px;
 }
-.u-enable-responsive .u-spacing-42:not(.u-text) > li:not(:last-child) {
-  margin-top: 42px;
+.u-enable-responsive .u-spacing-42 > li + li {
+  margin: 42px 0 0 0 !important;
 }
 .u-spacing-41:not(.u-text) > li:not(:last-child) {
   margin-right: 41px;
@@ -14500,8 +14500,8 @@ section.u-image,
   padding-top: 41px;
   padding-bottom: 41px;
 }
-.u-enable-responsive .u-spacing-41:not(.u-text) > li:not(:last-child) {
-  margin-top: 41px;
+.u-enable-responsive .u-spacing-41 > li + li {
+  margin: 41px 0 0 0 !important;
 }
 .u-spacing-40:not(.u-text) > li:not(:last-child) {
   margin-right: 40px;
@@ -14514,8 +14514,8 @@ section.u-image,
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.u-enable-responsive .u-spacing-40:not(.u-text) > li:not(:last-child) {
-  margin-top: 40px;
+.u-enable-responsive .u-spacing-40 > li + li {
+  margin: 40px 0 0 0 !important;
 }
 .u-spacing-39:not(.u-text) > li:not(:last-child) {
   margin-right: 39px;
@@ -14528,8 +14528,8 @@ section.u-image,
   padding-top: 39px;
   padding-bottom: 39px;
 }
-.u-enable-responsive .u-spacing-39:not(.u-text) > li:not(:last-child) {
-  margin-top: 39px;
+.u-enable-responsive .u-spacing-39 > li + li {
+  margin: 39px 0 0 0 !important;
 }
 .u-spacing-38:not(.u-text) > li:not(:last-child) {
   margin-right: 38px;
@@ -14542,8 +14542,8 @@ section.u-image,
   padding-top: 38px;
   padding-bottom: 38px;
 }
-.u-enable-responsive .u-spacing-38:not(.u-text) > li:not(:last-child) {
-  margin-top: 38px;
+.u-enable-responsive .u-spacing-38 > li + li {
+  margin: 38px 0 0 0 !important;
 }
 .u-spacing-37:not(.u-text) > li:not(:last-child) {
   margin-right: 37px;
@@ -14556,8 +14556,8 @@ section.u-image,
   padding-top: 37px;
   padding-bottom: 37px;
 }
-.u-enable-responsive .u-spacing-37:not(.u-text) > li:not(:last-child) {
-  margin-top: 37px;
+.u-enable-responsive .u-spacing-37 > li + li {
+  margin: 37px 0 0 0 !important;
 }
 .u-spacing-36:not(.u-text) > li:not(:last-child) {
   margin-right: 36px;
@@ -14570,8 +14570,8 @@ section.u-image,
   padding-top: 36px;
   padding-bottom: 36px;
 }
-.u-enable-responsive .u-spacing-36:not(.u-text) > li:not(:last-child) {
-  margin-top: 36px;
+.u-enable-responsive .u-spacing-36 > li + li {
+  margin: 36px 0 0 0 !important;
 }
 .u-spacing-35:not(.u-text) > li:not(:last-child) {
   margin-right: 35px;
@@ -14584,8 +14584,8 @@ section.u-image,
   padding-top: 35px;
   padding-bottom: 35px;
 }
-.u-enable-responsive .u-spacing-35:not(.u-text) > li:not(:last-child) {
-  margin-top: 35px;
+.u-enable-responsive .u-spacing-35 > li + li {
+  margin: 35px 0 0 0 !important;
 }
 .u-spacing-34:not(.u-text) > li:not(:last-child) {
   margin-right: 34px;
@@ -14598,8 +14598,8 @@ section.u-image,
   padding-top: 34px;
   padding-bottom: 34px;
 }
-.u-enable-responsive .u-spacing-34:not(.u-text) > li:not(:last-child) {
-  margin-top: 34px;
+.u-enable-responsive .u-spacing-34 > li + li {
+  margin: 34px 0 0 0 !important;
 }
 .u-spacing-33:not(.u-text) > li:not(:last-child) {
   margin-right: 33px;
@@ -14612,8 +14612,8 @@ section.u-image,
   padding-top: 33px;
   padding-bottom: 33px;
 }
-.u-enable-responsive .u-spacing-33:not(.u-text) > li:not(:last-child) {
-  margin-top: 33px;
+.u-enable-responsive .u-spacing-33 > li + li {
+  margin: 33px 0 0 0 !important;
 }
 .u-spacing-32:not(.u-text) > li:not(:last-child) {
   margin-right: 32px;
@@ -14626,8 +14626,8 @@ section.u-image,
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.u-enable-responsive .u-spacing-32:not(.u-text) > li:not(:last-child) {
-  margin-top: 32px;
+.u-enable-responsive .u-spacing-32 > li + li {
+  margin: 32px 0 0 0 !important;
 }
 .u-spacing-31:not(.u-text) > li:not(:last-child) {
   margin-right: 31px;
@@ -14640,8 +14640,8 @@ section.u-image,
   padding-top: 31px;
   padding-bottom: 31px;
 }
-.u-enable-responsive .u-spacing-31:not(.u-text) > li:not(:last-child) {
-  margin-top: 31px;
+.u-enable-responsive .u-spacing-31 > li + li {
+  margin: 31px 0 0 0 !important;
 }
 .u-spacing-30:not(.u-text) > li:not(:last-child) {
   margin-right: 30px;
@@ -14654,8 +14654,8 @@ section.u-image,
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.u-enable-responsive .u-spacing-30:not(.u-text) > li:not(:last-child) {
-  margin-top: 30px;
+.u-enable-responsive .u-spacing-30 > li + li {
+  margin: 30px 0 0 0 !important;
 }
 .u-spacing-29:not(.u-text) > li:not(:last-child) {
   margin-right: 29px;
@@ -14668,8 +14668,8 @@ section.u-image,
   padding-top: 29px;
   padding-bottom: 29px;
 }
-.u-enable-responsive .u-spacing-29:not(.u-text) > li:not(:last-child) {
-  margin-top: 29px;
+.u-enable-responsive .u-spacing-29 > li + li {
+  margin: 29px 0 0 0 !important;
 }
 .u-spacing-28:not(.u-text) > li:not(:last-child) {
   margin-right: 28px;
@@ -14682,8 +14682,8 @@ section.u-image,
   padding-top: 28px;
   padding-bottom: 28px;
 }
-.u-enable-responsive .u-spacing-28:not(.u-text) > li:not(:last-child) {
-  margin-top: 28px;
+.u-enable-responsive .u-spacing-28 > li + li {
+  margin: 28px 0 0 0 !important;
 }
 .u-spacing-27:not(.u-text) > li:not(:last-child) {
   margin-right: 27px;
@@ -14696,8 +14696,8 @@ section.u-image,
   padding-top: 27px;
   padding-bottom: 27px;
 }
-.u-enable-responsive .u-spacing-27:not(.u-text) > li:not(:last-child) {
-  margin-top: 27px;
+.u-enable-responsive .u-spacing-27 > li + li {
+  margin: 27px 0 0 0 !important;
 }
 .u-spacing-26:not(.u-text) > li:not(:last-child) {
   margin-right: 26px;
@@ -14710,8 +14710,8 @@ section.u-image,
   padding-top: 26px;
   padding-bottom: 26px;
 }
-.u-enable-responsive .u-spacing-26:not(.u-text) > li:not(:last-child) {
-  margin-top: 26px;
+.u-enable-responsive .u-spacing-26 > li + li {
+  margin: 26px 0 0 0 !important;
 }
 .u-spacing-25:not(.u-text) > li:not(:last-child) {
   margin-right: 25px;
@@ -14724,8 +14724,8 @@ section.u-image,
   padding-top: 25px;
   padding-bottom: 25px;
 }
-.u-enable-responsive .u-spacing-25:not(.u-text) > li:not(:last-child) {
-  margin-top: 25px;
+.u-enable-responsive .u-spacing-25 > li + li {
+  margin: 25px 0 0 0 !important;
 }
 .u-spacing-24:not(.u-text) > li:not(:last-child) {
   margin-right: 24px;
@@ -14738,8 +14738,8 @@ section.u-image,
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.u-enable-responsive .u-spacing-24:not(.u-text) > li:not(:last-child) {
-  margin-top: 24px;
+.u-enable-responsive .u-spacing-24 > li + li {
+  margin: 24px 0 0 0 !important;
 }
 .u-spacing-23:not(.u-text) > li:not(:last-child) {
   margin-right: 23px;
@@ -14752,8 +14752,8 @@ section.u-image,
   padding-top: 23px;
   padding-bottom: 23px;
 }
-.u-enable-responsive .u-spacing-23:not(.u-text) > li:not(:last-child) {
-  margin-top: 23px;
+.u-enable-responsive .u-spacing-23 > li + li {
+  margin: 23px 0 0 0 !important;
 }
 .u-spacing-22:not(.u-text) > li:not(:last-child) {
   margin-right: 22px;
@@ -14766,8 +14766,8 @@ section.u-image,
   padding-top: 22px;
   padding-bottom: 22px;
 }
-.u-enable-responsive .u-spacing-22:not(.u-text) > li:not(:last-child) {
-  margin-top: 22px;
+.u-enable-responsive .u-spacing-22 > li + li {
+  margin: 22px 0 0 0 !important;
 }
 .u-spacing-21:not(.u-text) > li:not(:last-child) {
   margin-right: 21px;
@@ -14780,8 +14780,8 @@ section.u-image,
   padding-top: 21px;
   padding-bottom: 21px;
 }
-.u-enable-responsive .u-spacing-21:not(.u-text) > li:not(:last-child) {
-  margin-top: 21px;
+.u-enable-responsive .u-spacing-21 > li + li {
+  margin: 21px 0 0 0 !important;
 }
 .u-spacing-20:not(.u-text) > li:not(:last-child) {
   margin-right: 20px;
@@ -14794,8 +14794,8 @@ section.u-image,
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.u-enable-responsive .u-spacing-20:not(.u-text) > li:not(:last-child) {
-  margin-top: 20px;
+.u-enable-responsive .u-spacing-20 > li + li {
+  margin: 20px 0 0 0 !important;
 }
 .u-spacing-19:not(.u-text) > li:not(:last-child) {
   margin-right: 19px;
@@ -14808,8 +14808,8 @@ section.u-image,
   padding-top: 19px;
   padding-bottom: 19px;
 }
-.u-enable-responsive .u-spacing-19:not(.u-text) > li:not(:last-child) {
-  margin-top: 19px;
+.u-enable-responsive .u-spacing-19 > li + li {
+  margin: 19px 0 0 0 !important;
 }
 .u-spacing-18:not(.u-text) > li:not(:last-child) {
   margin-right: 18px;
@@ -14822,8 +14822,8 @@ section.u-image,
   padding-top: 18px;
   padding-bottom: 18px;
 }
-.u-enable-responsive .u-spacing-18:not(.u-text) > li:not(:last-child) {
-  margin-top: 18px;
+.u-enable-responsive .u-spacing-18 > li + li {
+  margin: 18px 0 0 0 !important;
 }
 .u-spacing-17:not(.u-text) > li:not(:last-child) {
   margin-right: 17px;
@@ -14836,8 +14836,8 @@ section.u-image,
   padding-top: 17px;
   padding-bottom: 17px;
 }
-.u-enable-responsive .u-spacing-17:not(.u-text) > li:not(:last-child) {
-  margin-top: 17px;
+.u-enable-responsive .u-spacing-17 > li + li {
+  margin: 17px 0 0 0 !important;
 }
 .u-spacing-16:not(.u-text) > li:not(:last-child) {
   margin-right: 16px;
@@ -14850,8 +14850,8 @@ section.u-image,
   padding-top: 16px;
   padding-bottom: 16px;
 }
-.u-enable-responsive .u-spacing-16:not(.u-text) > li:not(:last-child) {
-  margin-top: 16px;
+.u-enable-responsive .u-spacing-16 > li + li {
+  margin: 16px 0 0 0 !important;
 }
 .u-spacing-15:not(.u-text) > li:not(:last-child) {
   margin-right: 15px;
@@ -14864,8 +14864,8 @@ section.u-image,
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.u-enable-responsive .u-spacing-15:not(.u-text) > li:not(:last-child) {
-  margin-top: 15px;
+.u-enable-responsive .u-spacing-15 > li + li {
+  margin: 15px 0 0 0 !important;
 }
 .u-spacing-14:not(.u-text) > li:not(:last-child) {
   margin-right: 14px;
@@ -14878,8 +14878,8 @@ section.u-image,
   padding-top: 14px;
   padding-bottom: 14px;
 }
-.u-enable-responsive .u-spacing-14:not(.u-text) > li:not(:last-child) {
-  margin-top: 14px;
+.u-enable-responsive .u-spacing-14 > li + li {
+  margin: 14px 0 0 0 !important;
 }
 .u-spacing-13:not(.u-text) > li:not(:last-child) {
   margin-right: 13px;
@@ -14892,8 +14892,8 @@ section.u-image,
   padding-top: 13px;
   padding-bottom: 13px;
 }
-.u-enable-responsive .u-spacing-13:not(.u-text) > li:not(:last-child) {
-  margin-top: 13px;
+.u-enable-responsive .u-spacing-13 > li + li {
+  margin: 13px 0 0 0 !important;
 }
 .u-spacing-12:not(.u-text) > li:not(:last-child) {
   margin-right: 12px;
@@ -14906,8 +14906,8 @@ section.u-image,
   padding-top: 12px;
   padding-bottom: 12px;
 }
-.u-enable-responsive .u-spacing-12:not(.u-text) > li:not(:last-child) {
-  margin-top: 12px;
+.u-enable-responsive .u-spacing-12 > li + li {
+  margin: 12px 0 0 0 !important;
 }
 .u-spacing-11:not(.u-text) > li:not(:last-child) {
   margin-right: 11px;
@@ -14920,8 +14920,8 @@ section.u-image,
   padding-top: 11px;
   padding-bottom: 11px;
 }
-.u-enable-responsive .u-spacing-11:not(.u-text) > li:not(:last-child) {
-  margin-top: 11px;
+.u-enable-responsive .u-spacing-11 > li + li {
+  margin: 11px 0 0 0 !important;
 }
 .u-spacing-10:not(.u-text) > li:not(:last-child) {
   margin-right: 10px;
@@ -14934,8 +14934,8 @@ section.u-image,
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.u-enable-responsive .u-spacing-10:not(.u-text) > li:not(:last-child) {
-  margin-top: 10px;
+.u-enable-responsive .u-spacing-10 > li + li {
+  margin: 10px 0 0 0 !important;
 }
 .u-spacing-9:not(.u-text) > li:not(:last-child) {
   margin-right: 9px;
@@ -14948,8 +14948,8 @@ section.u-image,
   padding-top: 9px;
   padding-bottom: 9px;
 }
-.u-enable-responsive .u-spacing-9:not(.u-text) > li:not(:last-child) {
-  margin-top: 9px;
+.u-enable-responsive .u-spacing-9 > li + li {
+  margin: 9px 0 0 0 !important;
 }
 .u-spacing-8:not(.u-text) > li:not(:last-child) {
   margin-right: 8px;
@@ -14962,8 +14962,8 @@ section.u-image,
   padding-top: 8px;
   padding-bottom: 8px;
 }
-.u-enable-responsive .u-spacing-8:not(.u-text) > li:not(:last-child) {
-  margin-top: 8px;
+.u-enable-responsive .u-spacing-8 > li + li {
+  margin: 8px 0 0 0 !important;
 }
 .u-spacing-7:not(.u-text) > li:not(:last-child) {
   margin-right: 7px;
@@ -14976,8 +14976,8 @@ section.u-image,
   padding-top: 7px;
   padding-bottom: 7px;
 }
-.u-enable-responsive .u-spacing-7:not(.u-text) > li:not(:last-child) {
-  margin-top: 7px;
+.u-enable-responsive .u-spacing-7 > li + li {
+  margin: 7px 0 0 0 !important;
 }
 .u-spacing-6:not(.u-text) > li:not(:last-child) {
   margin-right: 6px;
@@ -14990,8 +14990,8 @@ section.u-image,
   padding-top: 6px;
   padding-bottom: 6px;
 }
-.u-enable-responsive .u-spacing-6:not(.u-text) > li:not(:last-child) {
-  margin-top: 6px;
+.u-enable-responsive .u-spacing-6 > li + li {
+  margin: 6px 0 0 0 !important;
 }
 .u-spacing-5:not(.u-text) > li:not(:last-child) {
   margin-right: 5px;
@@ -15004,8 +15004,8 @@ section.u-image,
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.u-enable-responsive .u-spacing-5:not(.u-text) > li:not(:last-child) {
-  margin-top: 5px;
+.u-enable-responsive .u-spacing-5 > li + li {
+  margin: 5px 0 0 0 !important;
 }
 .u-spacing-4:not(.u-text) > li:not(:last-child) {
   margin-right: 4px;
@@ -15018,8 +15018,8 @@ section.u-image,
   padding-top: 4px;
   padding-bottom: 4px;
 }
-.u-enable-responsive .u-spacing-4:not(.u-text) > li:not(:last-child) {
-  margin-top: 4px;
+.u-enable-responsive .u-spacing-4 > li + li {
+  margin: 4px 0 0 0 !important;
 }
 .u-spacing-3:not(.u-text) > li:not(:last-child) {
   margin-right: 3px;
@@ -15032,8 +15032,8 @@ section.u-image,
   padding-top: 3px;
   padding-bottom: 3px;
 }
-.u-enable-responsive .u-spacing-3:not(.u-text) > li:not(:last-child) {
-  margin-top: 3px;
+.u-enable-responsive .u-spacing-3 > li + li {
+  margin: 3px 0 0 0 !important;
 }
 .u-spacing-2:not(.u-text) > li:not(:last-child) {
   margin-right: 2px;
@@ -15046,8 +15046,8 @@ section.u-image,
   padding-top: 2px;
   padding-bottom: 2px;
 }
-.u-enable-responsive .u-spacing-2:not(.u-text) > li:not(:last-child) {
-  margin-top: 2px;
+.u-enable-responsive .u-spacing-2 > li + li {
+  margin: 2px 0 0 0 !important;
 }
 .u-spacing-1:not(.u-text) > li:not(:last-child) {
   margin-right: 1px;
@@ -15060,8 +15060,8 @@ section.u-image,
   padding-top: 1px;
   padding-bottom: 1px;
 }
-.u-enable-responsive .u-spacing-1:not(.u-text) > li:not(:last-child) {
-  margin-top: 1px;
+.u-enable-responsive .u-spacing-1 > li + li {
+  margin: 1px 0 0 0 !important;
 }
 .u-spacing-0:not(.u-text) > li:not(:last-child) {
   margin-right: 0px;
@@ -15074,8 +15074,11 @@ section.u-image,
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.u-enable-responsive .u-spacing-0:not(.u-text) > li:not(:last-child) {
-  margin-top: 0px;
+.u-enable-responsive .u-spacing-0 > li + li {
+  margin: 0px 0 0 0 !important;
+}
+.u-enable-responsive .u-popupmenu-items > li:first-child {
+  margin: 0 !important;
 }
 .u-menu-one-level .u-nav-popup {
   display: none;
@@ -16558,7 +16561,6 @@ a.pswp__share--download:hover {
   border-width: 0px;
 }
 .u-table table {
-  min-height: 100px;
   width: 100%;
   border-collapse: collapse;
   text-align: left;
@@ -16751,37 +16753,39 @@ a.pswp__share--download:hover {
 .u-text .u-icon > svg,
 .u-btn .u-icon > svg,
 .u-table-cell .u-icon > svg,
-.u-tab-link .u-icon > svg,
-.u-text .u-icon:after,
-.u-btn .u-icon:after,
-.u-table-cell .u-icon:after,
-.u-tab-link .u-icon:after {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-}
-.u-text .u-icon > svg,
-.u-btn .u-icon > svg,
-.u-table-cell .u-icon > svg,
 .u-tab-link .u-icon > svg {
+  display: inline-block;
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 1em;
+  height: 1em;
   transform: translate(-50%, -50%);
   line-height: 1;
 }
-.u-text .u-icon:after,
-.u-btn .u-icon:after,
-.u-table-cell .u-icon:after,
-.u-tab-link .u-icon:after {
-  content: " ";
+.u-text .u-icon > img,
+.u-btn .u-icon > img,
+.u-table-cell .u-icon > img,
+.u-tab-link .u-icon > img {
+  display: inline !important;
+  padding: 0.5em !important;
+  margin: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  line-height: 1 !important;
+  vertical-align: middle !important;
 }
 .u-login {
   display: table;
 }
 .u-table-cell .u-btn,
 .u-text .u-btn {
-  display: inline-block;
+  display: inline;
   margin-top: 0;
   margin-bottom: 0;
   vertical-align: baseline;
@@ -16837,6 +16841,9 @@ a.pswp__share--download:hover {
 .u-products-item {
   border-width: 0px;
 }
+.u-product {
+  display: flex;
+}
 .u-product-price {
   display: table;
 }
@@ -16881,6 +16888,32 @@ a.pswp__share--download:hover {
   text-align: center;
   vertical-align: baseline;
   box-sizing: content-box;
+}
+.u-dialog {
+  display: flex;
+  position: relative;
+  border-width: 0;
+}
+.u-dialog-close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: inherit;
+  background: transparent;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+.u-dialog-block {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100001;
+}
+.u-dialog-block:not(.u-dialog-open) {
+  display: none;
 }
 .u-carousel {
   position: relative;
@@ -16957,6 +16990,7 @@ a.pswp__share--download:hover {
 .u-carousel-control-prev span svg,
 .u-carousel-control-next span svg {
   vertical-align: top;
+  fill: currentColor;
 }
 .u-carousel-control-prev:focus,
 .u-carousel-control-prev:hover,
@@ -17913,6 +17947,8 @@ h6 {
 .u-hover-color-1-dark-3[class*="u-border-"]:hover,
 .u-hover-color-1-dark-3:focus,
 .u-hover-color-1-dark-3[class*="u-border-"]:focus,
+.u-active-color-1-dark-3.u-active.u-active,
+.u-active-color-1-dark-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-1-dark-3:hover,
 a.u-button-style.u-hover-color-1-dark-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-1-dark-3:focus,
@@ -17954,6 +17990,8 @@ a.u-link.u-hover-color-1-dark-3:hover {
 .u-hover-color-1-dark-2[class*="u-border-"]:hover,
 .u-hover-color-1-dark-2:focus,
 .u-hover-color-1-dark-2[class*="u-border-"]:focus,
+.u-active-color-1-dark-2.u-active.u-active,
+.u-active-color-1-dark-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-1-dark-2:hover,
 a.u-button-style.u-hover-color-1-dark-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-1-dark-2:focus,
@@ -17995,6 +18033,8 @@ a.u-link.u-hover-color-1-dark-2:hover {
 .u-hover-color-1-dark-1[class*="u-border-"]:hover,
 .u-hover-color-1-dark-1:focus,
 .u-hover-color-1-dark-1[class*="u-border-"]:focus,
+.u-active-color-1-dark-1.u-active.u-active,
+.u-active-color-1-dark-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-1-dark-1:hover,
 a.u-button-style.u-hover-color-1-dark-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-1-dark-1:focus,
@@ -18036,6 +18076,8 @@ a.u-link.u-hover-color-1-dark-1:hover {
 .u-hover-color-1[class*="u-border-"]:hover,
 .u-hover-color-1:focus,
 .u-hover-color-1[class*="u-border-"]:focus,
+.u-active-color-1.u-active.u-active,
+.u-active-color-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-1:hover,
 a.u-button-style.u-hover-color-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-1:focus,
@@ -18077,6 +18119,8 @@ a.u-link.u-hover-color-1:hover {
 .u-hover-color-1-light-1[class*="u-border-"]:hover,
 .u-hover-color-1-light-1:focus,
 .u-hover-color-1-light-1[class*="u-border-"]:focus,
+.u-active-color-1-light-1.u-active.u-active,
+.u-active-color-1-light-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-1-light-1:hover,
 a.u-button-style.u-hover-color-1-light-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-1-light-1:focus,
@@ -18118,6 +18162,8 @@ a.u-link.u-hover-color-1-light-1:hover {
 .u-hover-color-1-light-2[class*="u-border-"]:hover,
 .u-hover-color-1-light-2:focus,
 .u-hover-color-1-light-2[class*="u-border-"]:focus,
+.u-active-color-1-light-2.u-active.u-active,
+.u-active-color-1-light-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-1-light-2:hover,
 a.u-button-style.u-hover-color-1-light-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-1-light-2:focus,
@@ -18159,6 +18205,8 @@ a.u-link.u-hover-color-1-light-2:hover {
 .u-hover-color-1-light-3[class*="u-border-"]:hover,
 .u-hover-color-1-light-3:focus,
 .u-hover-color-1-light-3[class*="u-border-"]:focus,
+.u-active-color-1-light-3.u-active.u-active,
+.u-active-color-1-light-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-1-light-3:hover,
 a.u-button-style.u-hover-color-1-light-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-1-light-3:focus,
@@ -18200,6 +18248,8 @@ a.u-link.u-hover-color-1-light-3:hover {
 .u-hover-color-1-base[class*="u-border-"]:hover,
 .u-hover-color-1-base:focus,
 .u-hover-color-1-base[class*="u-border-"]:focus,
+.u-active-color-1-base.u-active.u-active,
+.u-active-color-1-base[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-1-base:hover,
 a.u-button-style.u-hover-color-1-base[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-1-base:focus,
@@ -18241,6 +18291,8 @@ a.u-link.u-hover-color-1-base:hover {
 .u-hover-color-2-dark-3[class*="u-border-"]:hover,
 .u-hover-color-2-dark-3:focus,
 .u-hover-color-2-dark-3[class*="u-border-"]:focus,
+.u-active-color-2-dark-3.u-active.u-active,
+.u-active-color-2-dark-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-2-dark-3:hover,
 a.u-button-style.u-hover-color-2-dark-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-2-dark-3:focus,
@@ -18282,6 +18334,8 @@ a.u-link.u-hover-color-2-dark-3:hover {
 .u-hover-color-2-dark-2[class*="u-border-"]:hover,
 .u-hover-color-2-dark-2:focus,
 .u-hover-color-2-dark-2[class*="u-border-"]:focus,
+.u-active-color-2-dark-2.u-active.u-active,
+.u-active-color-2-dark-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-2-dark-2:hover,
 a.u-button-style.u-hover-color-2-dark-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-2-dark-2:focus,
@@ -18323,6 +18377,8 @@ a.u-link.u-hover-color-2-dark-2:hover {
 .u-hover-color-2-dark-1[class*="u-border-"]:hover,
 .u-hover-color-2-dark-1:focus,
 .u-hover-color-2-dark-1[class*="u-border-"]:focus,
+.u-active-color-2-dark-1.u-active.u-active,
+.u-active-color-2-dark-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-2-dark-1:hover,
 a.u-button-style.u-hover-color-2-dark-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-2-dark-1:focus,
@@ -18364,6 +18420,8 @@ a.u-link.u-hover-color-2-dark-1:hover {
 .u-hover-color-2[class*="u-border-"]:hover,
 .u-hover-color-2:focus,
 .u-hover-color-2[class*="u-border-"]:focus,
+.u-active-color-2.u-active.u-active,
+.u-active-color-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-2:hover,
 a.u-button-style.u-hover-color-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-2:focus,
@@ -18405,6 +18463,8 @@ a.u-link.u-hover-color-2:hover {
 .u-hover-color-2-light-1[class*="u-border-"]:hover,
 .u-hover-color-2-light-1:focus,
 .u-hover-color-2-light-1[class*="u-border-"]:focus,
+.u-active-color-2-light-1.u-active.u-active,
+.u-active-color-2-light-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-2-light-1:hover,
 a.u-button-style.u-hover-color-2-light-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-2-light-1:focus,
@@ -18446,6 +18506,8 @@ a.u-link.u-hover-color-2-light-1:hover {
 .u-hover-color-2-light-2[class*="u-border-"]:hover,
 .u-hover-color-2-light-2:focus,
 .u-hover-color-2-light-2[class*="u-border-"]:focus,
+.u-active-color-2-light-2.u-active.u-active,
+.u-active-color-2-light-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-2-light-2:hover,
 a.u-button-style.u-hover-color-2-light-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-2-light-2:focus,
@@ -18487,6 +18549,8 @@ a.u-link.u-hover-color-2-light-2:hover {
 .u-hover-color-2-light-3[class*="u-border-"]:hover,
 .u-hover-color-2-light-3:focus,
 .u-hover-color-2-light-3[class*="u-border-"]:focus,
+.u-active-color-2-light-3.u-active.u-active,
+.u-active-color-2-light-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-2-light-3:hover,
 a.u-button-style.u-hover-color-2-light-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-2-light-3:focus,
@@ -18528,6 +18592,8 @@ a.u-link.u-hover-color-2-light-3:hover {
 .u-hover-color-2-base[class*="u-border-"]:hover,
 .u-hover-color-2-base:focus,
 .u-hover-color-2-base[class*="u-border-"]:focus,
+.u-active-color-2-base.u-active.u-active,
+.u-active-color-2-base[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-2-base:hover,
 a.u-button-style.u-hover-color-2-base[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-2-base:focus,
@@ -18569,6 +18635,8 @@ a.u-link.u-hover-color-2-base:hover {
 .u-hover-color-3-dark-3[class*="u-border-"]:hover,
 .u-hover-color-3-dark-3:focus,
 .u-hover-color-3-dark-3[class*="u-border-"]:focus,
+.u-active-color-3-dark-3.u-active.u-active,
+.u-active-color-3-dark-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-3-dark-3:hover,
 a.u-button-style.u-hover-color-3-dark-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-3-dark-3:focus,
@@ -18610,6 +18678,8 @@ a.u-link.u-hover-color-3-dark-3:hover {
 .u-hover-color-3-dark-2[class*="u-border-"]:hover,
 .u-hover-color-3-dark-2:focus,
 .u-hover-color-3-dark-2[class*="u-border-"]:focus,
+.u-active-color-3-dark-2.u-active.u-active,
+.u-active-color-3-dark-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-3-dark-2:hover,
 a.u-button-style.u-hover-color-3-dark-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-3-dark-2:focus,
@@ -18651,6 +18721,8 @@ a.u-link.u-hover-color-3-dark-2:hover {
 .u-hover-color-3-dark-1[class*="u-border-"]:hover,
 .u-hover-color-3-dark-1:focus,
 .u-hover-color-3-dark-1[class*="u-border-"]:focus,
+.u-active-color-3-dark-1.u-active.u-active,
+.u-active-color-3-dark-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-3-dark-1:hover,
 a.u-button-style.u-hover-color-3-dark-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-3-dark-1:focus,
@@ -18692,6 +18764,8 @@ a.u-link.u-hover-color-3-dark-1:hover {
 .u-hover-color-3[class*="u-border-"]:hover,
 .u-hover-color-3:focus,
 .u-hover-color-3[class*="u-border-"]:focus,
+.u-active-color-3.u-active.u-active,
+.u-active-color-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-3:hover,
 a.u-button-style.u-hover-color-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-3:focus,
@@ -18733,6 +18807,8 @@ a.u-link.u-hover-color-3:hover {
 .u-hover-color-3-light-1[class*="u-border-"]:hover,
 .u-hover-color-3-light-1:focus,
 .u-hover-color-3-light-1[class*="u-border-"]:focus,
+.u-active-color-3-light-1.u-active.u-active,
+.u-active-color-3-light-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-3-light-1:hover,
 a.u-button-style.u-hover-color-3-light-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-3-light-1:focus,
@@ -18774,6 +18850,8 @@ a.u-link.u-hover-color-3-light-1:hover {
 .u-hover-color-3-light-2[class*="u-border-"]:hover,
 .u-hover-color-3-light-2:focus,
 .u-hover-color-3-light-2[class*="u-border-"]:focus,
+.u-active-color-3-light-2.u-active.u-active,
+.u-active-color-3-light-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-3-light-2:hover,
 a.u-button-style.u-hover-color-3-light-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-3-light-2:focus,
@@ -18815,6 +18893,8 @@ a.u-link.u-hover-color-3-light-2:hover {
 .u-hover-color-3-light-3[class*="u-border-"]:hover,
 .u-hover-color-3-light-3:focus,
 .u-hover-color-3-light-3[class*="u-border-"]:focus,
+.u-active-color-3-light-3.u-active.u-active,
+.u-active-color-3-light-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-3-light-3:hover,
 a.u-button-style.u-hover-color-3-light-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-3-light-3:focus,
@@ -18856,6 +18936,8 @@ a.u-link.u-hover-color-3-light-3:hover {
 .u-hover-color-3-base[class*="u-border-"]:hover,
 .u-hover-color-3-base:focus,
 .u-hover-color-3-base[class*="u-border-"]:focus,
+.u-active-color-3-base.u-active.u-active,
+.u-active-color-3-base[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-3-base:hover,
 a.u-button-style.u-hover-color-3-base[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-3-base:focus,
@@ -18897,6 +18979,8 @@ a.u-link.u-hover-color-3-base:hover {
 .u-hover-color-4-dark-3[class*="u-border-"]:hover,
 .u-hover-color-4-dark-3:focus,
 .u-hover-color-4-dark-3[class*="u-border-"]:focus,
+.u-active-color-4-dark-3.u-active.u-active,
+.u-active-color-4-dark-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-4-dark-3:hover,
 a.u-button-style.u-hover-color-4-dark-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-4-dark-3:focus,
@@ -18938,6 +19022,8 @@ a.u-link.u-hover-color-4-dark-3:hover {
 .u-hover-color-4-dark-2[class*="u-border-"]:hover,
 .u-hover-color-4-dark-2:focus,
 .u-hover-color-4-dark-2[class*="u-border-"]:focus,
+.u-active-color-4-dark-2.u-active.u-active,
+.u-active-color-4-dark-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-4-dark-2:hover,
 a.u-button-style.u-hover-color-4-dark-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-4-dark-2:focus,
@@ -18979,6 +19065,8 @@ a.u-link.u-hover-color-4-dark-2:hover {
 .u-hover-color-4-dark-1[class*="u-border-"]:hover,
 .u-hover-color-4-dark-1:focus,
 .u-hover-color-4-dark-1[class*="u-border-"]:focus,
+.u-active-color-4-dark-1.u-active.u-active,
+.u-active-color-4-dark-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-4-dark-1:hover,
 a.u-button-style.u-hover-color-4-dark-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-4-dark-1:focus,
@@ -19020,6 +19108,8 @@ a.u-link.u-hover-color-4-dark-1:hover {
 .u-hover-color-4[class*="u-border-"]:hover,
 .u-hover-color-4:focus,
 .u-hover-color-4[class*="u-border-"]:focus,
+.u-active-color-4.u-active.u-active,
+.u-active-color-4[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-4:hover,
 a.u-button-style.u-hover-color-4[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-4:focus,
@@ -19061,6 +19151,8 @@ a.u-link.u-hover-color-4:hover {
 .u-hover-color-4-light-1[class*="u-border-"]:hover,
 .u-hover-color-4-light-1:focus,
 .u-hover-color-4-light-1[class*="u-border-"]:focus,
+.u-active-color-4-light-1.u-active.u-active,
+.u-active-color-4-light-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-4-light-1:hover,
 a.u-button-style.u-hover-color-4-light-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-4-light-1:focus,
@@ -19102,6 +19194,8 @@ a.u-link.u-hover-color-4-light-1:hover {
 .u-hover-color-4-light-2[class*="u-border-"]:hover,
 .u-hover-color-4-light-2:focus,
 .u-hover-color-4-light-2[class*="u-border-"]:focus,
+.u-active-color-4-light-2.u-active.u-active,
+.u-active-color-4-light-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-4-light-2:hover,
 a.u-button-style.u-hover-color-4-light-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-4-light-2:focus,
@@ -19143,6 +19237,8 @@ a.u-link.u-hover-color-4-light-2:hover {
 .u-hover-color-4-light-3[class*="u-border-"]:hover,
 .u-hover-color-4-light-3:focus,
 .u-hover-color-4-light-3[class*="u-border-"]:focus,
+.u-active-color-4-light-3.u-active.u-active,
+.u-active-color-4-light-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-4-light-3:hover,
 a.u-button-style.u-hover-color-4-light-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-4-light-3:focus,
@@ -19184,6 +19280,8 @@ a.u-link.u-hover-color-4-light-3:hover {
 .u-hover-color-4-base[class*="u-border-"]:hover,
 .u-hover-color-4-base:focus,
 .u-hover-color-4-base[class*="u-border-"]:focus,
+.u-active-color-4-base.u-active.u-active,
+.u-active-color-4-base[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-4-base:hover,
 a.u-button-style.u-hover-color-4-base[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-4-base:focus,
@@ -19225,6 +19323,8 @@ a.u-link.u-hover-color-4-base:hover {
 .u-hover-color-5-dark-3[class*="u-border-"]:hover,
 .u-hover-color-5-dark-3:focus,
 .u-hover-color-5-dark-3[class*="u-border-"]:focus,
+.u-active-color-5-dark-3.u-active.u-active,
+.u-active-color-5-dark-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-5-dark-3:hover,
 a.u-button-style.u-hover-color-5-dark-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-5-dark-3:focus,
@@ -19266,6 +19366,8 @@ a.u-link.u-hover-color-5-dark-3:hover {
 .u-hover-color-5-dark-2[class*="u-border-"]:hover,
 .u-hover-color-5-dark-2:focus,
 .u-hover-color-5-dark-2[class*="u-border-"]:focus,
+.u-active-color-5-dark-2.u-active.u-active,
+.u-active-color-5-dark-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-5-dark-2:hover,
 a.u-button-style.u-hover-color-5-dark-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-5-dark-2:focus,
@@ -19307,6 +19409,8 @@ a.u-link.u-hover-color-5-dark-2:hover {
 .u-hover-color-5-dark-1[class*="u-border-"]:hover,
 .u-hover-color-5-dark-1:focus,
 .u-hover-color-5-dark-1[class*="u-border-"]:focus,
+.u-active-color-5-dark-1.u-active.u-active,
+.u-active-color-5-dark-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-5-dark-1:hover,
 a.u-button-style.u-hover-color-5-dark-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-5-dark-1:focus,
@@ -19348,6 +19452,8 @@ a.u-link.u-hover-color-5-dark-1:hover {
 .u-hover-color-5[class*="u-border-"]:hover,
 .u-hover-color-5:focus,
 .u-hover-color-5[class*="u-border-"]:focus,
+.u-active-color-5.u-active.u-active,
+.u-active-color-5[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-5:hover,
 a.u-button-style.u-hover-color-5[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-5:focus,
@@ -19389,6 +19495,8 @@ a.u-link.u-hover-color-5:hover {
 .u-hover-color-5-light-1[class*="u-border-"]:hover,
 .u-hover-color-5-light-1:focus,
 .u-hover-color-5-light-1[class*="u-border-"]:focus,
+.u-active-color-5-light-1.u-active.u-active,
+.u-active-color-5-light-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-5-light-1:hover,
 a.u-button-style.u-hover-color-5-light-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-5-light-1:focus,
@@ -19430,6 +19538,8 @@ a.u-link.u-hover-color-5-light-1:hover {
 .u-hover-color-5-light-2[class*="u-border-"]:hover,
 .u-hover-color-5-light-2:focus,
 .u-hover-color-5-light-2[class*="u-border-"]:focus,
+.u-active-color-5-light-2.u-active.u-active,
+.u-active-color-5-light-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-5-light-2:hover,
 a.u-button-style.u-hover-color-5-light-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-5-light-2:focus,
@@ -19471,6 +19581,8 @@ a.u-link.u-hover-color-5-light-2:hover {
 .u-hover-color-5-light-3[class*="u-border-"]:hover,
 .u-hover-color-5-light-3:focus,
 .u-hover-color-5-light-3[class*="u-border-"]:focus,
+.u-active-color-5-light-3.u-active.u-active,
+.u-active-color-5-light-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-5-light-3:hover,
 a.u-button-style.u-hover-color-5-light-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-5-light-3:focus,
@@ -19512,6 +19624,8 @@ a.u-link.u-hover-color-5-light-3:hover {
 .u-hover-color-5-base[class*="u-border-"]:hover,
 .u-hover-color-5-base:focus,
 .u-hover-color-5-base[class*="u-border-"]:focus,
+.u-active-color-5-base.u-active.u-active,
+.u-active-color-5-base[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-color-5-base:hover,
 a.u-button-style.u-hover-color-5-base[class*="u-border-"]:hover,
 a.u-button-style.u-hover-color-5-base:focus,
@@ -19553,6 +19667,8 @@ a.u-link.u-hover-color-5-base:hover {
 .u-hover-palette-1-dark-3[class*="u-border-"]:hover,
 .u-hover-palette-1-dark-3:focus,
 .u-hover-palette-1-dark-3[class*="u-border-"]:focus,
+.u-active-palette-1-dark-3.u-active.u-active,
+.u-active-palette-1-dark-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-1-dark-3:hover,
 a.u-button-style.u-hover-palette-1-dark-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-1-dark-3:focus,
@@ -19594,6 +19710,8 @@ a.u-link.u-hover-palette-1-dark-3:hover {
 .u-hover-palette-1-dark-2[class*="u-border-"]:hover,
 .u-hover-palette-1-dark-2:focus,
 .u-hover-palette-1-dark-2[class*="u-border-"]:focus,
+.u-active-palette-1-dark-2.u-active.u-active,
+.u-active-palette-1-dark-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-1-dark-2:hover,
 a.u-button-style.u-hover-palette-1-dark-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-1-dark-2:focus,
@@ -19635,6 +19753,8 @@ a.u-link.u-hover-palette-1-dark-2:hover {
 .u-hover-palette-1-dark-1[class*="u-border-"]:hover,
 .u-hover-palette-1-dark-1:focus,
 .u-hover-palette-1-dark-1[class*="u-border-"]:focus,
+.u-active-palette-1-dark-1.u-active.u-active,
+.u-active-palette-1-dark-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-1-dark-1:hover,
 a.u-button-style.u-hover-palette-1-dark-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-1-dark-1:focus,
@@ -19676,6 +19796,8 @@ a.u-link.u-hover-palette-1-dark-1:hover {
 .u-hover-palette-1[class*="u-border-"]:hover,
 .u-hover-palette-1:focus,
 .u-hover-palette-1[class*="u-border-"]:focus,
+.u-active-palette-1.u-active.u-active,
+.u-active-palette-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-1:hover,
 a.u-button-style.u-hover-palette-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-1:focus,
@@ -19717,6 +19839,8 @@ a.u-link.u-hover-palette-1:hover {
 .u-hover-palette-1-light-1[class*="u-border-"]:hover,
 .u-hover-palette-1-light-1:focus,
 .u-hover-palette-1-light-1[class*="u-border-"]:focus,
+.u-active-palette-1-light-1.u-active.u-active,
+.u-active-palette-1-light-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-1-light-1:hover,
 a.u-button-style.u-hover-palette-1-light-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-1-light-1:focus,
@@ -19758,6 +19882,8 @@ a.u-link.u-hover-palette-1-light-1:hover {
 .u-hover-palette-1-light-2[class*="u-border-"]:hover,
 .u-hover-palette-1-light-2:focus,
 .u-hover-palette-1-light-2[class*="u-border-"]:focus,
+.u-active-palette-1-light-2.u-active.u-active,
+.u-active-palette-1-light-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-1-light-2:hover,
 a.u-button-style.u-hover-palette-1-light-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-1-light-2:focus,
@@ -19799,6 +19925,8 @@ a.u-link.u-hover-palette-1-light-2:hover {
 .u-hover-palette-1-light-3[class*="u-border-"]:hover,
 .u-hover-palette-1-light-3:focus,
 .u-hover-palette-1-light-3[class*="u-border-"]:focus,
+.u-active-palette-1-light-3.u-active.u-active,
+.u-active-palette-1-light-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-1-light-3:hover,
 a.u-button-style.u-hover-palette-1-light-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-1-light-3:focus,
@@ -19840,6 +19968,8 @@ a.u-link.u-hover-palette-1-light-3:hover {
 .u-hover-palette-1-base[class*="u-border-"]:hover,
 .u-hover-palette-1-base:focus,
 .u-hover-palette-1-base[class*="u-border-"]:focus,
+.u-active-palette-1-base.u-active.u-active,
+.u-active-palette-1-base[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-1-base:hover,
 a.u-button-style.u-hover-palette-1-base[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-1-base:focus,
@@ -19881,6 +20011,8 @@ a.u-link.u-hover-palette-1-base:hover {
 .u-hover-palette-2-dark-3[class*="u-border-"]:hover,
 .u-hover-palette-2-dark-3:focus,
 .u-hover-palette-2-dark-3[class*="u-border-"]:focus,
+.u-active-palette-2-dark-3.u-active.u-active,
+.u-active-palette-2-dark-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-2-dark-3:hover,
 a.u-button-style.u-hover-palette-2-dark-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-2-dark-3:focus,
@@ -19922,6 +20054,8 @@ a.u-link.u-hover-palette-2-dark-3:hover {
 .u-hover-palette-2-dark-2[class*="u-border-"]:hover,
 .u-hover-palette-2-dark-2:focus,
 .u-hover-palette-2-dark-2[class*="u-border-"]:focus,
+.u-active-palette-2-dark-2.u-active.u-active,
+.u-active-palette-2-dark-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-2-dark-2:hover,
 a.u-button-style.u-hover-palette-2-dark-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-2-dark-2:focus,
@@ -19963,6 +20097,8 @@ a.u-link.u-hover-palette-2-dark-2:hover {
 .u-hover-palette-2-dark-1[class*="u-border-"]:hover,
 .u-hover-palette-2-dark-1:focus,
 .u-hover-palette-2-dark-1[class*="u-border-"]:focus,
+.u-active-palette-2-dark-1.u-active.u-active,
+.u-active-palette-2-dark-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-2-dark-1:hover,
 a.u-button-style.u-hover-palette-2-dark-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-2-dark-1:focus,
@@ -20004,6 +20140,8 @@ a.u-link.u-hover-palette-2-dark-1:hover {
 .u-hover-palette-2[class*="u-border-"]:hover,
 .u-hover-palette-2:focus,
 .u-hover-palette-2[class*="u-border-"]:focus,
+.u-active-palette-2.u-active.u-active,
+.u-active-palette-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-2:hover,
 a.u-button-style.u-hover-palette-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-2:focus,
@@ -20045,6 +20183,8 @@ a.u-link.u-hover-palette-2:hover {
 .u-hover-palette-2-light-1[class*="u-border-"]:hover,
 .u-hover-palette-2-light-1:focus,
 .u-hover-palette-2-light-1[class*="u-border-"]:focus,
+.u-active-palette-2-light-1.u-active.u-active,
+.u-active-palette-2-light-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-2-light-1:hover,
 a.u-button-style.u-hover-palette-2-light-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-2-light-1:focus,
@@ -20086,6 +20226,8 @@ a.u-link.u-hover-palette-2-light-1:hover {
 .u-hover-palette-2-light-2[class*="u-border-"]:hover,
 .u-hover-palette-2-light-2:focus,
 .u-hover-palette-2-light-2[class*="u-border-"]:focus,
+.u-active-palette-2-light-2.u-active.u-active,
+.u-active-palette-2-light-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-2-light-2:hover,
 a.u-button-style.u-hover-palette-2-light-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-2-light-2:focus,
@@ -20127,6 +20269,8 @@ a.u-link.u-hover-palette-2-light-2:hover {
 .u-hover-palette-2-light-3[class*="u-border-"]:hover,
 .u-hover-palette-2-light-3:focus,
 .u-hover-palette-2-light-3[class*="u-border-"]:focus,
+.u-active-palette-2-light-3.u-active.u-active,
+.u-active-palette-2-light-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-2-light-3:hover,
 a.u-button-style.u-hover-palette-2-light-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-2-light-3:focus,
@@ -20168,6 +20312,8 @@ a.u-link.u-hover-palette-2-light-3:hover {
 .u-hover-palette-2-base[class*="u-border-"]:hover,
 .u-hover-palette-2-base:focus,
 .u-hover-palette-2-base[class*="u-border-"]:focus,
+.u-active-palette-2-base.u-active.u-active,
+.u-active-palette-2-base[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-2-base:hover,
 a.u-button-style.u-hover-palette-2-base[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-2-base:focus,
@@ -20209,6 +20355,8 @@ a.u-link.u-hover-palette-2-base:hover {
 .u-hover-palette-3-dark-3[class*="u-border-"]:hover,
 .u-hover-palette-3-dark-3:focus,
 .u-hover-palette-3-dark-3[class*="u-border-"]:focus,
+.u-active-palette-3-dark-3.u-active.u-active,
+.u-active-palette-3-dark-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-3-dark-3:hover,
 a.u-button-style.u-hover-palette-3-dark-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-3-dark-3:focus,
@@ -20250,6 +20398,8 @@ a.u-link.u-hover-palette-3-dark-3:hover {
 .u-hover-palette-3-dark-2[class*="u-border-"]:hover,
 .u-hover-palette-3-dark-2:focus,
 .u-hover-palette-3-dark-2[class*="u-border-"]:focus,
+.u-active-palette-3-dark-2.u-active.u-active,
+.u-active-palette-3-dark-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-3-dark-2:hover,
 a.u-button-style.u-hover-palette-3-dark-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-3-dark-2:focus,
@@ -20291,6 +20441,8 @@ a.u-link.u-hover-palette-3-dark-2:hover {
 .u-hover-palette-3-dark-1[class*="u-border-"]:hover,
 .u-hover-palette-3-dark-1:focus,
 .u-hover-palette-3-dark-1[class*="u-border-"]:focus,
+.u-active-palette-3-dark-1.u-active.u-active,
+.u-active-palette-3-dark-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-3-dark-1:hover,
 a.u-button-style.u-hover-palette-3-dark-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-3-dark-1:focus,
@@ -20332,6 +20484,8 @@ a.u-link.u-hover-palette-3-dark-1:hover {
 .u-hover-palette-3[class*="u-border-"]:hover,
 .u-hover-palette-3:focus,
 .u-hover-palette-3[class*="u-border-"]:focus,
+.u-active-palette-3.u-active.u-active,
+.u-active-palette-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-3:hover,
 a.u-button-style.u-hover-palette-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-3:focus,
@@ -20373,6 +20527,8 @@ a.u-link.u-hover-palette-3:hover {
 .u-hover-palette-3-light-1[class*="u-border-"]:hover,
 .u-hover-palette-3-light-1:focus,
 .u-hover-palette-3-light-1[class*="u-border-"]:focus,
+.u-active-palette-3-light-1.u-active.u-active,
+.u-active-palette-3-light-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-3-light-1:hover,
 a.u-button-style.u-hover-palette-3-light-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-3-light-1:focus,
@@ -20414,6 +20570,8 @@ a.u-link.u-hover-palette-3-light-1:hover {
 .u-hover-palette-3-light-2[class*="u-border-"]:hover,
 .u-hover-palette-3-light-2:focus,
 .u-hover-palette-3-light-2[class*="u-border-"]:focus,
+.u-active-palette-3-light-2.u-active.u-active,
+.u-active-palette-3-light-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-3-light-2:hover,
 a.u-button-style.u-hover-palette-3-light-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-3-light-2:focus,
@@ -20455,6 +20613,8 @@ a.u-link.u-hover-palette-3-light-2:hover {
 .u-hover-palette-3-light-3[class*="u-border-"]:hover,
 .u-hover-palette-3-light-3:focus,
 .u-hover-palette-3-light-3[class*="u-border-"]:focus,
+.u-active-palette-3-light-3.u-active.u-active,
+.u-active-palette-3-light-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-3-light-3:hover,
 a.u-button-style.u-hover-palette-3-light-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-3-light-3:focus,
@@ -20496,6 +20656,8 @@ a.u-link.u-hover-palette-3-light-3:hover {
 .u-hover-palette-3-base[class*="u-border-"]:hover,
 .u-hover-palette-3-base:focus,
 .u-hover-palette-3-base[class*="u-border-"]:focus,
+.u-active-palette-3-base.u-active.u-active,
+.u-active-palette-3-base[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-3-base:hover,
 a.u-button-style.u-hover-palette-3-base[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-3-base:focus,
@@ -20537,6 +20699,8 @@ a.u-link.u-hover-palette-3-base:hover {
 .u-hover-palette-4-dark-3[class*="u-border-"]:hover,
 .u-hover-palette-4-dark-3:focus,
 .u-hover-palette-4-dark-3[class*="u-border-"]:focus,
+.u-active-palette-4-dark-3.u-active.u-active,
+.u-active-palette-4-dark-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-4-dark-3:hover,
 a.u-button-style.u-hover-palette-4-dark-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-4-dark-3:focus,
@@ -20578,6 +20742,8 @@ a.u-link.u-hover-palette-4-dark-3:hover {
 .u-hover-palette-4-dark-2[class*="u-border-"]:hover,
 .u-hover-palette-4-dark-2:focus,
 .u-hover-palette-4-dark-2[class*="u-border-"]:focus,
+.u-active-palette-4-dark-2.u-active.u-active,
+.u-active-palette-4-dark-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-4-dark-2:hover,
 a.u-button-style.u-hover-palette-4-dark-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-4-dark-2:focus,
@@ -20619,6 +20785,8 @@ a.u-link.u-hover-palette-4-dark-2:hover {
 .u-hover-palette-4-dark-1[class*="u-border-"]:hover,
 .u-hover-palette-4-dark-1:focus,
 .u-hover-palette-4-dark-1[class*="u-border-"]:focus,
+.u-active-palette-4-dark-1.u-active.u-active,
+.u-active-palette-4-dark-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-4-dark-1:hover,
 a.u-button-style.u-hover-palette-4-dark-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-4-dark-1:focus,
@@ -20660,6 +20828,8 @@ a.u-link.u-hover-palette-4-dark-1:hover {
 .u-hover-palette-4[class*="u-border-"]:hover,
 .u-hover-palette-4:focus,
 .u-hover-palette-4[class*="u-border-"]:focus,
+.u-active-palette-4.u-active.u-active,
+.u-active-palette-4[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-4:hover,
 a.u-button-style.u-hover-palette-4[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-4:focus,
@@ -20701,6 +20871,8 @@ a.u-link.u-hover-palette-4:hover {
 .u-hover-palette-4-light-1[class*="u-border-"]:hover,
 .u-hover-palette-4-light-1:focus,
 .u-hover-palette-4-light-1[class*="u-border-"]:focus,
+.u-active-palette-4-light-1.u-active.u-active,
+.u-active-palette-4-light-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-4-light-1:hover,
 a.u-button-style.u-hover-palette-4-light-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-4-light-1:focus,
@@ -20742,6 +20914,8 @@ a.u-link.u-hover-palette-4-light-1:hover {
 .u-hover-palette-4-light-2[class*="u-border-"]:hover,
 .u-hover-palette-4-light-2:focus,
 .u-hover-palette-4-light-2[class*="u-border-"]:focus,
+.u-active-palette-4-light-2.u-active.u-active,
+.u-active-palette-4-light-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-4-light-2:hover,
 a.u-button-style.u-hover-palette-4-light-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-4-light-2:focus,
@@ -20783,6 +20957,8 @@ a.u-link.u-hover-palette-4-light-2:hover {
 .u-hover-palette-4-light-3[class*="u-border-"]:hover,
 .u-hover-palette-4-light-3:focus,
 .u-hover-palette-4-light-3[class*="u-border-"]:focus,
+.u-active-palette-4-light-3.u-active.u-active,
+.u-active-palette-4-light-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-4-light-3:hover,
 a.u-button-style.u-hover-palette-4-light-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-4-light-3:focus,
@@ -20824,6 +21000,8 @@ a.u-link.u-hover-palette-4-light-3:hover {
 .u-hover-palette-4-base[class*="u-border-"]:hover,
 .u-hover-palette-4-base:focus,
 .u-hover-palette-4-base[class*="u-border-"]:focus,
+.u-active-palette-4-base.u-active.u-active,
+.u-active-palette-4-base[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-4-base:hover,
 a.u-button-style.u-hover-palette-4-base[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-4-base:focus,
@@ -20865,6 +21043,8 @@ a.u-link.u-hover-palette-4-base:hover {
 .u-hover-palette-5-dark-3[class*="u-border-"]:hover,
 .u-hover-palette-5-dark-3:focus,
 .u-hover-palette-5-dark-3[class*="u-border-"]:focus,
+.u-active-palette-5-dark-3.u-active.u-active,
+.u-active-palette-5-dark-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-5-dark-3:hover,
 a.u-button-style.u-hover-palette-5-dark-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-5-dark-3:focus,
@@ -20906,6 +21086,8 @@ a.u-link.u-hover-palette-5-dark-3:hover {
 .u-hover-palette-5-dark-2[class*="u-border-"]:hover,
 .u-hover-palette-5-dark-2:focus,
 .u-hover-palette-5-dark-2[class*="u-border-"]:focus,
+.u-active-palette-5-dark-2.u-active.u-active,
+.u-active-palette-5-dark-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-5-dark-2:hover,
 a.u-button-style.u-hover-palette-5-dark-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-5-dark-2:focus,
@@ -20947,6 +21129,8 @@ a.u-link.u-hover-palette-5-dark-2:hover {
 .u-hover-palette-5-dark-1[class*="u-border-"]:hover,
 .u-hover-palette-5-dark-1:focus,
 .u-hover-palette-5-dark-1[class*="u-border-"]:focus,
+.u-active-palette-5-dark-1.u-active.u-active,
+.u-active-palette-5-dark-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-5-dark-1:hover,
 a.u-button-style.u-hover-palette-5-dark-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-5-dark-1:focus,
@@ -20988,6 +21172,8 @@ a.u-link.u-hover-palette-5-dark-1:hover {
 .u-hover-palette-5[class*="u-border-"]:hover,
 .u-hover-palette-5:focus,
 .u-hover-palette-5[class*="u-border-"]:focus,
+.u-active-palette-5.u-active.u-active,
+.u-active-palette-5[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-5:hover,
 a.u-button-style.u-hover-palette-5[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-5:focus,
@@ -21029,6 +21215,8 @@ a.u-link.u-hover-palette-5:hover {
 .u-hover-palette-5-light-1[class*="u-border-"]:hover,
 .u-hover-palette-5-light-1:focus,
 .u-hover-palette-5-light-1[class*="u-border-"]:focus,
+.u-active-palette-5-light-1.u-active.u-active,
+.u-active-palette-5-light-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-5-light-1:hover,
 a.u-button-style.u-hover-palette-5-light-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-5-light-1:focus,
@@ -21070,6 +21258,8 @@ a.u-link.u-hover-palette-5-light-1:hover {
 .u-hover-palette-5-light-2[class*="u-border-"]:hover,
 .u-hover-palette-5-light-2:focus,
 .u-hover-palette-5-light-2[class*="u-border-"]:focus,
+.u-active-palette-5-light-2.u-active.u-active,
+.u-active-palette-5-light-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-5-light-2:hover,
 a.u-button-style.u-hover-palette-5-light-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-5-light-2:focus,
@@ -21111,6 +21301,8 @@ a.u-link.u-hover-palette-5-light-2:hover {
 .u-hover-palette-5-light-3[class*="u-border-"]:hover,
 .u-hover-palette-5-light-3:focus,
 .u-hover-palette-5-light-3[class*="u-border-"]:focus,
+.u-active-palette-5-light-3.u-active.u-active,
+.u-active-palette-5-light-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-5-light-3:hover,
 a.u-button-style.u-hover-palette-5-light-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-5-light-3:focus,
@@ -21152,6 +21344,8 @@ a.u-link.u-hover-palette-5-light-3:hover {
 .u-hover-palette-5-base[class*="u-border-"]:hover,
 .u-hover-palette-5-base:focus,
 .u-hover-palette-5-base[class*="u-border-"]:focus,
+.u-active-palette-5-base.u-active.u-active,
+.u-active-palette-5-base[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-palette-5-base:hover,
 a.u-button-style.u-hover-palette-5-base[class*="u-border-"]:hover,
 a.u-button-style.u-hover-palette-5-base:focus,
@@ -21193,6 +21387,8 @@ a.u-link.u-hover-palette-5-base:hover {
 .u-hover-grey-dark-3[class*="u-border-"]:hover,
 .u-hover-grey-dark-3:focus,
 .u-hover-grey-dark-3[class*="u-border-"]:focus,
+.u-active-grey-dark-3.u-active.u-active,
+.u-active-grey-dark-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-dark-3:hover,
 a.u-button-style.u-hover-grey-dark-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-dark-3:focus,
@@ -21234,6 +21430,8 @@ a.u-link.u-hover-grey-dark-3:hover {
 .u-hover-grey-dark-2[class*="u-border-"]:hover,
 .u-hover-grey-dark-2:focus,
 .u-hover-grey-dark-2[class*="u-border-"]:focus,
+.u-active-grey-dark-2.u-active.u-active,
+.u-active-grey-dark-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-dark-2:hover,
 a.u-button-style.u-hover-grey-dark-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-dark-2:focus,
@@ -21275,6 +21473,8 @@ a.u-link.u-hover-grey-dark-2:hover {
 .u-hover-grey-dark-1[class*="u-border-"]:hover,
 .u-hover-grey-dark-1:focus,
 .u-hover-grey-dark-1[class*="u-border-"]:focus,
+.u-active-grey-dark-1.u-active.u-active,
+.u-active-grey-dark-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-dark-1:hover,
 a.u-button-style.u-hover-grey-dark-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-dark-1:focus,
@@ -21316,6 +21516,8 @@ a.u-link.u-hover-grey-dark-1:hover {
 .u-hover-grey[class*="u-border-"]:hover,
 .u-hover-grey:focus,
 .u-hover-grey[class*="u-border-"]:focus,
+.u-active-grey.u-active.u-active,
+.u-active-grey[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey:hover,
 a.u-button-style.u-hover-grey[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey:focus,
@@ -21357,6 +21559,8 @@ a.u-link.u-hover-grey:hover {
 .u-hover-grey-light-1[class*="u-border-"]:hover,
 .u-hover-grey-light-1:focus,
 .u-hover-grey-light-1[class*="u-border-"]:focus,
+.u-active-grey-light-1.u-active.u-active,
+.u-active-grey-light-1[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-light-1:hover,
 a.u-button-style.u-hover-grey-light-1[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-light-1:focus,
@@ -21398,6 +21602,8 @@ a.u-link.u-hover-grey-light-1:hover {
 .u-hover-grey-light-2[class*="u-border-"]:hover,
 .u-hover-grey-light-2:focus,
 .u-hover-grey-light-2[class*="u-border-"]:focus,
+.u-active-grey-light-2.u-active.u-active,
+.u-active-grey-light-2[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-light-2:hover,
 a.u-button-style.u-hover-grey-light-2[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-light-2:focus,
@@ -21439,6 +21645,8 @@ a.u-link.u-hover-grey-light-2:hover {
 .u-hover-grey-light-3[class*="u-border-"]:hover,
 .u-hover-grey-light-3:focus,
 .u-hover-grey-light-3[class*="u-border-"]:focus,
+.u-active-grey-light-3.u-active.u-active,
+.u-active-grey-light-3[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-light-3:hover,
 a.u-button-style.u-hover-grey-light-3[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-light-3:focus,
@@ -21480,6 +21688,8 @@ a.u-link.u-hover-grey-light-3:hover {
 .u-hover-white[class*="u-border-"]:hover,
 .u-hover-white:focus,
 .u-hover-white[class*="u-border-"]:focus,
+.u-active-white.u-active.u-active,
+.u-active-white[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-white:hover,
 a.u-button-style.u-hover-white[class*="u-border-"]:hover,
 a.u-button-style.u-hover-white:focus,
@@ -21521,6 +21731,8 @@ a.u-link.u-hover-white:hover {
 .u-hover-black[class*="u-border-"]:hover,
 .u-hover-black:focus,
 .u-hover-black[class*="u-border-"]:focus,
+.u-active-black.u-active.u-active,
+.u-active-black[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-black:hover,
 a.u-button-style.u-hover-black[class*="u-border-"]:hover,
 a.u-button-style.u-hover-black:focus,
@@ -21562,6 +21774,8 @@ a.u-link.u-hover-black:hover {
 .u-hover-body-color[class*="u-border-"]:hover,
 .u-hover-body-color:focus,
 .u-hover-body-color[class*="u-border-"]:focus,
+.u-active-body-color.u-active.u-active,
+.u-active-body-color[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-body-color:hover,
 a.u-button-style.u-hover-body-color[class*="u-border-"]:hover,
 a.u-button-style.u-hover-body-color:focus,
@@ -21603,6 +21817,8 @@ a.u-link.u-hover-body-color:hover {
 .u-hover-body-alt-color[class*="u-border-"]:hover,
 .u-hover-body-alt-color:focus,
 .u-hover-body-alt-color[class*="u-border-"]:focus,
+.u-active-body-alt-color.u-active.u-active,
+.u-active-body-alt-color[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-body-alt-color:hover,
 a.u-button-style.u-hover-body-alt-color[class*="u-border-"]:hover,
 a.u-button-style.u-hover-body-alt-color:focus,
@@ -21644,6 +21860,8 @@ a.u-link.u-hover-body-alt-color:hover {
 .u-hover-grey-25[class*="u-border-"]:hover,
 .u-hover-grey-25:focus,
 .u-hover-grey-25[class*="u-border-"]:focus,
+.u-active-grey-25.u-active.u-active,
+.u-active-grey-25[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-25:hover,
 a.u-button-style.u-hover-grey-25[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-25:focus,
@@ -21685,6 +21903,8 @@ a.u-link.u-hover-grey-25:hover {
 .u-hover-grey-5[class*="u-border-"]:hover,
 .u-hover-grey-5:focus,
 .u-hover-grey-5[class*="u-border-"]:focus,
+.u-active-grey-5.u-active.u-active,
+.u-active-grey-5[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-5:hover,
 a.u-button-style.u-hover-grey-5[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-5:focus,
@@ -21726,6 +21946,8 @@ a.u-link.u-hover-grey-5:hover {
 .u-hover-grey-10[class*="u-border-"]:hover,
 .u-hover-grey-10:focus,
 .u-hover-grey-10[class*="u-border-"]:focus,
+.u-active-grey-10.u-active.u-active,
+.u-active-grey-10[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-10:hover,
 a.u-button-style.u-hover-grey-10[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-10:focus,
@@ -21767,6 +21989,8 @@ a.u-link.u-hover-grey-10:hover {
 .u-hover-grey-15[class*="u-border-"]:hover,
 .u-hover-grey-15:focus,
 .u-hover-grey-15[class*="u-border-"]:focus,
+.u-active-grey-15.u-active.u-active,
+.u-active-grey-15[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-15:hover,
 a.u-button-style.u-hover-grey-15[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-15:focus,
@@ -21808,6 +22032,8 @@ a.u-link.u-hover-grey-15:hover {
 .u-hover-grey-25[class*="u-border-"]:hover,
 .u-hover-grey-25:focus,
 .u-hover-grey-25[class*="u-border-"]:focus,
+.u-active-grey-25.u-active.u-active,
+.u-active-grey-25[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-25:hover,
 a.u-button-style.u-hover-grey-25[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-25:focus,
@@ -21849,6 +22075,8 @@ a.u-link.u-hover-grey-25:hover {
 .u-hover-grey-30[class*="u-border-"]:hover,
 .u-hover-grey-30:focus,
 .u-hover-grey-30[class*="u-border-"]:focus,
+.u-active-grey-30.u-active.u-active,
+.u-active-grey-30[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-30:hover,
 a.u-button-style.u-hover-grey-30[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-30:focus,
@@ -21890,6 +22118,8 @@ a.u-link.u-hover-grey-30:hover {
 .u-hover-grey-40[class*="u-border-"]:hover,
 .u-hover-grey-40:focus,
 .u-hover-grey-40[class*="u-border-"]:focus,
+.u-active-grey-40.u-active.u-active,
+.u-active-grey-40[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-40:hover,
 a.u-button-style.u-hover-grey-40[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-40:focus,
@@ -21931,6 +22161,8 @@ a.u-link.u-hover-grey-40:hover {
 .u-hover-grey-50[class*="u-border-"]:hover,
 .u-hover-grey-50:focus,
 .u-hover-grey-50[class*="u-border-"]:focus,
+.u-active-grey-50.u-active.u-active,
+.u-active-grey-50[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-50:hover,
 a.u-button-style.u-hover-grey-50[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-50:focus,
@@ -21972,6 +22204,8 @@ a.u-link.u-hover-grey-50:hover {
 .u-hover-grey-60[class*="u-border-"]:hover,
 .u-hover-grey-60:focus,
 .u-hover-grey-60[class*="u-border-"]:focus,
+.u-active-grey-60.u-active.u-active,
+.u-active-grey-60[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-60:hover,
 a.u-button-style.u-hover-grey-60[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-60:focus,
@@ -22013,6 +22247,8 @@ a.u-link.u-hover-grey-60:hover {
 .u-hover-grey-70[class*="u-border-"]:hover,
 .u-hover-grey-70:focus,
 .u-hover-grey-70[class*="u-border-"]:focus,
+.u-active-grey-70.u-active.u-active,
+.u-active-grey-70[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-70:hover,
 a.u-button-style.u-hover-grey-70[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-70:focus,
@@ -22054,6 +22290,8 @@ a.u-link.u-hover-grey-70:hover {
 .u-hover-grey-75[class*="u-border-"]:hover,
 .u-hover-grey-75:focus,
 .u-hover-grey-75[class*="u-border-"]:focus,
+.u-active-grey-75.u-active.u-active,
+.u-active-grey-75[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-75:hover,
 a.u-button-style.u-hover-grey-75[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-75:focus,
@@ -22095,6 +22333,8 @@ a.u-link.u-hover-grey-75:hover {
 .u-hover-grey-80[class*="u-border-"]:hover,
 .u-hover-grey-80:focus,
 .u-hover-grey-80[class*="u-border-"]:focus,
+.u-active-grey-80.u-active.u-active,
+.u-active-grey-80[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-80:hover,
 a.u-button-style.u-hover-grey-80[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-80:focus,
@@ -22136,6 +22376,8 @@ a.u-link.u-hover-grey-80:hover {
 .u-hover-grey-90[class*="u-border-"]:hover,
 .u-hover-grey-90:focus,
 .u-hover-grey-90[class*="u-border-"]:focus,
+.u-active-grey-90.u-active.u-active,
+.u-active-grey-90[class*="u-border-"].u-active.u-active,
 a.u-button-style.u-hover-grey-90:hover,
 a.u-button-style.u-hover-grey-90[class*="u-border-"]:hover,
 a.u-button-style.u-hover-grey-90:focus,
@@ -22168,6 +22410,7 @@ a.u-link.u-hover-grey-90:hover {
 }
 .u-border-hover-color-1-dark-3:hover,
 .u-border-hover-color-1-dark-3:focus,
+.u-border-active-color-1-dark-3.u-active.u-active,
 a.u-button-style.u-border-hover-color-1-dark-3:hover,
 a.u-button-style.u-border-hover-color-1-dark-3:focus,
 a.u-button-style.u-button-style.u-border-active-color-1-dark-3:active,
@@ -22199,6 +22442,7 @@ a.u-button-style.u-button-style.u-border-active-color-1-dark-3.active {
 }
 .u-border-hover-color-1-dark-2:hover,
 .u-border-hover-color-1-dark-2:focus,
+.u-border-active-color-1-dark-2.u-active.u-active,
 a.u-button-style.u-border-hover-color-1-dark-2:hover,
 a.u-button-style.u-border-hover-color-1-dark-2:focus,
 a.u-button-style.u-button-style.u-border-active-color-1-dark-2:active,
@@ -22230,6 +22474,7 @@ a.u-button-style.u-button-style.u-border-active-color-1-dark-2.active {
 }
 .u-border-hover-color-1-dark-1:hover,
 .u-border-hover-color-1-dark-1:focus,
+.u-border-active-color-1-dark-1.u-active.u-active,
 a.u-button-style.u-border-hover-color-1-dark-1:hover,
 a.u-button-style.u-border-hover-color-1-dark-1:focus,
 a.u-button-style.u-button-style.u-border-active-color-1-dark-1:active,
@@ -22261,6 +22506,7 @@ a.u-button-style.u-button-style.u-border-active-color-1-dark-1.active {
 }
 .u-border-hover-color-1:hover,
 .u-border-hover-color-1:focus,
+.u-border-active-color-1.u-active.u-active,
 a.u-button-style.u-border-hover-color-1:hover,
 a.u-button-style.u-border-hover-color-1:focus,
 a.u-button-style.u-button-style.u-border-active-color-1:active,
@@ -22292,6 +22538,7 @@ a.u-button-style.u-button-style.u-border-active-color-1.active {
 }
 .u-border-hover-color-1-light-1:hover,
 .u-border-hover-color-1-light-1:focus,
+.u-border-active-color-1-light-1.u-active.u-active,
 a.u-button-style.u-border-hover-color-1-light-1:hover,
 a.u-button-style.u-border-hover-color-1-light-1:focus,
 a.u-button-style.u-button-style.u-border-active-color-1-light-1:active,
@@ -22323,6 +22570,7 @@ a.u-button-style.u-button-style.u-border-active-color-1-light-1.active {
 }
 .u-border-hover-color-1-light-2:hover,
 .u-border-hover-color-1-light-2:focus,
+.u-border-active-color-1-light-2.u-active.u-active,
 a.u-button-style.u-border-hover-color-1-light-2:hover,
 a.u-button-style.u-border-hover-color-1-light-2:focus,
 a.u-button-style.u-button-style.u-border-active-color-1-light-2:active,
@@ -22354,6 +22602,7 @@ a.u-button-style.u-button-style.u-border-active-color-1-light-2.active {
 }
 .u-border-hover-color-1-light-3:hover,
 .u-border-hover-color-1-light-3:focus,
+.u-border-active-color-1-light-3.u-active.u-active,
 a.u-button-style.u-border-hover-color-1-light-3:hover,
 a.u-button-style.u-border-hover-color-1-light-3:focus,
 a.u-button-style.u-button-style.u-border-active-color-1-light-3:active,
@@ -22385,6 +22634,7 @@ a.u-button-style.u-button-style.u-border-active-color-1-light-3.active {
 }
 .u-border-hover-color-1-base:hover,
 .u-border-hover-color-1-base:focus,
+.u-border-active-color-1-base.u-active.u-active,
 a.u-button-style.u-border-hover-color-1-base:hover,
 a.u-button-style.u-border-hover-color-1-base:focus,
 a.u-button-style.u-button-style.u-border-active-color-1-base:active,
@@ -22416,6 +22666,7 @@ a.u-button-style.u-button-style.u-border-active-color-1-base.active {
 }
 .u-border-hover-color-2-dark-3:hover,
 .u-border-hover-color-2-dark-3:focus,
+.u-border-active-color-2-dark-3.u-active.u-active,
 a.u-button-style.u-border-hover-color-2-dark-3:hover,
 a.u-button-style.u-border-hover-color-2-dark-3:focus,
 a.u-button-style.u-button-style.u-border-active-color-2-dark-3:active,
@@ -22447,6 +22698,7 @@ a.u-button-style.u-button-style.u-border-active-color-2-dark-3.active {
 }
 .u-border-hover-color-2-dark-2:hover,
 .u-border-hover-color-2-dark-2:focus,
+.u-border-active-color-2-dark-2.u-active.u-active,
 a.u-button-style.u-border-hover-color-2-dark-2:hover,
 a.u-button-style.u-border-hover-color-2-dark-2:focus,
 a.u-button-style.u-button-style.u-border-active-color-2-dark-2:active,
@@ -22478,6 +22730,7 @@ a.u-button-style.u-button-style.u-border-active-color-2-dark-2.active {
 }
 .u-border-hover-color-2-dark-1:hover,
 .u-border-hover-color-2-dark-1:focus,
+.u-border-active-color-2-dark-1.u-active.u-active,
 a.u-button-style.u-border-hover-color-2-dark-1:hover,
 a.u-button-style.u-border-hover-color-2-dark-1:focus,
 a.u-button-style.u-button-style.u-border-active-color-2-dark-1:active,
@@ -22509,6 +22762,7 @@ a.u-button-style.u-button-style.u-border-active-color-2-dark-1.active {
 }
 .u-border-hover-color-2:hover,
 .u-border-hover-color-2:focus,
+.u-border-active-color-2.u-active.u-active,
 a.u-button-style.u-border-hover-color-2:hover,
 a.u-button-style.u-border-hover-color-2:focus,
 a.u-button-style.u-button-style.u-border-active-color-2:active,
@@ -22540,6 +22794,7 @@ a.u-button-style.u-button-style.u-border-active-color-2.active {
 }
 .u-border-hover-color-2-light-1:hover,
 .u-border-hover-color-2-light-1:focus,
+.u-border-active-color-2-light-1.u-active.u-active,
 a.u-button-style.u-border-hover-color-2-light-1:hover,
 a.u-button-style.u-border-hover-color-2-light-1:focus,
 a.u-button-style.u-button-style.u-border-active-color-2-light-1:active,
@@ -22571,6 +22826,7 @@ a.u-button-style.u-button-style.u-border-active-color-2-light-1.active {
 }
 .u-border-hover-color-2-light-2:hover,
 .u-border-hover-color-2-light-2:focus,
+.u-border-active-color-2-light-2.u-active.u-active,
 a.u-button-style.u-border-hover-color-2-light-2:hover,
 a.u-button-style.u-border-hover-color-2-light-2:focus,
 a.u-button-style.u-button-style.u-border-active-color-2-light-2:active,
@@ -22602,6 +22858,7 @@ a.u-button-style.u-button-style.u-border-active-color-2-light-2.active {
 }
 .u-border-hover-color-2-light-3:hover,
 .u-border-hover-color-2-light-3:focus,
+.u-border-active-color-2-light-3.u-active.u-active,
 a.u-button-style.u-border-hover-color-2-light-3:hover,
 a.u-button-style.u-border-hover-color-2-light-3:focus,
 a.u-button-style.u-button-style.u-border-active-color-2-light-3:active,
@@ -22633,6 +22890,7 @@ a.u-button-style.u-button-style.u-border-active-color-2-light-3.active {
 }
 .u-border-hover-color-2-base:hover,
 .u-border-hover-color-2-base:focus,
+.u-border-active-color-2-base.u-active.u-active,
 a.u-button-style.u-border-hover-color-2-base:hover,
 a.u-button-style.u-border-hover-color-2-base:focus,
 a.u-button-style.u-button-style.u-border-active-color-2-base:active,
@@ -22664,6 +22922,7 @@ a.u-button-style.u-button-style.u-border-active-color-2-base.active {
 }
 .u-border-hover-color-3-dark-3:hover,
 .u-border-hover-color-3-dark-3:focus,
+.u-border-active-color-3-dark-3.u-active.u-active,
 a.u-button-style.u-border-hover-color-3-dark-3:hover,
 a.u-button-style.u-border-hover-color-3-dark-3:focus,
 a.u-button-style.u-button-style.u-border-active-color-3-dark-3:active,
@@ -22695,6 +22954,7 @@ a.u-button-style.u-button-style.u-border-active-color-3-dark-3.active {
 }
 .u-border-hover-color-3-dark-2:hover,
 .u-border-hover-color-3-dark-2:focus,
+.u-border-active-color-3-dark-2.u-active.u-active,
 a.u-button-style.u-border-hover-color-3-dark-2:hover,
 a.u-button-style.u-border-hover-color-3-dark-2:focus,
 a.u-button-style.u-button-style.u-border-active-color-3-dark-2:active,
@@ -22726,6 +22986,7 @@ a.u-button-style.u-button-style.u-border-active-color-3-dark-2.active {
 }
 .u-border-hover-color-3-dark-1:hover,
 .u-border-hover-color-3-dark-1:focus,
+.u-border-active-color-3-dark-1.u-active.u-active,
 a.u-button-style.u-border-hover-color-3-dark-1:hover,
 a.u-button-style.u-border-hover-color-3-dark-1:focus,
 a.u-button-style.u-button-style.u-border-active-color-3-dark-1:active,
@@ -22757,6 +23018,7 @@ a.u-button-style.u-button-style.u-border-active-color-3-dark-1.active {
 }
 .u-border-hover-color-3:hover,
 .u-border-hover-color-3:focus,
+.u-border-active-color-3.u-active.u-active,
 a.u-button-style.u-border-hover-color-3:hover,
 a.u-button-style.u-border-hover-color-3:focus,
 a.u-button-style.u-button-style.u-border-active-color-3:active,
@@ -22788,6 +23050,7 @@ a.u-button-style.u-button-style.u-border-active-color-3.active {
 }
 .u-border-hover-color-3-light-1:hover,
 .u-border-hover-color-3-light-1:focus,
+.u-border-active-color-3-light-1.u-active.u-active,
 a.u-button-style.u-border-hover-color-3-light-1:hover,
 a.u-button-style.u-border-hover-color-3-light-1:focus,
 a.u-button-style.u-button-style.u-border-active-color-3-light-1:active,
@@ -22819,6 +23082,7 @@ a.u-button-style.u-button-style.u-border-active-color-3-light-1.active {
 }
 .u-border-hover-color-3-light-2:hover,
 .u-border-hover-color-3-light-2:focus,
+.u-border-active-color-3-light-2.u-active.u-active,
 a.u-button-style.u-border-hover-color-3-light-2:hover,
 a.u-button-style.u-border-hover-color-3-light-2:focus,
 a.u-button-style.u-button-style.u-border-active-color-3-light-2:active,
@@ -22850,6 +23114,7 @@ a.u-button-style.u-button-style.u-border-active-color-3-light-2.active {
 }
 .u-border-hover-color-3-light-3:hover,
 .u-border-hover-color-3-light-3:focus,
+.u-border-active-color-3-light-3.u-active.u-active,
 a.u-button-style.u-border-hover-color-3-light-3:hover,
 a.u-button-style.u-border-hover-color-3-light-3:focus,
 a.u-button-style.u-button-style.u-border-active-color-3-light-3:active,
@@ -22881,6 +23146,7 @@ a.u-button-style.u-button-style.u-border-active-color-3-light-3.active {
 }
 .u-border-hover-color-3-base:hover,
 .u-border-hover-color-3-base:focus,
+.u-border-active-color-3-base.u-active.u-active,
 a.u-button-style.u-border-hover-color-3-base:hover,
 a.u-button-style.u-border-hover-color-3-base:focus,
 a.u-button-style.u-button-style.u-border-active-color-3-base:active,
@@ -22912,6 +23178,7 @@ a.u-button-style.u-button-style.u-border-active-color-3-base.active {
 }
 .u-border-hover-color-4-dark-3:hover,
 .u-border-hover-color-4-dark-3:focus,
+.u-border-active-color-4-dark-3.u-active.u-active,
 a.u-button-style.u-border-hover-color-4-dark-3:hover,
 a.u-button-style.u-border-hover-color-4-dark-3:focus,
 a.u-button-style.u-button-style.u-border-active-color-4-dark-3:active,
@@ -22943,6 +23210,7 @@ a.u-button-style.u-button-style.u-border-active-color-4-dark-3.active {
 }
 .u-border-hover-color-4-dark-2:hover,
 .u-border-hover-color-4-dark-2:focus,
+.u-border-active-color-4-dark-2.u-active.u-active,
 a.u-button-style.u-border-hover-color-4-dark-2:hover,
 a.u-button-style.u-border-hover-color-4-dark-2:focus,
 a.u-button-style.u-button-style.u-border-active-color-4-dark-2:active,
@@ -22974,6 +23242,7 @@ a.u-button-style.u-button-style.u-border-active-color-4-dark-2.active {
 }
 .u-border-hover-color-4-dark-1:hover,
 .u-border-hover-color-4-dark-1:focus,
+.u-border-active-color-4-dark-1.u-active.u-active,
 a.u-button-style.u-border-hover-color-4-dark-1:hover,
 a.u-button-style.u-border-hover-color-4-dark-1:focus,
 a.u-button-style.u-button-style.u-border-active-color-4-dark-1:active,
@@ -23005,6 +23274,7 @@ a.u-button-style.u-button-style.u-border-active-color-4-dark-1.active {
 }
 .u-border-hover-color-4:hover,
 .u-border-hover-color-4:focus,
+.u-border-active-color-4.u-active.u-active,
 a.u-button-style.u-border-hover-color-4:hover,
 a.u-button-style.u-border-hover-color-4:focus,
 a.u-button-style.u-button-style.u-border-active-color-4:active,
@@ -23036,6 +23306,7 @@ a.u-button-style.u-button-style.u-border-active-color-4.active {
 }
 .u-border-hover-color-4-light-1:hover,
 .u-border-hover-color-4-light-1:focus,
+.u-border-active-color-4-light-1.u-active.u-active,
 a.u-button-style.u-border-hover-color-4-light-1:hover,
 a.u-button-style.u-border-hover-color-4-light-1:focus,
 a.u-button-style.u-button-style.u-border-active-color-4-light-1:active,
@@ -23067,6 +23338,7 @@ a.u-button-style.u-button-style.u-border-active-color-4-light-1.active {
 }
 .u-border-hover-color-4-light-2:hover,
 .u-border-hover-color-4-light-2:focus,
+.u-border-active-color-4-light-2.u-active.u-active,
 a.u-button-style.u-border-hover-color-4-light-2:hover,
 a.u-button-style.u-border-hover-color-4-light-2:focus,
 a.u-button-style.u-button-style.u-border-active-color-4-light-2:active,
@@ -23098,6 +23370,7 @@ a.u-button-style.u-button-style.u-border-active-color-4-light-2.active {
 }
 .u-border-hover-color-4-light-3:hover,
 .u-border-hover-color-4-light-3:focus,
+.u-border-active-color-4-light-3.u-active.u-active,
 a.u-button-style.u-border-hover-color-4-light-3:hover,
 a.u-button-style.u-border-hover-color-4-light-3:focus,
 a.u-button-style.u-button-style.u-border-active-color-4-light-3:active,
@@ -23129,6 +23402,7 @@ a.u-button-style.u-button-style.u-border-active-color-4-light-3.active {
 }
 .u-border-hover-color-4-base:hover,
 .u-border-hover-color-4-base:focus,
+.u-border-active-color-4-base.u-active.u-active,
 a.u-button-style.u-border-hover-color-4-base:hover,
 a.u-button-style.u-border-hover-color-4-base:focus,
 a.u-button-style.u-button-style.u-border-active-color-4-base:active,
@@ -23160,6 +23434,7 @@ a.u-button-style.u-button-style.u-border-active-color-4-base.active {
 }
 .u-border-hover-color-5-dark-3:hover,
 .u-border-hover-color-5-dark-3:focus,
+.u-border-active-color-5-dark-3.u-active.u-active,
 a.u-button-style.u-border-hover-color-5-dark-3:hover,
 a.u-button-style.u-border-hover-color-5-dark-3:focus,
 a.u-button-style.u-button-style.u-border-active-color-5-dark-3:active,
@@ -23191,6 +23466,7 @@ a.u-button-style.u-button-style.u-border-active-color-5-dark-3.active {
 }
 .u-border-hover-color-5-dark-2:hover,
 .u-border-hover-color-5-dark-2:focus,
+.u-border-active-color-5-dark-2.u-active.u-active,
 a.u-button-style.u-border-hover-color-5-dark-2:hover,
 a.u-button-style.u-border-hover-color-5-dark-2:focus,
 a.u-button-style.u-button-style.u-border-active-color-5-dark-2:active,
@@ -23222,6 +23498,7 @@ a.u-button-style.u-button-style.u-border-active-color-5-dark-2.active {
 }
 .u-border-hover-color-5-dark-1:hover,
 .u-border-hover-color-5-dark-1:focus,
+.u-border-active-color-5-dark-1.u-active.u-active,
 a.u-button-style.u-border-hover-color-5-dark-1:hover,
 a.u-button-style.u-border-hover-color-5-dark-1:focus,
 a.u-button-style.u-button-style.u-border-active-color-5-dark-1:active,
@@ -23253,6 +23530,7 @@ a.u-button-style.u-button-style.u-border-active-color-5-dark-1.active {
 }
 .u-border-hover-color-5:hover,
 .u-border-hover-color-5:focus,
+.u-border-active-color-5.u-active.u-active,
 a.u-button-style.u-border-hover-color-5:hover,
 a.u-button-style.u-border-hover-color-5:focus,
 a.u-button-style.u-button-style.u-border-active-color-5:active,
@@ -23284,6 +23562,7 @@ a.u-button-style.u-button-style.u-border-active-color-5.active {
 }
 .u-border-hover-color-5-light-1:hover,
 .u-border-hover-color-5-light-1:focus,
+.u-border-active-color-5-light-1.u-active.u-active,
 a.u-button-style.u-border-hover-color-5-light-1:hover,
 a.u-button-style.u-border-hover-color-5-light-1:focus,
 a.u-button-style.u-button-style.u-border-active-color-5-light-1:active,
@@ -23315,6 +23594,7 @@ a.u-button-style.u-button-style.u-border-active-color-5-light-1.active {
 }
 .u-border-hover-color-5-light-2:hover,
 .u-border-hover-color-5-light-2:focus,
+.u-border-active-color-5-light-2.u-active.u-active,
 a.u-button-style.u-border-hover-color-5-light-2:hover,
 a.u-button-style.u-border-hover-color-5-light-2:focus,
 a.u-button-style.u-button-style.u-border-active-color-5-light-2:active,
@@ -23346,6 +23626,7 @@ a.u-button-style.u-button-style.u-border-active-color-5-light-2.active {
 }
 .u-border-hover-color-5-light-3:hover,
 .u-border-hover-color-5-light-3:focus,
+.u-border-active-color-5-light-3.u-active.u-active,
 a.u-button-style.u-border-hover-color-5-light-3:hover,
 a.u-button-style.u-border-hover-color-5-light-3:focus,
 a.u-button-style.u-button-style.u-border-active-color-5-light-3:active,
@@ -23377,6 +23658,7 @@ a.u-button-style.u-button-style.u-border-active-color-5-light-3.active {
 }
 .u-border-hover-color-5-base:hover,
 .u-border-hover-color-5-base:focus,
+.u-border-active-color-5-base.u-active.u-active,
 a.u-button-style.u-border-hover-color-5-base:hover,
 a.u-button-style.u-border-hover-color-5-base:focus,
 a.u-button-style.u-button-style.u-border-active-color-5-base:active,
@@ -23408,6 +23690,7 @@ a.u-button-style.u-button-style.u-border-active-color-5-base.active {
 }
 .u-border-hover-palette-1-dark-3:hover,
 .u-border-hover-palette-1-dark-3:focus,
+.u-border-active-palette-1-dark-3.u-active.u-active,
 a.u-button-style.u-border-hover-palette-1-dark-3:hover,
 a.u-button-style.u-border-hover-palette-1-dark-3:focus,
 a.u-button-style.u-button-style.u-border-active-palette-1-dark-3:active,
@@ -23439,6 +23722,7 @@ a.u-button-style.u-button-style.u-border-active-palette-1-dark-3.active {
 }
 .u-border-hover-palette-1-dark-2:hover,
 .u-border-hover-palette-1-dark-2:focus,
+.u-border-active-palette-1-dark-2.u-active.u-active,
 a.u-button-style.u-border-hover-palette-1-dark-2:hover,
 a.u-button-style.u-border-hover-palette-1-dark-2:focus,
 a.u-button-style.u-button-style.u-border-active-palette-1-dark-2:active,
@@ -23470,6 +23754,7 @@ a.u-button-style.u-button-style.u-border-active-palette-1-dark-2.active {
 }
 .u-border-hover-palette-1-dark-1:hover,
 .u-border-hover-palette-1-dark-1:focus,
+.u-border-active-palette-1-dark-1.u-active.u-active,
 a.u-button-style.u-border-hover-palette-1-dark-1:hover,
 a.u-button-style.u-border-hover-palette-1-dark-1:focus,
 a.u-button-style.u-button-style.u-border-active-palette-1-dark-1:active,
@@ -23501,6 +23786,7 @@ a.u-button-style.u-button-style.u-border-active-palette-1-dark-1.active {
 }
 .u-border-hover-palette-1:hover,
 .u-border-hover-palette-1:focus,
+.u-border-active-palette-1.u-active.u-active,
 a.u-button-style.u-border-hover-palette-1:hover,
 a.u-button-style.u-border-hover-palette-1:focus,
 a.u-button-style.u-button-style.u-border-active-palette-1:active,
@@ -23532,6 +23818,7 @@ a.u-button-style.u-button-style.u-border-active-palette-1.active {
 }
 .u-border-hover-palette-1-light-1:hover,
 .u-border-hover-palette-1-light-1:focus,
+.u-border-active-palette-1-light-1.u-active.u-active,
 a.u-button-style.u-border-hover-palette-1-light-1:hover,
 a.u-button-style.u-border-hover-palette-1-light-1:focus,
 a.u-button-style.u-button-style.u-border-active-palette-1-light-1:active,
@@ -23563,6 +23850,7 @@ a.u-button-style.u-button-style.u-border-active-palette-1-light-1.active {
 }
 .u-border-hover-palette-1-light-2:hover,
 .u-border-hover-palette-1-light-2:focus,
+.u-border-active-palette-1-light-2.u-active.u-active,
 a.u-button-style.u-border-hover-palette-1-light-2:hover,
 a.u-button-style.u-border-hover-palette-1-light-2:focus,
 a.u-button-style.u-button-style.u-border-active-palette-1-light-2:active,
@@ -23594,6 +23882,7 @@ a.u-button-style.u-button-style.u-border-active-palette-1-light-2.active {
 }
 .u-border-hover-palette-1-light-3:hover,
 .u-border-hover-palette-1-light-3:focus,
+.u-border-active-palette-1-light-3.u-active.u-active,
 a.u-button-style.u-border-hover-palette-1-light-3:hover,
 a.u-button-style.u-border-hover-palette-1-light-3:focus,
 a.u-button-style.u-button-style.u-border-active-palette-1-light-3:active,
@@ -23625,6 +23914,7 @@ a.u-button-style.u-button-style.u-border-active-palette-1-light-3.active {
 }
 .u-border-hover-palette-1-base:hover,
 .u-border-hover-palette-1-base:focus,
+.u-border-active-palette-1-base.u-active.u-active,
 a.u-button-style.u-border-hover-palette-1-base:hover,
 a.u-button-style.u-border-hover-palette-1-base:focus,
 a.u-button-style.u-button-style.u-border-active-palette-1-base:active,
@@ -23656,6 +23946,7 @@ a.u-button-style.u-button-style.u-border-active-palette-1-base.active {
 }
 .u-border-hover-palette-2-dark-3:hover,
 .u-border-hover-palette-2-dark-3:focus,
+.u-border-active-palette-2-dark-3.u-active.u-active,
 a.u-button-style.u-border-hover-palette-2-dark-3:hover,
 a.u-button-style.u-border-hover-palette-2-dark-3:focus,
 a.u-button-style.u-button-style.u-border-active-palette-2-dark-3:active,
@@ -23687,6 +23978,7 @@ a.u-button-style.u-button-style.u-border-active-palette-2-dark-3.active {
 }
 .u-border-hover-palette-2-dark-2:hover,
 .u-border-hover-palette-2-dark-2:focus,
+.u-border-active-palette-2-dark-2.u-active.u-active,
 a.u-button-style.u-border-hover-palette-2-dark-2:hover,
 a.u-button-style.u-border-hover-palette-2-dark-2:focus,
 a.u-button-style.u-button-style.u-border-active-palette-2-dark-2:active,
@@ -23718,6 +24010,7 @@ a.u-button-style.u-button-style.u-border-active-palette-2-dark-2.active {
 }
 .u-border-hover-palette-2-dark-1:hover,
 .u-border-hover-palette-2-dark-1:focus,
+.u-border-active-palette-2-dark-1.u-active.u-active,
 a.u-button-style.u-border-hover-palette-2-dark-1:hover,
 a.u-button-style.u-border-hover-palette-2-dark-1:focus,
 a.u-button-style.u-button-style.u-border-active-palette-2-dark-1:active,
@@ -23749,6 +24042,7 @@ a.u-button-style.u-button-style.u-border-active-palette-2-dark-1.active {
 }
 .u-border-hover-palette-2:hover,
 .u-border-hover-palette-2:focus,
+.u-border-active-palette-2.u-active.u-active,
 a.u-button-style.u-border-hover-palette-2:hover,
 a.u-button-style.u-border-hover-palette-2:focus,
 a.u-button-style.u-button-style.u-border-active-palette-2:active,
@@ -23780,6 +24074,7 @@ a.u-button-style.u-button-style.u-border-active-palette-2.active {
 }
 .u-border-hover-palette-2-light-1:hover,
 .u-border-hover-palette-2-light-1:focus,
+.u-border-active-palette-2-light-1.u-active.u-active,
 a.u-button-style.u-border-hover-palette-2-light-1:hover,
 a.u-button-style.u-border-hover-palette-2-light-1:focus,
 a.u-button-style.u-button-style.u-border-active-palette-2-light-1:active,
@@ -23811,6 +24106,7 @@ a.u-button-style.u-button-style.u-border-active-palette-2-light-1.active {
 }
 .u-border-hover-palette-2-light-2:hover,
 .u-border-hover-palette-2-light-2:focus,
+.u-border-active-palette-2-light-2.u-active.u-active,
 a.u-button-style.u-border-hover-palette-2-light-2:hover,
 a.u-button-style.u-border-hover-palette-2-light-2:focus,
 a.u-button-style.u-button-style.u-border-active-palette-2-light-2:active,
@@ -23842,6 +24138,7 @@ a.u-button-style.u-button-style.u-border-active-palette-2-light-2.active {
 }
 .u-border-hover-palette-2-light-3:hover,
 .u-border-hover-palette-2-light-3:focus,
+.u-border-active-palette-2-light-3.u-active.u-active,
 a.u-button-style.u-border-hover-palette-2-light-3:hover,
 a.u-button-style.u-border-hover-palette-2-light-3:focus,
 a.u-button-style.u-button-style.u-border-active-palette-2-light-3:active,
@@ -23873,6 +24170,7 @@ a.u-button-style.u-button-style.u-border-active-palette-2-light-3.active {
 }
 .u-border-hover-palette-2-base:hover,
 .u-border-hover-palette-2-base:focus,
+.u-border-active-palette-2-base.u-active.u-active,
 a.u-button-style.u-border-hover-palette-2-base:hover,
 a.u-button-style.u-border-hover-palette-2-base:focus,
 a.u-button-style.u-button-style.u-border-active-palette-2-base:active,
@@ -23904,6 +24202,7 @@ a.u-button-style.u-button-style.u-border-active-palette-2-base.active {
 }
 .u-border-hover-palette-3-dark-3:hover,
 .u-border-hover-palette-3-dark-3:focus,
+.u-border-active-palette-3-dark-3.u-active.u-active,
 a.u-button-style.u-border-hover-palette-3-dark-3:hover,
 a.u-button-style.u-border-hover-palette-3-dark-3:focus,
 a.u-button-style.u-button-style.u-border-active-palette-3-dark-3:active,
@@ -23935,6 +24234,7 @@ a.u-button-style.u-button-style.u-border-active-palette-3-dark-3.active {
 }
 .u-border-hover-palette-3-dark-2:hover,
 .u-border-hover-palette-3-dark-2:focus,
+.u-border-active-palette-3-dark-2.u-active.u-active,
 a.u-button-style.u-border-hover-palette-3-dark-2:hover,
 a.u-button-style.u-border-hover-palette-3-dark-2:focus,
 a.u-button-style.u-button-style.u-border-active-palette-3-dark-2:active,
@@ -23966,6 +24266,7 @@ a.u-button-style.u-button-style.u-border-active-palette-3-dark-2.active {
 }
 .u-border-hover-palette-3-dark-1:hover,
 .u-border-hover-palette-3-dark-1:focus,
+.u-border-active-palette-3-dark-1.u-active.u-active,
 a.u-button-style.u-border-hover-palette-3-dark-1:hover,
 a.u-button-style.u-border-hover-palette-3-dark-1:focus,
 a.u-button-style.u-button-style.u-border-active-palette-3-dark-1:active,
@@ -23997,6 +24298,7 @@ a.u-button-style.u-button-style.u-border-active-palette-3-dark-1.active {
 }
 .u-border-hover-palette-3:hover,
 .u-border-hover-palette-3:focus,
+.u-border-active-palette-3.u-active.u-active,
 a.u-button-style.u-border-hover-palette-3:hover,
 a.u-button-style.u-border-hover-palette-3:focus,
 a.u-button-style.u-button-style.u-border-active-palette-3:active,
@@ -24028,6 +24330,7 @@ a.u-button-style.u-button-style.u-border-active-palette-3.active {
 }
 .u-border-hover-palette-3-light-1:hover,
 .u-border-hover-palette-3-light-1:focus,
+.u-border-active-palette-3-light-1.u-active.u-active,
 a.u-button-style.u-border-hover-palette-3-light-1:hover,
 a.u-button-style.u-border-hover-palette-3-light-1:focus,
 a.u-button-style.u-button-style.u-border-active-palette-3-light-1:active,
@@ -24059,6 +24362,7 @@ a.u-button-style.u-button-style.u-border-active-palette-3-light-1.active {
 }
 .u-border-hover-palette-3-light-2:hover,
 .u-border-hover-palette-3-light-2:focus,
+.u-border-active-palette-3-light-2.u-active.u-active,
 a.u-button-style.u-border-hover-palette-3-light-2:hover,
 a.u-button-style.u-border-hover-palette-3-light-2:focus,
 a.u-button-style.u-button-style.u-border-active-palette-3-light-2:active,
@@ -24090,6 +24394,7 @@ a.u-button-style.u-button-style.u-border-active-palette-3-light-2.active {
 }
 .u-border-hover-palette-3-light-3:hover,
 .u-border-hover-palette-3-light-3:focus,
+.u-border-active-palette-3-light-3.u-active.u-active,
 a.u-button-style.u-border-hover-palette-3-light-3:hover,
 a.u-button-style.u-border-hover-palette-3-light-3:focus,
 a.u-button-style.u-button-style.u-border-active-palette-3-light-3:active,
@@ -24121,6 +24426,7 @@ a.u-button-style.u-button-style.u-border-active-palette-3-light-3.active {
 }
 .u-border-hover-palette-3-base:hover,
 .u-border-hover-palette-3-base:focus,
+.u-border-active-palette-3-base.u-active.u-active,
 a.u-button-style.u-border-hover-palette-3-base:hover,
 a.u-button-style.u-border-hover-palette-3-base:focus,
 a.u-button-style.u-button-style.u-border-active-palette-3-base:active,
@@ -24152,6 +24458,7 @@ a.u-button-style.u-button-style.u-border-active-palette-3-base.active {
 }
 .u-border-hover-palette-4-dark-3:hover,
 .u-border-hover-palette-4-dark-3:focus,
+.u-border-active-palette-4-dark-3.u-active.u-active,
 a.u-button-style.u-border-hover-palette-4-dark-3:hover,
 a.u-button-style.u-border-hover-palette-4-dark-3:focus,
 a.u-button-style.u-button-style.u-border-active-palette-4-dark-3:active,
@@ -24183,6 +24490,7 @@ a.u-button-style.u-button-style.u-border-active-palette-4-dark-3.active {
 }
 .u-border-hover-palette-4-dark-2:hover,
 .u-border-hover-palette-4-dark-2:focus,
+.u-border-active-palette-4-dark-2.u-active.u-active,
 a.u-button-style.u-border-hover-palette-4-dark-2:hover,
 a.u-button-style.u-border-hover-palette-4-dark-2:focus,
 a.u-button-style.u-button-style.u-border-active-palette-4-dark-2:active,
@@ -24214,6 +24522,7 @@ a.u-button-style.u-button-style.u-border-active-palette-4-dark-2.active {
 }
 .u-border-hover-palette-4-dark-1:hover,
 .u-border-hover-palette-4-dark-1:focus,
+.u-border-active-palette-4-dark-1.u-active.u-active,
 a.u-button-style.u-border-hover-palette-4-dark-1:hover,
 a.u-button-style.u-border-hover-palette-4-dark-1:focus,
 a.u-button-style.u-button-style.u-border-active-palette-4-dark-1:active,
@@ -24245,6 +24554,7 @@ a.u-button-style.u-button-style.u-border-active-palette-4-dark-1.active {
 }
 .u-border-hover-palette-4:hover,
 .u-border-hover-palette-4:focus,
+.u-border-active-palette-4.u-active.u-active,
 a.u-button-style.u-border-hover-palette-4:hover,
 a.u-button-style.u-border-hover-palette-4:focus,
 a.u-button-style.u-button-style.u-border-active-palette-4:active,
@@ -24276,6 +24586,7 @@ a.u-button-style.u-button-style.u-border-active-palette-4.active {
 }
 .u-border-hover-palette-4-light-1:hover,
 .u-border-hover-palette-4-light-1:focus,
+.u-border-active-palette-4-light-1.u-active.u-active,
 a.u-button-style.u-border-hover-palette-4-light-1:hover,
 a.u-button-style.u-border-hover-palette-4-light-1:focus,
 a.u-button-style.u-button-style.u-border-active-palette-4-light-1:active,
@@ -24307,6 +24618,7 @@ a.u-button-style.u-button-style.u-border-active-palette-4-light-1.active {
 }
 .u-border-hover-palette-4-light-2:hover,
 .u-border-hover-palette-4-light-2:focus,
+.u-border-active-palette-4-light-2.u-active.u-active,
 a.u-button-style.u-border-hover-palette-4-light-2:hover,
 a.u-button-style.u-border-hover-palette-4-light-2:focus,
 a.u-button-style.u-button-style.u-border-active-palette-4-light-2:active,
@@ -24338,6 +24650,7 @@ a.u-button-style.u-button-style.u-border-active-palette-4-light-2.active {
 }
 .u-border-hover-palette-4-light-3:hover,
 .u-border-hover-palette-4-light-3:focus,
+.u-border-active-palette-4-light-3.u-active.u-active,
 a.u-button-style.u-border-hover-palette-4-light-3:hover,
 a.u-button-style.u-border-hover-palette-4-light-3:focus,
 a.u-button-style.u-button-style.u-border-active-palette-4-light-3:active,
@@ -24369,6 +24682,7 @@ a.u-button-style.u-button-style.u-border-active-palette-4-light-3.active {
 }
 .u-border-hover-palette-4-base:hover,
 .u-border-hover-palette-4-base:focus,
+.u-border-active-palette-4-base.u-active.u-active,
 a.u-button-style.u-border-hover-palette-4-base:hover,
 a.u-button-style.u-border-hover-palette-4-base:focus,
 a.u-button-style.u-button-style.u-border-active-palette-4-base:active,
@@ -24400,6 +24714,7 @@ a.u-button-style.u-button-style.u-border-active-palette-4-base.active {
 }
 .u-border-hover-palette-5-dark-3:hover,
 .u-border-hover-palette-5-dark-3:focus,
+.u-border-active-palette-5-dark-3.u-active.u-active,
 a.u-button-style.u-border-hover-palette-5-dark-3:hover,
 a.u-button-style.u-border-hover-palette-5-dark-3:focus,
 a.u-button-style.u-button-style.u-border-active-palette-5-dark-3:active,
@@ -24431,6 +24746,7 @@ a.u-button-style.u-button-style.u-border-active-palette-5-dark-3.active {
 }
 .u-border-hover-palette-5-dark-2:hover,
 .u-border-hover-palette-5-dark-2:focus,
+.u-border-active-palette-5-dark-2.u-active.u-active,
 a.u-button-style.u-border-hover-palette-5-dark-2:hover,
 a.u-button-style.u-border-hover-palette-5-dark-2:focus,
 a.u-button-style.u-button-style.u-border-active-palette-5-dark-2:active,
@@ -24462,6 +24778,7 @@ a.u-button-style.u-button-style.u-border-active-palette-5-dark-2.active {
 }
 .u-border-hover-palette-5-dark-1:hover,
 .u-border-hover-palette-5-dark-1:focus,
+.u-border-active-palette-5-dark-1.u-active.u-active,
 a.u-button-style.u-border-hover-palette-5-dark-1:hover,
 a.u-button-style.u-border-hover-palette-5-dark-1:focus,
 a.u-button-style.u-button-style.u-border-active-palette-5-dark-1:active,
@@ -24493,6 +24810,7 @@ a.u-button-style.u-button-style.u-border-active-palette-5-dark-1.active {
 }
 .u-border-hover-palette-5:hover,
 .u-border-hover-palette-5:focus,
+.u-border-active-palette-5.u-active.u-active,
 a.u-button-style.u-border-hover-palette-5:hover,
 a.u-button-style.u-border-hover-palette-5:focus,
 a.u-button-style.u-button-style.u-border-active-palette-5:active,
@@ -24524,6 +24842,7 @@ a.u-button-style.u-button-style.u-border-active-palette-5.active {
 }
 .u-border-hover-palette-5-light-1:hover,
 .u-border-hover-palette-5-light-1:focus,
+.u-border-active-palette-5-light-1.u-active.u-active,
 a.u-button-style.u-border-hover-palette-5-light-1:hover,
 a.u-button-style.u-border-hover-palette-5-light-1:focus,
 a.u-button-style.u-button-style.u-border-active-palette-5-light-1:active,
@@ -24555,6 +24874,7 @@ a.u-button-style.u-button-style.u-border-active-palette-5-light-1.active {
 }
 .u-border-hover-palette-5-light-2:hover,
 .u-border-hover-palette-5-light-2:focus,
+.u-border-active-palette-5-light-2.u-active.u-active,
 a.u-button-style.u-border-hover-palette-5-light-2:hover,
 a.u-button-style.u-border-hover-palette-5-light-2:focus,
 a.u-button-style.u-button-style.u-border-active-palette-5-light-2:active,
@@ -24586,6 +24906,7 @@ a.u-button-style.u-button-style.u-border-active-palette-5-light-2.active {
 }
 .u-border-hover-palette-5-light-3:hover,
 .u-border-hover-palette-5-light-3:focus,
+.u-border-active-palette-5-light-3.u-active.u-active,
 a.u-button-style.u-border-hover-palette-5-light-3:hover,
 a.u-button-style.u-border-hover-palette-5-light-3:focus,
 a.u-button-style.u-button-style.u-border-active-palette-5-light-3:active,
@@ -24617,6 +24938,7 @@ a.u-button-style.u-button-style.u-border-active-palette-5-light-3.active {
 }
 .u-border-hover-palette-5-base:hover,
 .u-border-hover-palette-5-base:focus,
+.u-border-active-palette-5-base.u-active.u-active,
 a.u-button-style.u-border-hover-palette-5-base:hover,
 a.u-button-style.u-border-hover-palette-5-base:focus,
 a.u-button-style.u-button-style.u-border-active-palette-5-base:active,
@@ -24648,6 +24970,7 @@ a.u-button-style.u-button-style.u-border-active-palette-5-base.active {
 }
 .u-border-hover-grey-dark-3:hover,
 .u-border-hover-grey-dark-3:focus,
+.u-border-active-grey-dark-3.u-active.u-active,
 a.u-button-style.u-border-hover-grey-dark-3:hover,
 a.u-button-style.u-border-hover-grey-dark-3:focus,
 a.u-button-style.u-button-style.u-border-active-grey-dark-3:active,
@@ -24679,6 +25002,7 @@ a.u-button-style.u-button-style.u-border-active-grey-dark-3.active {
 }
 .u-border-hover-grey-dark-2:hover,
 .u-border-hover-grey-dark-2:focus,
+.u-border-active-grey-dark-2.u-active.u-active,
 a.u-button-style.u-border-hover-grey-dark-2:hover,
 a.u-button-style.u-border-hover-grey-dark-2:focus,
 a.u-button-style.u-button-style.u-border-active-grey-dark-2:active,
@@ -24710,6 +25034,7 @@ a.u-button-style.u-button-style.u-border-active-grey-dark-2.active {
 }
 .u-border-hover-grey-dark-1:hover,
 .u-border-hover-grey-dark-1:focus,
+.u-border-active-grey-dark-1.u-active.u-active,
 a.u-button-style.u-border-hover-grey-dark-1:hover,
 a.u-button-style.u-border-hover-grey-dark-1:focus,
 a.u-button-style.u-button-style.u-border-active-grey-dark-1:active,
@@ -24741,6 +25066,7 @@ a.u-button-style.u-button-style.u-border-active-grey-dark-1.active {
 }
 .u-border-hover-grey:hover,
 .u-border-hover-grey:focus,
+.u-border-active-grey.u-active.u-active,
 a.u-button-style.u-border-hover-grey:hover,
 a.u-button-style.u-border-hover-grey:focus,
 a.u-button-style.u-button-style.u-border-active-grey:active,
@@ -24772,6 +25098,7 @@ a.u-button-style.u-button-style.u-border-active-grey.active {
 }
 .u-border-hover-grey-light-1:hover,
 .u-border-hover-grey-light-1:focus,
+.u-border-active-grey-light-1.u-active.u-active,
 a.u-button-style.u-border-hover-grey-light-1:hover,
 a.u-button-style.u-border-hover-grey-light-1:focus,
 a.u-button-style.u-button-style.u-border-active-grey-light-1:active,
@@ -24803,6 +25130,7 @@ a.u-button-style.u-button-style.u-border-active-grey-light-1.active {
 }
 .u-border-hover-grey-light-2:hover,
 .u-border-hover-grey-light-2:focus,
+.u-border-active-grey-light-2.u-active.u-active,
 a.u-button-style.u-border-hover-grey-light-2:hover,
 a.u-button-style.u-border-hover-grey-light-2:focus,
 a.u-button-style.u-button-style.u-border-active-grey-light-2:active,
@@ -24834,6 +25162,7 @@ a.u-button-style.u-button-style.u-border-active-grey-light-2.active {
 }
 .u-border-hover-grey-light-3:hover,
 .u-border-hover-grey-light-3:focus,
+.u-border-active-grey-light-3.u-active.u-active,
 a.u-button-style.u-border-hover-grey-light-3:hover,
 a.u-button-style.u-border-hover-grey-light-3:focus,
 a.u-button-style.u-button-style.u-border-active-grey-light-3:active,
@@ -24865,6 +25194,7 @@ a.u-button-style.u-button-style.u-border-active-grey-light-3.active {
 }
 .u-border-hover-white:hover,
 .u-border-hover-white:focus,
+.u-border-active-white.u-active.u-active,
 a.u-button-style.u-border-hover-white:hover,
 a.u-button-style.u-border-hover-white:focus,
 a.u-button-style.u-button-style.u-border-active-white:active,
@@ -24896,6 +25226,7 @@ a.u-button-style.u-button-style.u-border-active-white.active {
 }
 .u-border-hover-black:hover,
 .u-border-hover-black:focus,
+.u-border-active-black.u-active.u-active,
 a.u-button-style.u-border-hover-black:hover,
 a.u-button-style.u-border-hover-black:focus,
 a.u-button-style.u-button-style.u-border-active-black:active,
@@ -24927,6 +25258,7 @@ a.u-button-style.u-button-style.u-border-active-black.active {
 }
 .u-border-hover-body-color:hover,
 .u-border-hover-body-color:focus,
+.u-border-active-body-color.u-active.u-active,
 a.u-button-style.u-border-hover-body-color:hover,
 a.u-button-style.u-border-hover-body-color:focus,
 a.u-button-style.u-button-style.u-border-active-body-color:active,
@@ -24958,6 +25290,7 @@ a.u-button-style.u-button-style.u-border-active-body-color.active {
 }
 .u-border-hover-body-alt-color:hover,
 .u-border-hover-body-alt-color:focus,
+.u-border-active-body-alt-color.u-active.u-active,
 a.u-button-style.u-border-hover-body-alt-color:hover,
 a.u-button-style.u-border-hover-body-alt-color:focus,
 a.u-button-style.u-button-style.u-border-active-body-alt-color:active,
@@ -24989,6 +25322,7 @@ a.u-button-style.u-button-style.u-border-active-body-alt-color.active {
 }
 .u-border-hover-grey-25:hover,
 .u-border-hover-grey-25:focus,
+.u-border-active-grey-25.u-active.u-active,
 a.u-button-style.u-border-hover-grey-25:hover,
 a.u-button-style.u-border-hover-grey-25:focus,
 a.u-button-style.u-button-style.u-border-active-grey-25:active,
@@ -25020,6 +25354,7 @@ a.u-button-style.u-button-style.u-border-active-grey-25.active {
 }
 .u-border-hover-grey-5:hover,
 .u-border-hover-grey-5:focus,
+.u-border-active-grey-5.u-active.u-active,
 a.u-button-style.u-border-hover-grey-5:hover,
 a.u-button-style.u-border-hover-grey-5:focus,
 a.u-button-style.u-button-style.u-border-active-grey-5:active,
@@ -25051,6 +25386,7 @@ a.u-button-style.u-button-style.u-border-active-grey-5.active {
 }
 .u-border-hover-grey-10:hover,
 .u-border-hover-grey-10:focus,
+.u-border-active-grey-10.u-active.u-active,
 a.u-button-style.u-border-hover-grey-10:hover,
 a.u-button-style.u-border-hover-grey-10:focus,
 a.u-button-style.u-button-style.u-border-active-grey-10:active,
@@ -25082,6 +25418,7 @@ a.u-button-style.u-button-style.u-border-active-grey-10.active {
 }
 .u-border-hover-grey-15:hover,
 .u-border-hover-grey-15:focus,
+.u-border-active-grey-15.u-active.u-active,
 a.u-button-style.u-border-hover-grey-15:hover,
 a.u-button-style.u-border-hover-grey-15:focus,
 a.u-button-style.u-button-style.u-border-active-grey-15:active,
@@ -25113,6 +25450,7 @@ a.u-button-style.u-button-style.u-border-active-grey-15.active {
 }
 .u-border-hover-grey-25:hover,
 .u-border-hover-grey-25:focus,
+.u-border-active-grey-25.u-active.u-active,
 a.u-button-style.u-border-hover-grey-25:hover,
 a.u-button-style.u-border-hover-grey-25:focus,
 a.u-button-style.u-button-style.u-border-active-grey-25:active,
@@ -25144,6 +25482,7 @@ a.u-button-style.u-button-style.u-border-active-grey-25.active {
 }
 .u-border-hover-grey-30:hover,
 .u-border-hover-grey-30:focus,
+.u-border-active-grey-30.u-active.u-active,
 a.u-button-style.u-border-hover-grey-30:hover,
 a.u-button-style.u-border-hover-grey-30:focus,
 a.u-button-style.u-button-style.u-border-active-grey-30:active,
@@ -25175,6 +25514,7 @@ a.u-button-style.u-button-style.u-border-active-grey-30.active {
 }
 .u-border-hover-grey-40:hover,
 .u-border-hover-grey-40:focus,
+.u-border-active-grey-40.u-active.u-active,
 a.u-button-style.u-border-hover-grey-40:hover,
 a.u-button-style.u-border-hover-grey-40:focus,
 a.u-button-style.u-button-style.u-border-active-grey-40:active,
@@ -25206,6 +25546,7 @@ a.u-button-style.u-button-style.u-border-active-grey-40.active {
 }
 .u-border-hover-grey-50:hover,
 .u-border-hover-grey-50:focus,
+.u-border-active-grey-50.u-active.u-active,
 a.u-button-style.u-border-hover-grey-50:hover,
 a.u-button-style.u-border-hover-grey-50:focus,
 a.u-button-style.u-button-style.u-border-active-grey-50:active,
@@ -25237,6 +25578,7 @@ a.u-button-style.u-button-style.u-border-active-grey-50.active {
 }
 .u-border-hover-grey-60:hover,
 .u-border-hover-grey-60:focus,
+.u-border-active-grey-60.u-active.u-active,
 a.u-button-style.u-border-hover-grey-60:hover,
 a.u-button-style.u-border-hover-grey-60:focus,
 a.u-button-style.u-button-style.u-border-active-grey-60:active,
@@ -25268,6 +25610,7 @@ a.u-button-style.u-button-style.u-border-active-grey-60.active {
 }
 .u-border-hover-grey-70:hover,
 .u-border-hover-grey-70:focus,
+.u-border-active-grey-70.u-active.u-active,
 a.u-button-style.u-border-hover-grey-70:hover,
 a.u-button-style.u-border-hover-grey-70:focus,
 a.u-button-style.u-button-style.u-border-active-grey-70:active,
@@ -25299,6 +25642,7 @@ a.u-button-style.u-button-style.u-border-active-grey-70.active {
 }
 .u-border-hover-grey-75:hover,
 .u-border-hover-grey-75:focus,
+.u-border-active-grey-75.u-active.u-active,
 a.u-button-style.u-border-hover-grey-75:hover,
 a.u-button-style.u-border-hover-grey-75:focus,
 a.u-button-style.u-button-style.u-border-active-grey-75:active,
@@ -25330,6 +25674,7 @@ a.u-button-style.u-button-style.u-border-active-grey-75.active {
 }
 .u-border-hover-grey-80:hover,
 .u-border-hover-grey-80:focus,
+.u-border-active-grey-80.u-active.u-active,
 a.u-button-style.u-border-hover-grey-80:hover,
 a.u-button-style.u-border-hover-grey-80:focus,
 a.u-button-style.u-button-style.u-border-active-grey-80:active,
@@ -25361,6 +25706,7 @@ a.u-button-style.u-button-style.u-border-active-grey-80.active {
 }
 .u-border-hover-grey-90:hover,
 .u-border-hover-grey-90:focus,
+.u-border-active-grey-90.u-active.u-active,
 a.u-button-style.u-border-hover-grey-90:hover,
 a.u-button-style.u-border-hover-grey-90:focus,
 a.u-button-style.u-button-style.u-border-active-grey-90:active,
@@ -29572,6 +29918,8 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-hover-custom-color-1[class*="u-border-"]:hover,
         .u-hover-custom-color-1:focus,
         .u-hover-custom-color-1[class*="u-border-"]:focus,
+        .u-active-custom-color-1.u-active.u-active,
+        .u-active-custom-color-1[class*="u-border-"].u-active.u-active,
         a.u-button-style.u-hover-custom-color-1:hover,
         a.u-button-style.u-hover-custom-color-1[class*="u-border-"]:hover,
         a.u-button-style.u-hover-custom-color-1:focus,
@@ -29624,6 +29972,8 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-hover-custom-color-2[class*="u-border-"]:hover,
         .u-hover-custom-color-2:focus,
         .u-hover-custom-color-2[class*="u-border-"]:focus,
+        .u-active-custom-color-2.u-active.u-active,
+        .u-active-custom-color-2[class*="u-border-"].u-active.u-active,
         a.u-button-style.u-hover-custom-color-2:hover,
         a.u-button-style.u-hover-custom-color-2[class*="u-border-"]:hover,
         a.u-button-style.u-hover-custom-color-2:focus,
@@ -29676,6 +30026,8 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-hover-custom-color-3[class*="u-border-"]:hover,
         .u-hover-custom-color-3:focus,
         .u-hover-custom-color-3[class*="u-border-"]:focus,
+        .u-active-custom-color-3.u-active.u-active,
+        .u-active-custom-color-3[class*="u-border-"].u-active.u-active,
         a.u-button-style.u-hover-custom-color-3:hover,
         a.u-button-style.u-hover-custom-color-3[class*="u-border-"]:hover,
         a.u-button-style.u-hover-custom-color-3:focus,
@@ -29728,6 +30080,8 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-hover-custom-color-4[class*="u-border-"]:hover,
         .u-hover-custom-color-4:focus,
         .u-hover-custom-color-4[class*="u-border-"]:focus,
+        .u-active-custom-color-4.u-active.u-active,
+        .u-active-custom-color-4[class*="u-border-"].u-active.u-active,
         a.u-button-style.u-hover-custom-color-4:hover,
         a.u-button-style.u-hover-custom-color-4[class*="u-border-"]:hover,
         a.u-button-style.u-hover-custom-color-4:focus,
@@ -29772,6 +30126,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
         .u-border-hover-custom-color-1:hover,
         .u-border-hover-custom-color-1:focus,
+        .u-border-active-custom-color-1.u-active.u-active,
         a.u-button-style.u-border-hover-custom-color-1:hover,
         a.u-button-style.u-border-hover-custom-color-1:focus,
         a.u-button-style.u-button-style.u-border-active-custom-color-1:active,
@@ -29816,6 +30171,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
         .u-border-hover-custom-color-2:hover,
         .u-border-hover-custom-color-2:focus,
+        .u-border-active-custom-color-2.u-active.u-active,
         a.u-button-style.u-border-hover-custom-color-2:hover,
         a.u-button-style.u-border-hover-custom-color-2:focus,
         a.u-button-style.u-button-style.u-border-active-custom-color-2:active,
@@ -29860,6 +30216,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
         .u-border-hover-custom-color-3:hover,
         .u-border-hover-custom-color-3:focus,
+        .u-border-active-custom-color-3.u-active.u-active,
         a.u-button-style.u-border-hover-custom-color-3:hover,
         a.u-button-style.u-border-hover-custom-color-3:focus,
         a.u-button-style.u-button-style.u-border-active-custom-color-3:active,
@@ -29904,6 +30261,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
         .u-border-hover-custom-color-4:hover,
         .u-border-hover-custom-color-4:focus,
+        .u-border-active-custom-color-4.u-active.u-active,
         a.u-button-style.u-border-hover-custom-color-4:hover,
         a.u-button-style.u-border-hover-custom-color-4:focus,
         a.u-button-style.u-button-style.u-border-active-custom-color-4:active,
