@@ -60,7 +60,6 @@
 .u-section-1 .u-custom-html-2 {
   min-height: 65px;
   animation-duration: 1000ms;
-  height: auto;
   margin: 12px 290px 0 0;
 }
 
@@ -142,6 +141,7 @@
 
   .u-section-1 .u-custom-html-2 {
     min-height: 93px;
+    height: auto;
     margin-top: 11px;
     margin-right: 264px;
   }
