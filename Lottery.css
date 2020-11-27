@@ -7,10 +7,8 @@
   margin-bottom: 0;
 }
 
-.u-section-1 .u-image-1 {
+.u-section-1 .u-layout-cell-1 {
   min-height: 520px;
-  background-image: url("images/lottery1.jpg");
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -25,17 +23,14 @@
   padding: 30px;
 }
 
-.u-section-1 .u-text-1 {
-  margin: 172px 0 0;
-}
-
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 429px;
   }
 
-  .u-section-1 .u-image-1 {
+  .u-section-1 .u-layout-cell-1 {
     min-height: 429px;
+    background-position: 50% 50%;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -48,12 +43,12 @@
     min-height: 329px;
   }
 
-  .u-section-1 .u-image-1 {
+  .u-section-1 .u-layout-cell-1 {
     min-height: 329px;
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 100px;
+    min-height: 329px;
   }
 }
 
@@ -62,13 +57,17 @@
     min-height: 988px;
   }
 
-  .u-section-1 .u-image-1 {
+  .u-section-1 .u-layout-cell-1 {
     min-height: 494px;
   }
 
   .u-section-1 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 494px;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -82,7 +81,162 @@
     min-height: 622px;
   }
 
-  .u-section-1 .u-image-1 {
+  .u-section-1 .u-layout-cell-1 {
     min-height: 311px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 311px;
+  }
+}.u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 890px;
+}
+
+.u-section-2 .u-text-1 {
+  margin: 60px 20px 0;
+}
+
+.u-section-2 .u-text-2 {
+  margin: 20px 0 0;
+}
+
+.u-section-2 .u-gallery-1 {
+  height: 581px;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 17px;
+  margin: 30px auto 0;
+}
+
+.u-section-2 .u-gallery-inner-1 {
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 17px;
+}
+
+.u-section-2 .u-over-slide-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-over-slide-2 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-over-slide-3 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-over-slide-4 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-over-slide-5 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-over-slide-6 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-gallery-item-7 {
+  box-shadow: 0 0 0 0 rgba(0,0,0,0);
+}
+
+.u-section-2 .u-back-image-7 {
+  object-position: 50% 50%;
+}
+
+.u-section-2 .u-over-slide-7 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  transition-duration: 0.5s;
+  padding: 20px;
+}
+
+.u-section-2 .u-gallery-item-8 {
+  box-shadow: 0 0 0 0 rgba(0,0,0,0);
+}
+
+.u-section-2 .u-back-image-8 {
+  object-position: 50% 50%;
+}
+
+.u-section-2 .u-over-slide-8 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  transition-duration: 0.5s;
+  padding: 20px;
+}
+
+.u-section-2 .u-btn-1 {
+  margin: 30px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 788px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-gallery-1 {
+    height: 479px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 1777px;
+  }
+
+  .u-section-2 .u-gallery-1 {
+    height: 1468px;
+    grid-template-columns: repeat(2, auto);
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-2 .u-gallery-inner-1 {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 4713px;
+  }
+
+  .u-section-2 .u-gallery-1 {
+    height: 4404px;
+    grid-template-columns: repeat(1, auto);
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-2 .u-gallery-inner-1 {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 3082px;
+  }
+
+  .u-section-2 .u-gallery-1 {
+    height: 2773px;
+    margin-right: initial;
+    margin-left: initial;
   }
 }
