@@ -31962,7 +31962,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-image-1 {
-    width: auto;
     margin-top: 23px;
     margin-left: 90px;
   }
@@ -32012,6 +32011,7 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     margin-top: 6px;
     margin-left: 14px;
+    width: auto;
   }
 
   .u-header .u-text-1 {
