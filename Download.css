@@ -18,7 +18,9 @@
 
 .u-section-1 .u-text-1 {
   background-image: none;
-  margin: -607px 440px 0 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: -607px 0 0;
 }
 
 @media (max-width: 1199px) {
@@ -40,15 +42,13 @@
     margin-right: initial;
     margin-left: initial;
   }
-
-  .u-section-1 .u-text-1 {
-    margin-right: 240px;
-  }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-text-1 {
-    margin-right: 20px;
+    font-size: 1.25rem;
+    margin-left: 11px;
+    margin-right: 11px;
   }
 }
 
@@ -60,5 +60,14 @@
 
   .u-section-1 .u-text-1 {
     margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    font-size: 0.875rem;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
