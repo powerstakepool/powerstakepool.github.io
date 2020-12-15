@@ -2247,10 +2247,10 @@
 }
 
 .u-section-7 .u-image-1 {
-  height: 586px;
-  width: 847px;
+  height: 568px;
+  width: 899px;
   object-position: 0% 23.14%;
-  margin: 6px auto 0;
+  margin: 6px 64px 0 auto;
 }
 
 @media (max-width: 1199px) {
@@ -2271,6 +2271,12 @@
     width: auto;
     margin-right: 612px;
   }
+
+  .u-section-7 .u-image-1 {
+    width: 880px;
+    height: 555px;
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 991px) {
@@ -2288,7 +2294,7 @@
 
   .u-section-7 .u-image-1 {
     width: 660px;
-    height: 457px;
+    height: 416px;
   }
 }
 
@@ -2308,7 +2314,7 @@
 
   .u-section-7 .u-image-1 {
     width: 520px;
-    height: 360px;
+    height: 328px;
   }
 }
 
@@ -2323,6 +2329,6 @@
 
   .u-section-7 .u-image-1 {
     width: 320px;
-    height: 222px;
+    height: 202px;
   }
 }
