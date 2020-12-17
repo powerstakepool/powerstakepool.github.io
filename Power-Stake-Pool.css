@@ -1,20 +1,20 @@
 .u-section-1 {
-  background-image: none;
-  min-height: 707px;
+  min-height: 769px;
 }
 
 .u-section-1 .u-video-1 {
-  height: 760px;
-  margin: -53px auto 0 0;
+  filter: brightness(0.85);
+  height: 767px;
+  margin: 1px -140px 0;
 }
 
 .u-section-1 .u-layout-wrap-1 {
   width: 1140px;
-  margin: -707px auto 0;
+  margin: -768px auto 0;
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 644px;
+  min-height: 707px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -22,7 +22,7 @@
 }
 
 .u-section-1 .u-group-1 {
-  min-height: 647px;
+  min-height: 709px;
   margin: 0 0 0 auto;
 }
 
@@ -90,24 +90,24 @@
 
 @media (max-width: 1199px) {
   .u-section-1 {
-    min-height: 1025px;
+    min-height: 645px;
   }
 
   .u-section-1 .u-video-1 {
-    height: 257px;
-    margin-top: 768px;
+    height: 710px;
+    margin-top: -734px;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 940px;
-    margin-top: -1024px;
+    margin-top: -443px;
     margin-right: calc(((100% - 1140px) / 2));
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 531px;
+    min-height: 583px;
   }
 
   .u-section-1 .u-group-1 {
@@ -163,18 +163,18 @@
 
 @media (max-width: 991px) {
   .u-section-1 {
-    min-height: 649px;
+    min-height: 162px;
   }
 
   .u-section-1 .u-video-1 {
-    margin-top: 392px;
+    margin-top: -558px;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 720px;
-    margin-top: -648px;
+    margin-top: -419px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -242,19 +242,15 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-1 {
-    min-height: 788px;
-  }
-
   .u-section-1 .u-video-1 {
-    margin-top: 531px;
+    margin-top: -649px;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 540px;
-    margin-top: -787px;
+    margin-top: -376px;
   }
 
   .u-section-1 .u-group-1 {
@@ -313,18 +309,18 @@
 
 @media (max-width: 575px) {
   .u-section-1 {
-    min-height: 163px;
+    min-height: 806px;
   }
 
   .u-section-1 .u-video-1 {
-    margin-top: -283px;
+    margin-top: 96px;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 340px;
-    margin-top: 27px;
+    margin-top: -1052px;
   }
 
   .u-section-1 .u-container-layout-1 {
