@@ -4594,13 +4594,13 @@ ol {
   /*TODO maye need another solution for negative marin*/
   cursor: pointer;
   color: inherit;
-  font-style: inherit;
   font-size: inherit;
-  font-weight: inherit;
   font-family: inherit;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
+  font-style: inherit;
+  font-weight: inherit;
   text-decoration: none;
   border: 0 none transparent;
   outline-width: 0;
@@ -4648,12 +4648,10 @@ ol {
   border-radius: 0 !important;
 }
 .u-text a,
-.u-blog-control a,
+.u-post-content a,
 .u-tab-item a,
 .u-nav-item a {
-  font-style: inherit;
   font-size: inherit;
-  font-weight: inherit;
   font-family: inherit;
   line-height: inherit;
   letter-spacing: inherit;
@@ -4729,13 +4727,13 @@ a {
 }
 .u-logo {
   color: inherit;
-  font-style: inherit;
   font-size: inherit;
-  font-weight: inherit;
   font-family: inherit;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
+  font-style: inherit;
+  font-weight: inherit;
   text-decoration: none;
   border: 0 none transparent;
   outline-width: 0;
@@ -5446,6 +5444,7 @@ a {
 .u-form .u-form-group.u-form-checkbox input[type="checkbox"],
 .u-form .u-form-group.u-form-agree input[type="checkbox"] {
   float: left;
+  flex-shrink: 0;
 }
 .u-form .u-form-group.u-form-checkbox label.u-label,
 .u-form .u-form-group.u-form-agree label.u-label {
@@ -5478,6 +5477,9 @@ a {
   position: relative;
   font-size: 1rem;
   height: auto !important;
+}
+.u-form-group {
+  text-align: start;
 }
 .u-btn-submit {
   display: inline-block;
@@ -12128,6 +12130,9 @@ section.u-image,
   z-index: auto;
   position: absolute !important;
 }
+.u-offcanvas-opened .u-header.u-sticky + section {
+  z-index: -1;
+}
 .u-hide-header .u-header,
 .u-hide-footer .u-footer {
   display: none;
@@ -15869,13 +15874,13 @@ div.u-video,
 .u-nav-link {
   display: block;
   white-space: nowrap;
-  font-style: inherit;
   font-size: inherit;
-  font-weight: inherit;
   font-family: inherit;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
+  font-style: inherit;
+  font-weight: inherit;
   text-decoration: none;
   border: 0 none transparent;
   outline-width: 0;
@@ -15917,6 +15922,17 @@ div.u-video,
   width: 0;
   height: 0;
   overflow: hidden;
+}
+.menu-collapse .u-nav-link.u-file-icon img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+}
+.menu-collapse .u-nav-link.u-file-icon::after {
+  content: '';
+  height: 1em;
+  display: block;
 }
 .u-nav-container-collapse {
   display: none;
@@ -15983,6 +15999,10 @@ div.u-video,
 }
 .u-enable-responsive.u-offcanvas .u-sidenav > * {
   position: relative;
+}
+.u-enable-responsive.u-offcanvas .u-sidenav .u-nav-link {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 .u-enable-responsive.u-offcanvas:not(.u-menu-open-right) .u-sidenav {
   border-left: none;
@@ -16339,13 +16359,13 @@ p {
 }
 .u-social-url {
   color: inherit;
-  font-style: inherit;
   font-size: inherit;
-  font-weight: inherit;
   font-family: inherit;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
+  font-style: inherit;
+  font-weight: inherit;
   text-decoration: none;
   border: 0 none transparent;
   outline-width: 0;
@@ -17649,6 +17669,9 @@ a.pswp__share--download:hover {
 .u-text .u-btn.u-button-link {
   display: inline;
 }
+.u-text.u-cart-block-content .u-btn {
+  white-space: nowrap;
+}
 .u-slider {
   display: flex;
   flex-direction: column;
@@ -17884,12 +17907,14 @@ a.pswp__share--download:hover {
 }
 .u-cart-button-container {
   display: flex;
+  position: relative;
   justify-content: space-between;
 }
 .u-cart-blocks-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
+  position: relative;
 }
 @media (max-width: 767px) {
   .u-cart-blocks-container {
@@ -17971,13 +17996,13 @@ a.pswp__share--download:hover {
 .u-carousel-control-prev,
 .u-carousel-control-next {
   color: inherit;
-  font-style: inherit;
   font-size: inherit;
-  font-weight: inherit;
   font-family: inherit;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
+  font-style: inherit;
+  font-weight: inherit;
   text-decoration: none;
   border: 0 none transparent;
   outline-width: 0;
