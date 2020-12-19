@@ -62,29 +62,27 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 500px;
+    min-height: 722px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: -167px;
+    width: auto;
+    margin-top: 20px;
     margin-right: 35px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-top: 608px;
+    margin-top: 15px;
     margin-right: 0;
   }
 
   .u-section-1 .u-btn-5 {
-    margin-top: -75px;
-    margin-right: 0;
+    margin-top: 15px;
+    margin-right: 20px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: -388px;
-    margin-bottom: 60px;
-    min-height: 278px;
-    margin-left: 73px;
+    margin: 35px 20px 20px auto;
   }
 
   .u-section-1 .u-video-1 {
@@ -94,22 +92,18 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-text-1 {
-    margin-top: 374px;
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-top: 629px;
+  .u-section-1 .u-sheet-1 {
+    min-height: 500px;
   }
 
   .u-section-1 .u-btn-5 {
-    margin-top: -635px;
+    margin-right: 0;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: -415px;
     min-height: 90px;
     width: 720px;
+    margin-right: auto;
     margin-left: 0;
   }
 
@@ -119,22 +113,23 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-text-1 {
-    margin-top: 206px;
+  .u-section-1 .u-sheet-1 {
+    min-height: 573px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-top: 654px;
+    margin-top: -5px;
   }
 
   .u-section-1 .u-btn-5 {
-    margin-top: -593px;
+    margin-top: 20px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: -339px;
-    min-height: 186px;
-    width: 540px;
+    margin-top: 20px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -143,22 +138,30 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 500px;
+  }
+
   .u-section-1 .u-text-1 {
-    margin-top: 231px;
+    margin-top: 28px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-top: 704px;
+    font-size: 0.875rem;
+    margin-top: 7px;
   }
 
   .u-section-1 .u-btn-5 {
-    margin-top: -788px;
+    margin-top: 10px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: -254px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     min-height: 80px;
-    width: 340px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-1 .u-layout-cell-1 {
