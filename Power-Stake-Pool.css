@@ -10,7 +10,6 @@
   min-height: 600px;
   animation-duration: 1000ms;
   width: 1140px;
-  height: auto;
   margin: 0 auto;
 }
 
@@ -55,7 +54,6 @@
 .u-section-1 .u-custom-html-2 {
   min-height: 65px;
   animation-duration: 1000ms;
-  height: auto;
   margin: 10px 285px 0 0;
 }
 
@@ -83,6 +81,7 @@
 @media (max-width: 1199px) {
   .u-section-1 .u-custom-html-1 {
     min-height: 761px;
+    height: auto;
     width: 940px;
   }
 
@@ -115,6 +114,7 @@
   }
 
   .u-section-1 .u-custom-html-2 {
+    height: auto;
     width: 666px;
     margin-top: 0;
     margin-right: 209px;
