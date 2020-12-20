@@ -74,6 +74,7 @@
   text-transform: uppercase;
   font-size: 0.875rem;
   letter-spacing: 2px;
+  background-image: none;
   margin: 21px 35px 0 auto;
   padding: 12px 32px;
 }

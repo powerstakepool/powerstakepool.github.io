@@ -73,7 +73,7 @@
 
 .u-section-1 .u-text-3 {
   font-size: 0.875rem;
-  margin: 29px 307px 0 auto;
+  margin: 29px 307px 0 613px;
 }
 
 .u-section-1 .u-icon-1 {
@@ -109,17 +109,17 @@
 
 .u-section-1 .u-text-4 {
   font-size: 0.875rem;
-  margin: -87px auto 0 390px;
+  margin: -87px 589px 0 390px;
 }
 
 .u-section-1 .u-text-5 {
   font-size: 0.875rem;
-  margin: 65px 321px 0 auto;
+  margin: 65px 321px 0 637px;
 }
 
 .u-section-1 .u-text-6 {
   font-size: 0.875rem;
-  margin: -22px auto 0 383px;
+  margin: -22px 575px 0 383px;
 }
 
 .u-section-1 .u-text-7 {
@@ -190,6 +190,7 @@
     width: auto;
     margin-top: 18px;
     margin-right: 236px;
+    margin-left: 513px;
   }
 
   .u-section-1 .u-icon-1 {
@@ -218,6 +219,7 @@
   .u-section-1 .u-text-4 {
     width: auto;
     margin-top: -86px;
+    margin-right: 489px;
     margin-left: 271px;
   }
 
@@ -225,11 +227,13 @@
     width: auto;
     margin-top: 58px;
     margin-right: 255px;
+    margin-left: 537px;
   }
 
   .u-section-1 .u-text-6 {
     width: auto;
     margin-top: -16px;
+    margin-right: 475px;
     margin-left: 264px;
   }
 
@@ -284,6 +288,7 @@
   .u-section-1 .u-text-3 {
     margin-top: 34px;
     margin-right: 138px;
+    margin-left: 406px;
   }
 
   .u-section-1 .u-icon-1 {
@@ -312,16 +317,19 @@
 
   .u-section-1 .u-text-4 {
     margin-top: -80px;
+    margin-right: 382px;
     margin-left: 166px;
   }
 
   .u-section-1 .u-text-5 {
     margin-top: 59px;
     margin-right: 157px;
+    margin-left: 430px;
   }
 
   .u-section-1 .u-text-6 {
     margin-top: -22px;
+    margin-right: 368px;
     margin-left: 156px;
   }
 
@@ -393,6 +401,7 @@
     font-size: 0.75rem;
     margin-top: 20px;
     margin-right: 105px;
+    margin-left: 356px;
   }
 
   .u-section-1 .u-icon-1 {
@@ -432,6 +441,7 @@
 
   .u-section-1 .u-text-4 {
     margin-top: -69px;
+    margin-right: 332px;
     margin-left: 149px;
   }
 
@@ -518,6 +528,7 @@
     font-size: 0.625rem;
     margin-top: 4px;
     margin-right: 71px;
+    margin-left: 206px;
   }
 
   .u-section-1 .u-icon-1 {
@@ -559,6 +570,7 @@
   .u-section-1 .u-text-4 {
     font-size: 0.625rem;
     margin-top: -41px;
+    margin-right: 232px;
     margin-left: 76px;
   }
 
@@ -566,13 +578,13 @@
     font-size: 0.625rem;
     margin-top: 18px;
     margin-right: 79px;
-    margin-left: auto;
+    margin-left: 244px;
   }
 
   .u-section-1 .u-text-6 {
     font-size: 0.625rem;
     margin-top: -12px;
-    margin-right: auto;
+    margin-right: 218px;
     margin-left: 70px;
   }
 
@@ -684,7 +696,7 @@
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.2;
-  margin: 9px 0 0;
+  margin: 9px 107px 0 0;
 }
 
 .u-section-2 .u-text-5 {
@@ -729,7 +741,7 @@
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.2;
-  margin: 9px 0 0;
+  margin: 9px 134px 0 0;
 }
 
 .u-section-2 .u-text-7 {
@@ -790,6 +802,7 @@
 
   .u-section-2 .u-text-4 {
     width: auto;
+    margin-right: 0;
   }
 
   .u-section-2 .u-text-5 {
@@ -809,6 +822,7 @@
 
   .u-section-2 .u-text-6 {
     width: auto;
+    margin-right: 0;
   }
 
   .u-section-2 .u-text-7 {
