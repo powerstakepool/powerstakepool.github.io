@@ -689,11 +689,11 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 398px;
+    min-height: 371px;
   }
 
   .u-section-4 .u-group-1 {
-    min-height: 398px;
+    min-height: 371px;
   }
 
   .u-section-4 .u-text-1 {
@@ -707,9 +707,9 @@
 
   .u-section-4 .u-layout-wrap-1 {
     width: 108px;
+    margin-top: -343px;
     margin-right: 12px;
-    margin-bottom: 34px;
-    min-height: 688px;
+    margin-bottom: 26px;
   }
 
   .u-section-4 .u-layout-cell-1 {
@@ -723,7 +723,7 @@
   }
 
   .u-section-4 .u-layout-cell-2 {
-    min-height: 121px;
+    min-height: 117px;
   }
 
   .u-section-4 .u-image-2 {
@@ -735,7 +735,7 @@
   }
 
   .u-section-4 .u-layout-cell-3 {
-    min-height: 102px;
+    min-height: 99px;
   }
 
   .u-section-4 .u-image-3 {
@@ -754,7 +754,7 @@
 }
 
 .u-section-5 .u-group-1 {
-  min-height: 474px;
+  min-height: 485px;
   width: 1103px;
   margin: 0 37px 3px 0;
 }
@@ -772,10 +772,10 @@
 }
 
 .u-section-5 .u-gallery-1 {
-  width: 591px;
-  height: 247px;
+  width: 1143px;
+  height: 258px;
   grid-gap: 10px 10px;
-  margin: 12px auto 0;
+  margin: 20px -70px 0 -30px;
 }
 
 .u-section-5 .u-carousel-indicators-1 {
@@ -870,6 +870,18 @@
   padding: 10px;
 }
 
+.u-section-5 .u-over-slide-15 {
+  background-image: none;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-5 .u-over-slide-16 {
+  background-image: none;
+  min-height: 100px;
+  padding: 10px;
+}
+
 .u-section-5 .u-carousel-control-1 {
   position: absolute;
   left: -49px;
@@ -907,7 +919,10 @@
   }
 
   .u-section-5 .u-gallery-1 {
+    width: 880px;
     margin-top: 6px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -918,7 +933,6 @@
 
   .u-section-5 .u-group-1 {
     width: 720px;
-    min-height: 600px;
     margin-top: 1px;
     margin-bottom: 0;
   }
@@ -928,6 +942,7 @@
   }
 
   .u-section-5 .u-gallery-1 {
+    width: 660px;
     margin-top: 36px;
   }
 }
@@ -939,7 +954,6 @@
 
   .u-section-5 .u-group-1 {
     margin-bottom: 29px;
-    min-height: 620px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -969,7 +983,6 @@
   }
 
   .u-section-5 .u-group-1 {
-    min-height: 633px;
     margin-top: 0;
     margin-bottom: 0;
     width: auto;
