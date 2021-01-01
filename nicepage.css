@@ -5506,7 +5506,7 @@ a {
     margin: -0.5rem !important;
   }
   .u-form-horizontal .u-form-group {
-    margin: 0.5rem !important;
+    border: 0.5rem solid transparent !important;
   }
   .u-form-horizontal label {
     display: none;
@@ -32036,7 +32036,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     margin-top: 6px;
     margin-left: 14px;
-    width: auto;
   }
 
   .u-header .u-text-1 {
@@ -32085,7 +32084,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     margin-top: -1px;
     margin-left: 11px;
-    width: auto;
   }
 
   .u-header .u-text-1 {
