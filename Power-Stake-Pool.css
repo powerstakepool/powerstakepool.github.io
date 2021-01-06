@@ -43,7 +43,6 @@
 
 .u-section-1 .u-tabs-1 {
   min-height: 359px;
-  height: auto;
   margin-top: 35px;
   margin-bottom: 0;
   margin-left: 0;
@@ -90,7 +89,6 @@
 .u-section-1 .u-custom-html-2 {
   min-height: 65px;
   animation-duration: 1000ms;
-  height: auto;
   margin: 0 290px 0 0;
 }
 
@@ -119,7 +117,6 @@
 .u-section-1 .u-custom-html-3 {
   min-height: 65px;
   animation-duration: 1000ms;
-  height: auto;
   margin: 0 290px 0 0;
 }
 
@@ -177,6 +174,7 @@
 
   .u-section-1 .u-tabs-1 {
     min-height: 300px;
+    height: auto;
     margin-top: 42px;
     margin-left: initial;
   }
@@ -191,7 +189,12 @@
     margin-right: 254px;
   }
 
+  .u-section-1 .u-btn-2 {
+    font-size: 1rem;
+  }
+
   .u-section-1 .u-custom-html-2 {
+    height: auto;
     width: 561px;
     margin-right: 254px;
   }
@@ -206,7 +209,12 @@
     margin-right: 235px;
   }
 
+  .u-section-1 .u-btn-3 {
+    font-size: 1rem;
+  }
+
   .u-section-1 .u-custom-html-3 {
+    height: auto;
     margin-right: 222px;
   }
 
