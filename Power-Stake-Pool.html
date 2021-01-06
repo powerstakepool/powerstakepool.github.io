@@ -240,28 +240,42 @@ requestAnimationFrame(update);
         </div>
       </div></header>
     <section class="u-black u-clearfix u-valign-top-md u-section-1" id="sec-0139">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-clearfix u-custom-html u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-custom-html-1">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-sheet-1">
+        <div class="u-clearfix u-custom-html u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-custom-html-1">
           <div id="particles-js"></div>
           <script defer="defer" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
         </div>
         <div class="u-clearfix u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-layout-wrap u-layout-wrap-1">
           <div class="u-layout" style="">
             <div class="u-layout-row" style="">
-              <div class="u-container-style u-layout-cell u-size-60 u-layout-cell-1">
-                <div class="u-container-layout u-valign-bottom-md u-valign-bottom-sm u-container-layout-1">
+              <div class="u-container-style u-layout-cell u-shape-rectangle u-size-60 u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-1">
                   <p class="u-text u-text-1"><b style="">
                       <a href="https://www.youtube.com/watch?v=BOksW_NabEk" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">Time</a> is the most critical asset that you can buy for yourself and your loved ones. You may delay, but time will not.&nbsp;</b><b>Cardano has the potential&nbsp;</b>⏳❤️<br>
                   </p>
-                  <p class="u-align-left u-text u-text-2">
-                    <font class="u-text-white">Ticker:</font>
-                    <font class="u-text-custom-color-4">POWER</font>
-                  </p>
-                  <p class="u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-3">Pool ID:<font class="u-text-custom-color-4">e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa</font>
-                  </p>
-                  <div class="u-clearfix u-custom-html u-custom-html-2">
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-                    <script> $.getJSON('https://js.adapools.org/pools/e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa/summary.json', function(data) { 
+                  <div class="u-expanded-width u-tab-links-align-left u-tabs u-tabs-1">
+                    <ul class="u-spacing-2 u-tab-list u-unstyled" role="tablist">
+                      <li class="u-tab-item" role="presentation">
+                        <a class="active u-active-grey-40 u-button-style u-grey-90 u-hover-palette-3-light-1 u-radius-10 u-tab-link u-tab-link-1" id="link-tab-0da5" href="#tab-0da5" role="tab" aria-controls="tab-0da5" aria-selected="true">Pool #1</a>
+                      </li>
+                      <li class="u-tab-item" role="presentation">
+                        <a class="u-active-grey-40 u-button-style u-grey-90 u-hover-palette-3-light-1 u-radius-10 u-tab-link u-tab-link-2" id="link-tab-14b7" href="#tab-14b7" role="tab" aria-controls="tab-14b7" aria-selected="false">Pool #2</a>
+                      </li>
+                    </ul>
+                    <div class="u-tab-content">
+                      <div class="u-container-style u-opacity u-opacity-10 u-shape-rectangle u-tab-active u-tab-pane u-white u-tab-pane-1" id="tab-0da5" role="tabpanel" aria-labelledby="link-tab-0da5">
+                        <div class="u-container-layout u-valign-top-sm u-valign-top-xs u-container-layout-2">
+                          <p class="u-align-left u-text u-text-2">
+                            <font class="u-text-white">Ticker:</font>
+                            <font class="u-text-custom-color-4">POWER</font>
+                          </p>
+                          <p class="u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-3">Pool #1 ID:<font class="u-text-custom-color-4">
+                              <a href="https://adapools.org/pool/e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2" target="_blank">e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa</a>
+                            </font>
+                          </p>
+                          <div class="u-clearfix u-custom-html u-custom-html-2">
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                            <script> $.getJSON('https://js.adapools.org/pools/e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa/summary.json', function(data) { 
 $.each( data.data, function( i, val ) { 
 		a=new Array('tax_fix','pledge','total_stake');
 		if(a.includes(i))  val=(parseInt(val)/1000000000000).toFixed(2);
@@ -269,13 +283,44 @@ $.each( data.data, function( i, val ) {
 		$('#e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_'+i).html(val).text();   
 }); 
 		}); </script>
-                    <p align="left"> Lifetime ROA: <span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_roa_lifetime"></span> % | Fees: 2.5%
+                            <p align="left"> Lifetime ROA: <span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_roa_lifetime"></span> % | Fees: 2.5%
 | Live Stake: <span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_total_stake"></span> Mil | Blocks: <span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_blocks_epoch"></span>/<span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_blocks_lifetime"></span>
-                      <br>
-                    </p>
+                              <br>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="u-align-left u-container-style u-opacity u-opacity-10 u-shape-rectangle u-tab-pane u-white u-tab-pane-2" id="tab-14b7" role="tabpanel" aria-labelledby="link-tab-14b7">
+                        <div class="u-container-layout u-valign-top-md u-container-layout-3">
+                          <p class="u-align-left u-text u-text-4">
+                            <font class="u-text-white">Ticker:</font>
+                            <font class="u-text-custom-color-4">POWER</font>
+                          </p>
+                          <p class="u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-5">Pool #2 ID:<font class="u-text-custom-color-4">
+                              <a href="https://adapools.org/pool/d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-3" target="_blank">d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76</a>
+                            </font>
+                          </p>
+                          <div class="u-clearfix u-custom-html u-custom-html-3">
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                            <script> $.getJSON('https://js.adapools.org/pools/d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76/summary.json', function(data) { 
+$.each( data.data, function( i, val ) { 
+		a=new Array('tax_fix','pledge','total_stake');
+		if(a.includes(i))  val=(parseInt(val)/1000000000000).toFixed(2);
+		if(i=='blocks_lifetime') val=parseInt(val) + parseInt(data.data.blocks_epoch);
+		$('#d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76_'+i).html(val).text();   
+}); 
+		}); </script>
+                            <p align="left"> Lifetime ROA: <span id="d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76_roa_lifetime"></span> % | Fees: 0.0%
+| Live Stake: <span id="d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76_total_stake"></span> Mil | Blocks: <span id="d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76_blocks_epoch"></span>/<span id="d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76_blocks_lifetime"></span>
+                              <br>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <a href="Stake.html" data-page-id="490824356" class="u-active-black u-black u-border-1 u-border-hover-white u-border-white u-btn u-btn-round u-button-style u-hover-white u-radius-25 u-text-hover-black u-text-white u-btn-2">EARN REWARDS</a>
-                  <a href="files/Yoroi_Staking_Guide_v1.1.pdf" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-file-link u-hover-black u-palette-3-light-1 u-radius-25 u-btn-3" target="_blank">wallet guide&nbsp;</a>
+                  <a href="Stake.html" data-page-id="490824356" class="u-active-black u-black u-border-1 u-border-hover-white u-border-white u-btn u-btn-round u-button-style u-hover-white u-radius-25 u-text-hover-black u-text-white u-btn-4">EARN REWARDS</a>
+                  <a href="files/Yoroi_Staking_Guide_v1.1.pdf" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-file-link u-hover-black u-palette-3-light-1 u-radius-25 u-btn-5" target="_blank">wallet guide&nbsp;</a>
                 </div>
               </div>
             </div>
