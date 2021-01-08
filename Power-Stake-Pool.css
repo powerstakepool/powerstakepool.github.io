@@ -129,7 +129,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   background-image: none;
-  margin: -125px 35px 0 auto;
+  margin: -153px 35px 0 auto;
   padding: 13px 38px;
 }
 
@@ -398,9 +398,7 @@
 
   .u-section-1 .u-text-1 {
     font-size: 1rem;
-    width: auto;
     margin-top: 54px;
-    margin-right: 10px;
   }
 
   .u-section-1 .u-tabs-1 {
