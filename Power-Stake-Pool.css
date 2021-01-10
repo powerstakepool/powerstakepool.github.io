@@ -42,9 +42,10 @@
 }
 
 .u-section-1 .u-tabs-1 {
-  min-height: 359px;
+  min-height: 292px;
   margin-top: 35px;
   margin-bottom: 0;
+  height: auto;
   margin-left: 0;
 }
 
@@ -131,7 +132,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   background-image: none;
-  margin: -153px 35px 0 auto;
+  margin: 25px 25px 0 auto;
   padding: 13px 38px;
 }
 
@@ -142,7 +143,7 @@
   font-size: 0.875rem;
   letter-spacing: 2px;
   background-image: none;
-  margin: 21px 35px 0 auto;
+  margin: -50px 260px 0 auto;
   padding: 12px 32px;
 }
 
@@ -176,8 +177,7 @@
   }
 
   .u-section-1 .u-tabs-1 {
-    min-height: 300px;
-    height: auto;
+    min-height: 258px;
     margin-top: 42px;
     margin-left: initial;
   }
@@ -215,14 +215,11 @@
   }
 
   .u-section-1 .u-btn-4 {
-    margin-top: -84px;
-    margin-right: auto;
-    margin-left: 181px;
+    margin-top: 21px;
   }
 
   .u-section-1 .u-btn-5 {
-    margin-top: -50px;
-    margin-right: 182px;
+    margin-right: 267px;
   }
 }
 
@@ -241,8 +238,8 @@
   }
 
   .u-section-1 .u-tabs-1 {
-    min-height: 325px;
-    margin-top: 88px;
+    min-height: 262px;
+    margin-top: 51px;
     margin-left: initial;
   }
 
@@ -274,12 +271,13 @@
   }
 
   .u-section-1 .u-btn-4 {
-    margin-top: -87px;
-    margin-left: 101px;
+    margin-top: 25px;
+    margin-right: 75px;
   }
 
   .u-section-1 .u-btn-5 {
-    margin-right: 58px;
+    margin-right: auto;
+    margin-left: 85px;
   }
 }
 
@@ -317,9 +315,11 @@
   }
 
   .u-section-1 .u-tabs-1 {
-    min-height: 289px;
-    margin-top: 46px;
-    margin-left: initial;
+    min-height: 243px;
+    width: 530px;
+    margin-top: 19px;
+    margin-right: -10px;
+    margin-left: 0;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -369,13 +369,13 @@
   }
 
   .u-section-1 .u-btn-4 {
-    margin-top: -83px;
-    margin-left: 44px;
+    margin-top: 15px;
+    margin-right: 44px;
   }
 
   .u-section-1 .u-btn-5 {
-    margin-top: -47px;
-    margin-right: 44px;
+    margin-top: -52px;
+    margin-left: 42px;
   }
 }
 
@@ -406,7 +406,8 @@
 
   .u-section-1 .u-tabs-1 {
     margin-top: 26px;
-    margin-left: initial;
+    width: 320px;
+    margin-right: 0;
   }
 
   .u-section-1 .u-text-2 {
@@ -427,7 +428,7 @@
   }
 
   .u-section-1 .u-text-4 {
-    margin-right: 143px;
+    margin-right: 133px;
   }
 
   .u-section-1 .u-text-5 {
@@ -446,16 +447,16 @@
 
   .u-section-1 .u-btn-4 {
     margin-top: 5px;
-    margin-left: 2px;
+    margin-right: 12px;
     padding-left: 8px;
     padding-right: 8px;
   }
 
   .u-section-1 .u-btn-5 {
     margin-top: -50px;
-    margin-right: 0;
-    padding-right: 2px;
+    margin-left: 23px;
     padding-left: 2px;
+    padding-right: 2px;
   }
 }.u-section-2 {
   margin-top: 0;
