@@ -90,6 +90,7 @@
 .u-section-1 .u-custom-html-2 {
   min-height: 65px;
   animation-duration: 1000ms;
+<<<<<<< HEAD
   width: 1015px;
   margin: 0;
 }
@@ -114,6 +115,9 @@
   background-image: none;
   margin: 14px 0 0 auto;
   padding: 12px 32px;
+=======
+  margin: 0 290px 0 0;
+>>>>>>> parent of 9aa20af... saturate levels added
 }
 
 .u-section-1 .u-tab-pane-2 {
