@@ -31832,6 +31832,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1rem;
   letter-spacing: 0px;
   font-weight: 700;
+  text-transform: none;
 }
 
 .u-header .u-nav-2 {
@@ -31866,10 +31867,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     width: auto;
     margin-right: 101px;
-  }
-
-  .u-header .u-nav-1 {
-    text-transform: none;
   }
 
   .u-header .u-social-icons-1 {
