@@ -147,30 +147,36 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 559px;
+  }
+
   .u-section-1 .u-custom-html-1 {
-    min-height: 516px;
+    min-height: 557px;
     height: auto;
+    margin-top: 1px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: -501px;
+    margin-top: -557px;
+    margin-bottom: 1px;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 501px;
+    min-height: 557px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: 56px;
+    margin-top: 95px;
   }
 
   .u-section-1 .u-tabs-1 {
     min-height: 258px;
     height: auto;
-    margin-top: 42px;
+    margin-top: 56px;
     margin-left: initial;
   }
 
@@ -208,10 +214,11 @@
 
   .u-section-1 .u-btn-4 {
     margin-top: 21px;
+    margin-right: 21px;
   }
 
   .u-section-1 .u-btn-5 {
-    margin-right: 267px;
+    margin-right: 269px;
   }
 }
 
@@ -225,11 +232,6 @@
     width: auto;
     margin-right: initial;
     margin-left: initial;
-  }
-
-  .u-section-1 .u-layout-wrap-1 {
-    margin-top: -530px;
-    margin-bottom: 7px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -287,18 +289,23 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 537px;
+    min-height: 558px;
   }
 
   .u-section-1 .u-custom-html-1 {
-    min-height: 550px;
+    min-height: 557px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
   }
 
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: -558px;
+    margin-bottom: 0;
+  }
+
   .u-section-1 .u-layout-cell-1 {
-    min-height: 457px;
+    min-height: 558px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -308,12 +315,12 @@
 
   .u-section-1 .u-text-1 {
     font-size: 1.125rem;
-    margin-top: 25px;
+    margin-top: 55px;
   }
 
   .u-section-1 .u-tabs-1 {
     min-height: 243px;
-    margin-top: 19px;
+    margin-top: 90px;
     margin-left: initial;
   }
 
@@ -518,7 +525,7 @@
 
   .u-section-2 .u-custom-html-1 {
     height: auto;
-    margin-top: -20px;
+    margin-top: -24px;
     margin-right: initial;
     margin-left: initial;
   }
