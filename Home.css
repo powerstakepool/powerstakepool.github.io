@@ -11,7 +11,6 @@
   animation-duration: 1000ms;
   margin-top: 20px;
   margin-bottom: 0;
-  height: auto;
 }
 
 .u-section-1 .u-layout-wrap-1 {
@@ -154,6 +153,7 @@
 
   .u-section-1 .u-custom-html-1 {
     min-height: 557px;
+    height: auto;
   }
 
   .u-section-1 .u-layout-cell-1 {
