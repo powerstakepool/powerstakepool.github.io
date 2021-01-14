@@ -1070,7 +1070,7 @@
 
 .u-section-6 .u-text-2 {
   font-size: 1rem;
-  margin: 9px -20px 0 0;
+  margin: 9px 0 0;
 }
 
 .u-section-6 .u-image-3 {
@@ -1107,6 +1107,10 @@
 
   .u-section-6 .u-layout-cell-2 {
     min-height: 445px;
+  }
+
+  .u-section-6 .u-text-2 {
+    margin-right: -20px;
   }
 
   .u-section-6 .u-image-3 {
