@@ -2036,7 +2036,8 @@ CzAAqYTVOPWO2yYAAAAASUVORK5CYII=" transform="matrix(0.98 0 0 0.98 1024.2817 776.
 $.each( data.data, function( i, val ) { 
     a=new Array('tax_fix','pledge','total_stake');
    if(i=='tax_ratio') val=val*100;
-	 if(i=='saturated') val=(val*100).toFixed(1);
+	 if(i=='saturated' && val>1) val=(val*100).toFixed(1).concat(' % ❌ We are Saturated, Please move your stake to POWER Pool2');
+   if(i=='saturated' && val<=1) val=(val*100).toFixed(1).concat(' % ✅');
     if(a.includes(i))  val=(parseInt(val)/1000000000000).toFixed(2);
     if(i=='blocks_lifetime') val=parseInt(val) + parseInt(data.data.blocks_epoch);
     $('#e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_'+i).html(val).text();   
@@ -2044,7 +2045,7 @@ $.each( data.data, function( i, val ) {
 		}); </script>
                             <p align="left"> Lifetime ROA: <span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_roa_lifetime"></span> % <span style="color:grey">|</span> Delegators: <span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_delegators"></span>
                               <span style="color:grey">|</span> Fees: <span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_tax_ratio"></span> % <span style="color:grey">|</span> Live Stake: <span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_total_stake"></span> Mil <span style="color:grey">|</span> Blocks: <span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_blocks_epoch"></span>/<span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_blocks_lifetime"></span>
-                              <span style="color:grey">|</span> Saturation: <span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_saturated"></span> % ✅ 
+                              <span style="color:grey">|</span> Saturation: <span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_saturated"></span>
                             </p>
                           </div>
                         </div>
@@ -2065,7 +2066,10 @@ $.each( data.data, function( i, val ) {
 $.each( data.data, function( i, val ) { 
     a=new Array('tax_fix','pledge','total_stake');
    if(i=='tax_ratio') val=val*100;
-	 if(i=='saturated') val=(val*100).toFixed(1);
+	
+   if(i=='saturated' && val>1) val=(val*100).toFixed(1).concat(' % ❌ We are Saturated, Please move your stake to POWER Pool1');
+   if(i=='saturated' && val<=1) val=(val*100).toFixed(1).concat(' % ✅');
+	
     if(a.includes(i))  val=(parseInt(val)/1000000000000).toFixed(2);
     if(i=='blocks_lifetime') val=parseInt(val) + parseInt(data.data.blocks_epoch);
     $('#d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76_'+i).html(val).text();   
@@ -2073,7 +2077,7 @@ $.each( data.data, function( i, val ) {
 		}); </script>
                             <p align="left"> Lifetime ROA: <span id="d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76_roa_lifetime"></span> % <span style="color:grey">|</span> Delegators: <span id="d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76_delegators"></span>
                               <span style="color:grey">|</span> Fees: <span id="d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76_tax_ratio"></span> % <span style="color:grey">|</span> Live Stake: <span id="d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76_total_stake"></span> Mil <span style="color:grey">|</span> Blocks: <span id="d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76_blocks_epoch"></span>/<span id="d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76_blocks_lifetime"></span>
-                              <span style="color:grey">|</span> Saturation: <span id="d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76_saturated"></span> % ✅ 
+                              <span style="color:grey">|</span> Saturation: <span id="d93d0cb0cbc55a964b4ad01fc9001cb4d69ea98fe708d069cd398f76_saturated"></span>
                             </p>
                           </div>
                         </div>
@@ -2143,7 +2147,7 @@ $.each( data.data, function( i, val ) {
           </a>
         </div>
         <p class="u-align-center u-text u-text-1">
-          <font style="font-size: 0.75rem;">© POWER. 2020. All rights reserved.<br>
+          <font style="font-size: 0.75rem;">© POWER. 2021. All rights reserved.<br>
           </font>&nbsp;DISCLAMER: POWER is not a financial adviser. You should consider seeking independent legal, financial, taxation or other advice to check how the website information relates to your unique circumstances. POWER is not liable for any loss caused, whether due to negligence or otherwise arising from the use of, or reliance on, the information provided directly or indirectly, by use of this website.&nbsp;
         </p>
       </div></footer>
