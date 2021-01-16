@@ -31821,11 +31821,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 82px;
+  min-height: 72px;
 }
 
 .u-header .u-menu-1 {
-  margin: 14px 194px 0 auto;
+  margin: 17px 180px 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -31846,7 +31846,7 @@ a.u-link.u-text-hover-grey-90:hover {
   width: 35px;
   min-width: 16px;
   animation-duration: 4750ms;
-  margin: -33px 73px 0 auto;
+  margin: -36px 73px 0 auto;
 }
 
 .u-header .u-icon-1 {
@@ -31865,11 +31865,11 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 35px;
   background-image: url("images/Telegram_software-Logo.wine.png");
   background-position: 50% 50%;
-  margin: -47px 23px 29px auto;
+  margin: -47px 23px 19px auto;
 }
 @media (max-width: 1199px) {
   .u-header .u-sheet-1 {
-    min-height: 84px;
+    min-height: 78px;
   }
 
   .u-header .u-menu-1 {
@@ -31881,26 +31881,26 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-social-icons-1 {
     height: 39px;
     width: 39px;
-    margin-top: -39px;
-    margin-right: 131px;
+    margin-top: -38px;
+    margin-right: 121px;
   }
 
   .u-header .u-image-1 {
-    width: 238px;
-    height: 60px;
-    margin-top: -44px;
+    width: 233px;
+    height: 68px;
+    margin-top: -51px;
     margin-left: 0;
   }
 
   .u-header .u-image-2 {
-    margin-top: -52px;
-    margin-right: 84px;
-    margin-bottom: 29px;
+    margin-top: -51px;
+    margin-right: 70px;
+    margin-bottom: 21px;
   }
 }
 @media (max-width: 991px) {
   .u-header .u-sheet-1 {
-    min-height: 100px;
+    min-height: 90px;
   }
 
   .u-header .u-menu-1 {
@@ -31912,70 +31912,63 @@ a.u-link.u-text-hover-grey-90:hover {
     height: 34px;
     width: 34px;
     margin-top: -34px;
-    margin-right: 104px;
+    margin-right: 105px;
   }
 
   .u-header .u-image-1 {
-    margin-top: -49px;
+    margin-top: -51px;
   }
 
   .u-header .u-image-2 {
-    margin-top: -45px;
-    margin-right: 65px;
-    margin-bottom: 33px;
+    margin-top: -51px;
+    margin-right: 55px;
+    margin-bottom: 22px;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-sheet-1 {
-    min-height: 86px;
+    min-height: 85px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: 26px;
+    margin-top: 9px;
     margin-right: 0;
   }
 
   .u-header .u-social-icons-1 {
-    margin-top: -34px;
     margin-right: 85px;
   }
 
-  .u-header .u-image-1 {
-    margin-top: -50px;
-    margin-left: 15px;
-  }
-
   .u-header .u-image-2 {
-    margin-top: -44px;
-    margin-right: 50px;
-    margin-bottom: 26px;
+    margin-top: -50px;
+    margin-right: 40px;
+    margin-bottom: 8px;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 79px;
+    min-height: 66px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: 24px;
+    margin-top: 22px;
   }
 
   .u-header .u-social-icons-1 {
-    margin-top: -35px;
-    margin-right: 69px;
+    margin-top: -34px;
+    margin-right: 73px;
   }
 
   .u-header .u-image-1 {
     width: 170px;
     height: 53px;
-    margin-top: -47px;
-    margin-left: 0;
+    margin-top: -49px;
   }
 
   .u-header .u-image-2 {
-    margin-top: -41px;
-    margin-right: 34px;
-    margin-bottom: 22px;
+    margin-top: -38px;
+    margin-right: 31px;
+    margin-bottom: 9px;
   }
 }
 .u-footer {
