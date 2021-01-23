@@ -926,6 +926,12 @@
   padding: 10px;
 }
 
+.u-section-5 .u-over-slide-20 {
+  background-image: none;
+  min-height: 100px;
+  padding: 10px;
+}
+
 .u-section-5 .u-carousel-control-1 {
   position: absolute;
   left: -49px;
