@@ -411,9 +411,8 @@
   }
 
   .u-section-1 .u-custom-html-2 {
-    min-height: 90px;
+    min-height: 115px;
     width: 300px;
-    margin-top: 20px;
     margin-right: 0;
   }
 
@@ -430,9 +429,9 @@
   }
 
   .u-section-1 .u-custom-html-3 {
-    min-height: 90px;
-    width: 300px;
-    margin-top: -1px;
+    min-height: 115px;
+    margin-right: 5px;
+    width: auto;
   }
 
   .u-section-1 .u-btn-4 {
