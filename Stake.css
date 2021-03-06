@@ -53,6 +53,15 @@
   margin-bottom: 0;
 }
 
+.u-section-1 .embed-responsive-1 {
+  position: absolute;
+}
+
+.u-section-1 .embed-responsive .u-video-poster-1 {
+  background-image: url("images/cube-1078312_960_720.jpg");
+  background-position: 50% 50%;
+}
+
 .u-section-1 .u-group-1 {
   min-height: 273px;
   margin: 12px auto 1px 0;
