@@ -141,7 +141,7 @@
   font-size: 0.875rem;
   letter-spacing: 2px;
   background-image: none;
-  margin: -50px 257px 0 auto;
+  margin: -50px 250px 0 auto;
   padding: 12px 32px;
 }
 
@@ -152,7 +152,7 @@
   font-size: 0.875rem;
   letter-spacing: 2px;
   background-image: none;
-  margin: -50px auto 0 386px;
+  margin: -50px auto 0 400px;
   padding: 12px 81px 12px 80px;
 }
 
@@ -226,13 +226,11 @@
   }
 
   .u-section-1 .u-btn-5 {
-    margin-top: -46px;
-    margin-right: 253px;
+    margin-right: 246px;
   }
 
   .u-section-1 .u-btn-6 {
-    margin-top: -54px;
-    margin-left: 190px;
+    margin-left: 204px;
   }
 }
 
@@ -291,17 +289,14 @@
 
   .u-section-1 .u-btn-4 {
     margin-top: 12px;
-    margin-right: 15px;
+    margin-right: 0;
   }
 
   .u-section-1 .u-btn-5 {
-    margin-top: -50px;
     margin-right: auto;
-    margin-left: 221px;
   }
 
   .u-section-1 .u-btn-6 {
-    margin-top: -50px;
     margin-left: 0;
   }
 }
@@ -318,7 +313,7 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 558px;
+    min-height: 592px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -385,17 +380,18 @@
 
   .u-section-1 .u-btn-4 {
     margin-top: 15px;
-    margin-right: 44px;
+    margin-right: 34px;
   }
 
   .u-section-1 .u-btn-5 {
     margin-top: -52px;
-    margin-left: 42px;
+    margin-right: 278px;
   }
 
   .u-section-1 .u-btn-6 {
     margin-top: 20px;
-    margin-left: 42px;
+    margin-right: 278px;
+    margin-left: auto;
   }
 }
 
@@ -468,21 +464,24 @@
 
   .u-section-1 .u-btn-4 {
     margin-top: 26px;
-    margin-right: 12px;
-    padding-left: 8px;
-    padding-right: 8px;
+    margin-right: 0;
+    padding-left: 13px;
+    padding-right: 13px;
   }
 
   .u-section-1 .u-btn-5 {
     margin-top: -50px;
-    margin-left: 16px;
-    padding-left: 2px;
-    padding-right: 2px;
+    margin-right: auto;
+    margin-left: 0;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .u-section-1 .u-btn-6 {
-    margin-top: 16px;
-    margin-left: auto;
+    margin-top: 15px;
+    margin-right: auto;
+    padding-right: 56px;
+    padding-left: 55px;
   }
 }.u-section-2 {
   margin-top: 0;
