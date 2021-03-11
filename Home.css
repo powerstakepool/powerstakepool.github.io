@@ -507,7 +507,8 @@
 
 .u-section-2 .u-custom-html-1 {
   min-height: 509px;
-  margin: 0;
+  height: auto;
+  margin: 8px -265px 0 265px;
 }
 
 .u-section-2 .u-text-1 {
@@ -515,7 +516,7 @@
   font-family: Oswald, sans-serif;
   font-weight: normal;
   font-size: 1.875rem;
-  margin: -283px 250px 0 100px;
+  margin: -290px 250px 0 100px;
 }
 
 .u-section-2 .u-btn-1 {
@@ -549,10 +550,9 @@
   }
 
   .u-section-2 .u-custom-html-1 {
-    height: auto;
     margin-top: -24px;
-    margin-right: initial;
-    margin-left: initial;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .u-section-2 .u-text-1 {
@@ -577,9 +577,7 @@
   }
 
   .u-section-2 .u-custom-html-1 {
-    margin-top: 0;
-    margin-right: initial;
-    margin-left: initial;
+    margin-top: 8px;
   }
 
   .u-section-2 .u-text-1 {
@@ -650,8 +648,6 @@
   .u-section-2 .u-custom-html-1 {
     min-height: 500px;
     margin-top: 32px;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-2 .u-text-1 {
