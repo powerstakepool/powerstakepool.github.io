@@ -2264,7 +2264,6 @@
 }
 
 .u-section-7 .u-text-1 {
-  font-style: normal;
   margin: 22px 938px 0 0;
 }
 
@@ -2398,6 +2397,7 @@
 
 @media (max-width: 1199px) {
   .u-section-7 .u-text-1 {
+    font-style: normal;
     width: 864px;
     margin-right: 738px;
   }
