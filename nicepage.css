@@ -33085,7 +33085,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-icon-1 {
   height: 32px;
-  color: rgb(85, 172, 238) !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .u-footer .u-text-1 {
@@ -33100,6 +33100,10 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-social-icons-1 {
     margin-top: 34px;
     margin-right: 30px;
+  }
+
+  .u-footer .u-icon-1 {
+    color: rgb(85, 172, 238) !important;
   }
 
   .u-footer .u-text-1 {
