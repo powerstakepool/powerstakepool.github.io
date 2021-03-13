@@ -16733,7 +16733,7 @@ p {
 .u-font-ubuntu.u-custom-font {
   font-family: Ubuntu, sans-serif !important;
 }
-.u-font-titillium-Web.u-custom-font {
+.u-font-titillium-web.u-custom-font {
   font-family: 'Titillium Web', sans-serif !important;
 }
 .u-font-merriweather.u-custom-font {
@@ -16745,8 +16745,8 @@ p {
 .u-font-playfair-display.u-custom-font {
   font-family: 'Playfair Display', serif !important;
 }
-.u-font-Lobster.u-custom-font {
-  font-family: Lobster, cursive !important;
+.u-font-lobster.u-custom-font {
+  font-family: Lobster, display !important;
 }
 .u-rectangle {
   border-radius: 0;
@@ -18481,6 +18481,9 @@ a.pswp__share--download:hover {
 .u-carousel {
   position: relative;
 }
+.u-carousel.pointer-event {
+  touch-action: pan-y;
+}
 .u-carousel-inner {
   position: relative;
   width: 100%;
@@ -18767,12 +18770,6 @@ a.pswp__share--download:hover {
 }
 .u-carousel-duration-0 .u-carousel-inner .u-carousel-item {
   transition-duration: 0ms;
-}
-@media (max-width: 767px) {
-  .u-carousel-control-prev,
-  .u-carousel-control-next {
-    display: none;
-  }
 }
 .u-carousel-fade .u-carousel-inner .u-carousel-item {
   opacity: 0;
@@ -32926,6 +32923,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-icon-2 {
   height: 100%;
+  color: rgb(255, 255, 255) !important;
 }
 
 .u-header .u-image-1 {
@@ -32947,6 +32945,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-icon-3 {
   height: 100%;
+  color: rgb(255, 255, 255) !important;
 }
 @media (max-width: 1199px) {
   .u-header .u-sheet-1 {
@@ -32959,21 +32958,21 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-social-icons-1 {
-    margin-top: -29px;
-    margin-right: 76px;
+    margin-top: -30px;
+    margin-right: 75px;
   }
 
   .u-header .u-image-1 {
     width: 233px;
     height: 68px;
-    margin-top: -42px;
+    margin-top: -41px;
     margin-left: 33px;
   }
 
   .u-header .u-social-icons-2 {
     margin-top: -53px;
-    margin-right: 148px;
-    margin-bottom: 33px;
+    margin-right: 147px;
+    margin-bottom: 34px;
   }
 }
 @media (max-width: 991px) {
@@ -32987,7 +32986,15 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-social-icons-1 {
     margin-top: -30px;
-    margin-right: 67px;
+    margin-right: 57px;
+  }
+
+  .u-header .u-icon-1 {
+    color: rgb(3, 155, 229) !important;
+  }
+
+  .u-header .u-icon-2 {
+    color: rgb(210, 34, 21) !important;
   }
 
   .u-header .u-image-1 {
@@ -32996,35 +33003,36 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-social-icons-2 {
     margin-top: -54px;
-    margin-right: 145px;
-    margin-bottom: 0;
+    margin-right: 129px;
+    margin-bottom: 29px;
+  }
+
+  .u-header .u-icon-3 {
+    color: rgb(85, 172, 238) !important;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-sheet-1 {
-    min-height: 77px;
+    min-height: 79px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: 5px;
+    margin-top: 18px;
     margin-right: 0;
   }
 
   .u-header .u-social-icons-1 {
-    height: 29px;
-    width: 68px;
-    margin-top: -31px;
-    margin-right: 45px;
+    margin-right: 42px;
   }
 
   .u-header .u-image-1 {
-    margin-top: -45px;
+    margin-top: -46px;
   }
 
   .u-header .u-social-icons-2 {
-    margin-top: -51px;
-    margin-right: 124px;
-    margin-bottom: 17px;
+    margin-top: -48px;
+    margin-right: 112px;
+    margin-bottom: 31px;
   }
 }
 @media (max-width: 575px) {
@@ -33033,14 +33041,14 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-top: 6px;
+    margin-top: 17px;
   }
 
   .u-header .u-social-icons-1 {
-    height: 24px;
-    width: 59px;
+    height: 22px;
+    width: 54px;
     margin-top: -29px;
-    margin-right: 38px;
+    margin-right: 29px;
   }
 
   .u-header .u-image-1 {
@@ -33050,9 +33058,11 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-social-icons-2 {
-    margin-top: -37px;
-    margin-right: 111px;
-    margin-bottom: 5px;
+    height: 22px;
+    width: 22px;
+    margin-top: -33px;
+    margin-right: 93px;
+    margin-bottom: 19px;
   }
 }
 .u-footer {
@@ -33075,6 +33085,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-icon-1 {
   height: 32px;
+  color: rgb(85, 172, 238) !important;
 }
 
 .u-footer .u-text-1 {
