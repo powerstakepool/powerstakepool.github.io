@@ -33060,9 +33060,9 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-social-icons-2 {
     height: 22px;
     width: 22px;
-    margin-top: -33px;
+    margin-top: -34px;
     margin-right: 93px;
-    margin-bottom: 19px;
+    margin-bottom: 20px;
   }
 }
 .u-footer {
@@ -33141,13 +33141,18 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-social-icons-1 {
-    margin-top: 22px;
-    margin-right: 31px;
+    margin-top: 24px;
+    margin-right: 24px;
     margin-left: auto;
   }
 
+  .u-footer .u-icon-1 {
+    color: rgb(255, 255, 255) !important;
+  }
+
   .u-footer .u-text-1 {
-    margin: 0 31px 24px;
+    width: auto;
+    margin: -17px 31px 39px;
   }
 }
 
