@@ -44,6 +44,7 @@
   height: 151px;
   width: 151px;
   color: rgb(71, 138, 201) !important;
+  background-image: none;
   margin: 36px auto 0;
 }
 
@@ -84,6 +85,7 @@
   height: 151px;
   width: 151px;
   color: rgb(71, 138, 201) !important;
+  background-image: none;
   margin: 36px auto 0;
 }
 
@@ -123,6 +125,7 @@
 .u-section-1 .u-icon-3 {
   height: 151px;
   width: 151px;
+  background-image: none;
   margin: 36px auto 0;
 }
 
