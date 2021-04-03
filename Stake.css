@@ -1,5 +1,5 @@
 .u-section-1 {
-  background-image: linear-gradient(black, #1a1a1a);
+  background-image: linear-gradient(black, black);
 }
 
 .u-section-1 .u-sheet-1 {
@@ -24,7 +24,7 @@
 }
 
 .u-section-1 .u-text-2 {
-  margin: 2px 0 0;
+  margin: 8px 0 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -34,7 +34,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   background-image: none;
-  margin: 7px 22px 0 auto;
+  margin: 1px 22px 0 auto;
   padding: 13px 83px;
 }
 
@@ -1718,7 +1718,7 @@
     padding-bottom: 0;
   }
 }.u-section-5 {
-  background-image: linear-gradient(black, #1a1a1a);
+  background-image: linear-gradient(black, black);
 }
 
 .u-section-5 .u-sheet-1 {
@@ -2260,7 +2260,7 @@
     margin-right: 10px;
   }
 }.u-section-7 {
-  background-image: linear-gradient(black, #1a1a1a);
+  background-image: linear-gradient(black, black);
 }
 
 .u-section-7 .u-sheet-1 {

@@ -3,7 +3,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 801px;
+  min-height: 770px;
 }
 
 .u-section-1 .u-text-1 {
@@ -29,7 +29,6 @@
   grid-template-columns: calc(33.3333% - 30px) calc(33.3333% - 30px) calc(33.3333% - 30px);
   grid-template-rows: auto;
   grid-gap: 45px 45px;
-  height: auto;
 }
 
 .u-section-1 .u-list-item-1 {
@@ -161,6 +160,7 @@
 
   .u-section-1 .u-list-1 {
     min-height: 388px;
+    height: auto;
   }
 
   .u-section-1 .u-container-layout-1 {
