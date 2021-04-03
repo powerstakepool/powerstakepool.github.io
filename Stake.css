@@ -725,7 +725,7 @@
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.2;
-  margin: 9px 107px 0 0;
+  margin: 9px 0 0;
 }
 
 .u-section-2 .u-text-5 {
@@ -770,7 +770,7 @@
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.2;
-  margin: 9px 134px 0 0;
+  margin: 9px 0 0;
 }
 
 .u-section-2 .u-text-7 {
@@ -829,7 +829,6 @@
 
   .u-section-2 .u-text-4 {
     width: auto;
-    margin-right: 0;
   }
 
   .u-section-2 .u-text-5 {
@@ -849,7 +848,6 @@
 
   .u-section-2 .u-text-6 {
     width: auto;
-    margin-right: 0;
   }
 
   .u-section-2 .u-text-7 {
