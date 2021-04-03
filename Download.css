@@ -13,7 +13,6 @@
   grid-template-rows: auto;
   grid-gap: 10px 10px;
   width: 729px;
-  height: auto;
   margin: 39px auto 60px;
 }
 
@@ -56,6 +55,7 @@
 
   .u-section-1 .u-list-1 {
     min-height: 352px;
+    height: auto;
     margin-top: 17px;
     margin-bottom: 50px;
   }
@@ -116,4 +116,10 @@
     font-size: 1.125rem;
     margin-top: 203px;
   }
+}.u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 500px;
 }
