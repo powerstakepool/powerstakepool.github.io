@@ -306,4 +306,123 @@
   .u-section-2 .u-layout-cell-1 {
     min-height: 176px;
   }
+}.u-section-3 {
+  background-image: none;
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 551px;
+}
+
+.u-section-3 .u-text-1 {
+  font-size: 1.125rem;
+  margin: 12px 0 0 137px;
+}
+
+.u-section-3 .u-layout-wrap-1 {
+  width: 867px;
+  margin: 0 auto 60px;
+}
+
+.u-section-3 .u-layout-cell-1 {
+  min-height: 449px;
+}
+
+.u-section-3 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-3 .u-video-1 {
+  animation-duration: 3750ms;
+}
+
+.u-section-3 .embed-responsive-1 {
+  position: absolute;
+}
+
+.u-section-3 .u-video-poster-1 {
+  background-image: url("images/Image2021-04-0822-34-40.jpg");
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-text-1 {
+    width: auto;
+    margin-right: -37px;
+    margin-left: 37px;
+  }
+
+  .u-section-3 .u-layout-wrap-1 {
+    margin-top: 11px;
+    margin-bottom: 51px;
+  }
+
+  .u-section-3 .u-video-1 {
+    left: auto;
+    right: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 475px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-3 .u-layout-wrap-1 {
+    min-height: 90px;
+    width: 720px;
+  }
+
+  .u-section-3 .u-layout-cell-1 {
+    min-height: 373px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 391px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-top: 35px;
+  }
+
+  .u-section-3 .u-layout-wrap-1 {
+    margin-top: 12px;
+    margin-bottom: 36px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-3 .u-layout-cell-1 {
+    min-height: 280px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 228px;
+  }
+
+  .u-section-3 .u-text-1 {
+    font-size: 0.875rem;
+    margin-top: 12px;
+  }
+
+  .u-section-3 .u-layout-wrap-1 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-layout-cell-1 {
+    min-height: 176px;
+  }
 }
