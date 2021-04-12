@@ -225,7 +225,7 @@ requestAnimationFrame(update);
 </g></svg></span>
           </a>
         </div>
-        <img src="images/Logoandurl1080p.png" alt="" class="u-image u-image-default u-image-1" data-href="Home.html" data-page-id="235173967">
+        <img src="images/Logoandurl1080p.png" alt="" class="u-image u-image-default u-image-1" data-href="235173967">
         <div class="u-social-icons u-spacing-10 u-social-icons-2" data-animation-name="hinge" data-animation-duration="4750" data-animation-delay="1000" data-animation-direction="">
           <a class="u-social-url" target="_blank" href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fpublish.twitter.com%2F&amp;ref_src=twsrc%5Etfw&amp;screen_name=power_cardano&amp;tw_p=followbutton"><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-white u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-64bd"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" id="svg-64bd"><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm116.886719 199.601562c.113281 2.519532.167969 5.050782.167969 7.59375 0 77.644532-59.101563 167.179688-167.183594 167.183594h.003906-.003906c-33.183594 0-64.0625-9.726562-90.066406-26.394531 4.597656.542969 9.277343.8125 14.015624.8125 27.53125 0 52.867188-9.390625 72.980469-25.152344-25.722656-.476562-47.410156-17.464843-54.894531-40.8125 3.582031.6875 7.265625 1.0625 11.042969 1.0625 5.363281 0 10.558593-.722656 15.496093-2.070312-26.886718-5.382813-47.140624-29.144531-47.140624-57.597657 0-.265624 0-.503906.007812-.75 7.917969 4.402344 16.972656 7.050782 26.613281 7.347657-15.777343-10.527344-26.148437-28.523438-26.148437-48.910157 0-10.765624 2.910156-20.851562 7.957031-29.535156 28.976563 35.554688 72.28125 58.9375 121.117187 61.394532-1.007812-4.304688-1.527343-8.789063-1.527343-13.398438 0-32.4375 26.316406-58.753906 58.765625-58.753906 16.902344 0 32.167968 7.144531 42.890625 18.566406 13.386719-2.640625 25.957031-7.53125 37.3125-14.261719-4.394531 13.714844-13.707031 25.222657-25.839844 32.5 11.886719-1.421875 23.214844-4.574219 33.742187-9.253906-7.863281 11.785156-17.835937 22.136719-29.308593 30.429687zm0 0"></path></svg></span>
           </a>
@@ -2045,7 +2045,7 @@ CzAAqYTVOPWO2yYAAAAASUVORK5CYII=" transform="matrix(0.98 0 0 0.98 1024.2817 776.
 $.each( data.data, function( i, val ) { 
     a=new Array('tax_fix','pledge','total_stake');
    if(i=='tax_ratio') val=val*100;
-	 if(i=='saturated' && val>1) val=(val*100).toFixed(1).concat(' % ❌ We are Saturated, Please move your stake to POWER Pool2');
+	 if(i=='saturated' && val>1) val=(val*100).toFixed(1).concat(' % ❌ We are Saturated, Please delegate to POWER Pool 2');
    if(i=='saturated' && val<=1) val=(val*100).toFixed(1).concat(' % ✅');
     if(a.includes(i))  val=(parseInt(val)/1000000000000).toFixed(2);
     if(i=='blocks_lifetime') val=parseInt(val) + parseInt(data.data.blocks_epoch);
@@ -2104,7 +2104,7 @@ $.each( data.data, function( i, val ) {
       </div>
     </section>
     <section class="u-clearfix u-section-2" id="carousel_179b">
-      <div class="u-clearfix u-sheet u-valign-top-lg u-valign-top-md u-sheet-1">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
           <div class="u-gutter-0 u-layout">
             <div class="u-layout-row">
@@ -2131,13 +2131,142 @@ $.each( data.data, function( i, val ) {
       </div>
     </section>
     <section class="u-black u-clearfix u-section-3" id="carousel_f926">
-      <div class="u-clearfix u-sheet u-sheet-1">
+      <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
         <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
           <div class="u-gutter-0 u-layout">
             <div class="u-layout-row">
               <div class="u-align-left u-container-style u-layout-cell u-left-cell u-right-cell u-shape-rectangle u-size-60 u-layout-cell-1">
                 <div class="u-container-layout u-container-layout-1">
-                  <img src="images/Cardano-RGB_Logo-Icon-Blue-contained1copy.png" alt="" class="u-image u-image-default u-image-1" data-image-width="656" data-image-height="364">
+                  <div class="u-clearfix u-custom-html u-custom-html-1">
+                    <div>
+                      <canvas id="c"></canvas>
+                      <script> var w = c.width = window.innerWidth,
+    h = c.height = window.innerHeight,
+    ctx = c.getContext( '2d' ),
+    
+    opts = {
+      
+      len: 20,
+      count: 50,
+      baseTime: 10,
+      addedTime: 10,
+      dieChance: .05,
+      spawnChance: 1,
+      sparkChance: .1,
+      sparkDist: 10,
+      sparkSize: 2,
+      
+      color: 'hsl(hue,100%,light%)',
+      baseLight: 50,
+      addedLight: 10, // [50-10,50+10]
+      shadowToTimePropMult: 6,
+      baseLightInputMultiplier: .01,
+      addedLightInputMultiplier: .02,
+      
+      cx: w / 2,
+      cy: h / 2,
+      repaintAlpha: .04,
+      hueChange: .1
+    },
+    
+    tick = 0,
+    lines = [],
+    dieX = w / 2 / opts.len,
+    dieY = h / 2 / opts.len,
+    
+    baseRad = Math.PI * 2 / 6;
+    
+ctx.fillStyle = 'black';
+ctx.fillRect( 0, 0, w, h );
+function loop() {
+  
+  window.requestAnimationFrame( loop );
+  
+  ++tick;
+  
+  ctx.globalCompositeOperation = 'source-over';
+  ctx.shadowBlur = 0;
+  ctx.fillStyle = 'rgba(0,0,0,alp)'.replace( 'alp', opts.repaintAlpha );
+  ctx.fillRect( 0, 0, w, h );
+  ctx.globalCompositeOperation = 'lighter';
+  
+  if( lines.length < opts.count && Math.random() < opts.spawnChance )
+    lines.push( new Line );
+  
+  lines.map( function( line ){ line.step(); } );
+}
+function Line(){
+  
+  this.reset();
+}
+Line.prototype.reset = function(){
+  
+  this.x = 0;
+  this.y = 0;
+  this.addedX = 0;
+  this.addedY = 0;
+  
+  this.rad = 0;
+  
+  this.lightInputMultiplier = opts.baseLightInputMultiplier + opts.addedLightInputMultiplier * Math.random();
+  
+  this.color = opts.color.replace( 'hue', tick * opts.hueChange );
+  this.cumulativeTime = 0;
+  
+  this.beginPhase();
+}
+Line.prototype.beginPhase = function(){
+  
+  this.x += this.addedX;
+  this.y += this.addedY;
+  
+  this.time = 0;
+  this.targetTime = ( opts.baseTime + opts.addedTime * Math.random() ) |0;
+  
+  this.rad += baseRad * ( Math.random() < .5 ? 1 : -1 );
+  this.addedX = Math.cos( this.rad );
+  this.addedY = Math.sin( this.rad );
+  
+  if( Math.random() < opts.dieChance || this.x > dieX || this.x < -dieX || this.y > dieY || this.y < -dieY )
+    this.reset();
+}
+Line.prototype.step = function(){
+  
+  ++this.time;
+  ++this.cumulativeTime;
+  
+  if( this.time >= this.targetTime )
+    this.beginPhase();
+  
+  var prop = this.time / this.targetTime,
+      wave = Math.sin( prop * Math.PI / 2  ),
+      x = this.addedX * wave,
+      y = this.addedY * wave;
+  
+  ctx.shadowBlur = prop * opts.shadowToTimePropMult;
+  ctx.fillStyle = ctx.shadowColor = this.color.replace( 'light', opts.baseLight + opts.addedLight * Math.sin( this.cumulativeTime * this.lightInputMultiplier ) );
+  ctx.fillRect( opts.cx + ( this.x + x ) * opts.len, opts.cy + ( this.y + y ) * opts.len, 2, 2 );
+  
+  if( Math.random() < opts.sparkChance )
+    ctx.fillRect( opts.cx + ( this.x + x ) * opts.len + Math.random() * opts.sparkDist * ( Math.random() < .5 ? 1 : -1 ) - opts.sparkSize / 2, opts.cy + ( this.y + y ) * opts.len + Math.random() * opts.sparkDist * ( Math.random() < .5 ? 1 : -1 ) - opts.sparkSize / 2, opts.sparkSize, opts.sparkSize )
+}
+loop();
+window.addEventListener( 'resize', function(){
+  
+  w = c.width = window.innerWidth;
+  h = c.height = window.innerHeight;
+  ctx.fillStyle = 'black';
+  ctx.fillRect( 0, 0, w, h );
+  
+  opts.cx = w / 2;
+  opts.cy = h / 2;
+  
+  dieX = w / 2 / opts.len;
+  dieY = h / 2 / opts.len;
+}); </script>
+                    </div>
+                  </div>
+                  <img src="images/Cardano-RGB_Logo-Icon-Blue-contained1copy.png" alt="" class="u-align-center-xs u-image u-image-default u-image-1" data-image-width="656" data-image-height="364">
                   <h3 class="u-custom-font u-font-oswald u-text u-text-1">
                     <span class="u-text-white">We are a tiny but an&nbsp;</span>
                     <font class="u-text-palette-2-base">important</font>
