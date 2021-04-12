@@ -508,7 +508,6 @@
 
 .u-section-2 .u-custom-html-1 {
   min-height: 500px;
-  height: auto;
   width: 1140px;
   margin: 0;
 }
@@ -528,7 +527,7 @@
   letter-spacing: normal;
   border-style: solid;
   background-image: none;
-  margin: -17px 423px 0 auto;
+  margin: 0 141px 0 auto;
   padding: 13px 44px 13px 43px;
 }
 
@@ -546,6 +545,7 @@
   }
 
   .u-section-2 .u-custom-html-1 {
+    height: auto;
     width: 940px;
     margin-top: -24px;
   }
@@ -584,7 +584,6 @@
   }
 
   .u-section-2 .u-btn-1 {
-    margin-top: 0;
     margin-right: 126px;
     margin-bottom: -19px;
   }
@@ -679,7 +678,6 @@
 
 .u-section-3 .u-custom-html-1 {
   min-height: 547px;
-  height: auto;
   width: 1080px;
   margin: 0;
 }
@@ -717,6 +715,7 @@
 
   .u-section-3 .u-custom-html-1 {
     min-height: 494px;
+    height: auto;
     width: 880px;
   }
 
