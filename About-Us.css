@@ -846,7 +846,6 @@
   min-height: 490px;
   margin-top: 0;
   margin-bottom: 20px;
-  height: auto;
 }
 
 .u-section-5 .u-container-layout-1 {
@@ -1028,7 +1027,6 @@
 
 .u-section-5 .u-custom-html-2 {
   min-height: 266px;
-  height: auto;
   margin: -266px 0 -12px 603px;
 }
 
@@ -1040,7 +1038,6 @@
   .u-section-5 .u-group-1 {
     margin-bottom: 0;
     min-height: 557px;
-    height: auto;
   }
 
   .u-section-5 .u-text-1 {
@@ -1060,6 +1057,7 @@
   }
 
   .u-section-5 .u-custom-html-2 {
+    height: auto;
     margin-bottom: 0;
     margin-left: 440px;
   }
