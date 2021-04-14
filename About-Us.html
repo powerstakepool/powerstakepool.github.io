@@ -215,14 +215,31 @@
       </div>
     </section>
     <section class="u-align-left u-black u-clearfix u-section-5" id="carousel_0ed8">
-      <div class="u-clearfix u-sheet u-sheet-1">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <div class="u-container-style u-expanded-width u-group u-shape-rectangle u-group-1">
-          <div class="u-container-layout u-container-layout-1">
+          <div class="u-container-layout u-valign-bottom-md u-valign-top-xl u-container-layout-1">
             <h3 class="u-text u-text-1">Recognition</h3>
-            <p class="u-text u-text-body-alt-color u-text-2">
-              <span style="font-weight: 700; font-style: italic;" class="u-text-grey-5">"</span>The more advocates you have, the fewer ads you have to buy." -- Dharmesh Shah<br>We have over 800+ delegators and growing every day. The satisfaction of delegators can not be bought, we have earned it through satisfactory interactions. We are genuinely seeking the success of Cardano with these beautiful people who have left extremely kind messages publicly on <a href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fpublish.twitter.com%2F&amp;ref_src=twsrc%5Etfw&amp;screen_name=power_cardano&amp;tw_p=followbutton" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" target="_blank">Twitter</a> ❤️. POWER pool will not exist without these awesome supporters of Cardano.&nbsp;<br>
-            </p>
-            <div class="u-align-center u-carousel u-carousel-fade u-expanded-width-sm u-expanded-width-xs u-gallery u-layout-carousel u-lightbox u-no-transition u-show-text-none u-gallery-1" data-interval="1500" data-u-ride="carousel" id="carousel-c442" data-pause="hover">
+            <div class="u-clearfix u-custom-html u-custom-html-1">
+              <style></style>
+              <p></p>
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+              <script> $.getJSON('https://js.adapools.org/pools/e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa/summary.json', function(data) { 
+$.each( data.data, function( i, val ) { 
+    a=new Array('tax_fix','pledge','total_stake');
+   if(i=='tax_ratio') val=val*100;
+	 if(i=='saturated' && val>1) val=(val*100).toFixed(1).concat(' % ❌ We are Saturated, Please delegate to POWER Pool 2');
+   if(i=='saturated' && val<=1) val=(val*100).toFixed(1).concat(' % ✅');
+    if(a.includes(i))  val=(parseInt(val)/1000000000000).toFixed(2);
+    if(i=='blocks_lifetime') val=parseInt(val) + parseInt(data.data.blocks_epoch);
+    $('#e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_'+i).html(val).text();   
+}); 
+		}); </script>
+              <div align="left">"The more advocates you have, the fewer ads you have to buy." -- Dharmesh Shah</div>
+              <div align="left">We have <span style="color:grey"></span>
+                <span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_delegators"></span> delegators and growing every day. The satisfaction of delegators can not be bought, we have earned it through satisfactory interactions. We are genuinely seeking the success of Cardano with these beautiful people who have left extremely kind messages publicly on <a href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fpublish.twitter.com%2F&amp;ref_src=twsrc%5Etfw&amp;screen_name=power_cardano&amp;tw_p=followbutton">Twitter</a> ❤️. POWER pool will not exist without these awesome supporters of Cardano. 
+              </div>
+            </div>
+            <div class="u-align-center u-carousel u-carousel-fade u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-gallery u-layout-carousel u-lightbox u-no-transition u-show-text-none u-gallery-1" data-interval="1500" data-u-ride="carousel" id="carousel-c442" data-pause="hover">
               <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
                 <li data-u-target="#carousel-c442" data-u-slide-to="0" class="u-active u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
                 <li data-u-target="#carousel-c442" data-u-slide-to="1" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>

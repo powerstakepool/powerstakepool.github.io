@@ -99,9 +99,29 @@
         </div>
       </div></header>
     <section class="u-align-center u-clearfix u-palette-5-dark-3 u-section-1" id="carousel_a032">
-      <div class="u-clearfix u-sheet u-sheet-1">
+      <div class="u-clearfix u-sheet u-valign-top u-sheet-1">
         <div class="u-border-9 u-border-palette-1-base u-line u-line-horizontal u-line-1"></div>
         <a href="Home.html#carousel_f926" data-page-id="118700347" class="u-btn u-button-style u-btn-1">Home</a>
+        <div class="u-align-center u-clearfix u-custom-html u-custom-html-1">
+          <style></style>
+          <p></p>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script> $.getJSON('https://js.adapools.org/pools/e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa/summary.json', function(data) { 
+$.each( data.data, function( i, val ) { 
+    a=new Array('tax_fix','pledge','total_stake');
+   if(i=='tax_ratio') val=val*100;
+	 if(i=='saturated' && val>1) val=(val*100).toFixed(1).concat(' % ❌ We are Saturated, Please delegate to POWER Pool 2');
+   if(i=='saturated' && val<=1) val=(val*100).toFixed(1).concat(' % ✅');
+    if(a.includes(i))  val=(parseInt(val)/1000000000000).toFixed(2);
+    if(i=='blocks_lifetime') val=parseInt(val) + parseInt(data.data.blocks_epoch);
+    $('#e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_'+i).html(val).text();   
+}); 
+		}); </script>
+          <p align="left">"The more advocates you have, the fewer ads you have to buy." -- Dharmesh Shah
+We have <span style="color:grey"></span>
+            <span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_delegators"></span> delegators and growing every day. The satisfaction of delegators can not be bought, we have earned it through satisfactory interactions. We are genuinely seeking the success of Cardano with these beautiful people who have left extremely kind messages publicly on <a href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fpublish.twitter.com%2F&amp;ref_src=twsrc%5Etfw&amp;screen_name=power_cardano&amp;tw_p=followbutton">Twitter</a> ❤️. POWER pool will not exist without these awesome supporters of Cardano. 
+          </p>
+        </div>
       </div>
     </section>
     <section class="u-clearfix u-section-2" id="sec-5502">
