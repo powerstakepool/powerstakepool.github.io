@@ -23,6 +23,7 @@
   background-image: url("images/E9155E41-9A3F-462C-A36B-CCDD34C1F95F.jpg");
   background-position: 62.01% 50%;
   width: 283px;
+  animation-duration: 2000ms;
   margin: 1px auto 0;
 }
 
@@ -261,6 +262,7 @@
   min-height: 301px;
   margin-top: 36px;
   margin-bottom: 0;
+  animation-duration: 4750ms;
 }
 
 .u-section-2 .u-container-layout-3 {
@@ -548,6 +550,7 @@
   height: 154px;
   width: 143px;
   object-position: 100% 0%;
+  animation-duration: 1000ms;
   margin: 0 auto;
 }
 
@@ -563,6 +566,7 @@
   height: 201px;
   object-position: 0% 0%;
   width: 161px;
+  animation-duration: 1000ms;
   margin: 0 auto;
 }
 
@@ -578,6 +582,7 @@
   height: 165px;
   object-position: 50% 0%;
   width: 165px;
+  animation-duration: 1000ms;
   margin: 0 auto;
 }
 
@@ -1081,10 +1086,7 @@
   }
 
   .u-section-5 .u-custom-html-2 {
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: 0;
-    margin-bottom: initial;
+    margin: 20px auto -12px 0;
   }
 }
 
