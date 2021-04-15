@@ -14,32 +14,7 @@
 
 .u-section-1 .u-btn-1 {
   align-self: center;
-  margin: 30px auto 0;
-}
-
-.u-section-1 .u-custom-html-1 {
-  min-height: 228px;
-  width: 745px;
   margin: 30px auto 60px;
-}
-
-@media (max-width: 1199px) {
-  .u-section-1 .u-custom-html-1 {
-    width: 570px;
-    height: auto;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-1 .u-custom-html-1 {
-    width: 540px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-1 .u-custom-html-1 {
-    width: 340px;
-  }
 }.u-section-2 .u-sheet-1 {
   min-height: 500px;
 }
@@ -71,11 +46,16 @@
 
 .u-section-3 .u-list-1 {
   min-height: 252px;
-  grid-template-columns: calc(25% - 16.5px) calc(25% - 16.5px) calc(25% - 16.5px) calc(25% - 16.5px);
   grid-template-rows: auto;
   width: 1068px;
-  grid-gap: 22px 22px;
   margin: 60px auto;
+}
+
+.u-section-3 .u-repeater-1 {
+  grid-auto-columns: calc(25% - 16.5px);
+  grid-template-columns: calc(25% - 16.5px) calc(25% - 16.5px) calc(25% - 16.5px) calc(25% - 16.5px);
+  grid-gap: 22px 22px;
+  grid-auto-rows: 100%;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -137,9 +117,12 @@
 
   .u-section-3 .u-list-1 {
     min-height: 208px;
-    grid-template-columns: repeat(4, calc(25% - 16.5px));
     height: auto;
     width: 940px;
+  }
+
+  .u-section-3 .u-repeater-1 {
+    grid-template-columns: repeat(4, calc(25% - 16.5px));
   }
 }
 
@@ -150,10 +133,15 @@
 
   .u-section-3 .u-list-1 {
     min-height: 451px;
-    grid-template-columns: repeat(2, calc(50% - 11px));
     margin-right: initial;
     margin-left: initial;
     width: auto;
+  }
+
+  .u-section-3 .u-repeater-1 {
+    grid-auto-columns: calc(50% - 11px);
+    grid-template-columns: calc(50% - 11px) calc(50% - 11px);
+    grid-auto-rows: calc(50% - 11px);
   }
 }
 
@@ -195,11 +183,10 @@
     min-height: 691px;
   }
 
-  .u-section-3 .u-list-1 {
+  .u-section-3 .u-repeater-1 {
+    grid-auto-columns: 100%;
     grid-template-columns: 100%;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    grid-auto-rows: calc(25% - 16.5px);
   }
 }.web-cam { 
   width: 250px;
