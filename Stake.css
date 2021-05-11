@@ -889,7 +889,7 @@
   .u-section-2 .u-repeater-1 {
     grid-auto-columns: calc(50% - 22px);
     grid-template-columns: calc(50% - 22px) calc(50% - 22px);
-    grid-auto-rows: calc(66.66% - 14.6667px);
+    grid-auto-rows: calc(50% - 22px);
   }
 
   .u-section-2 .u-group-1 {
