@@ -2044,7 +2044,7 @@ CzAAqYTVOPWO2yYAAAAASUVORK5CYII=" transform="matrix(0.98 0 0 0.98 1024.2817 776.
 $.each( data.data, function( i, val ) { 
     a=new Array('tax_fix','pledge','total_stake');
    if(i=='tax_ratio') val=val*100;
-	 if(i=='saturated' && val>1) val=(val*100).toFixed(1).concat(' % ❌ We are Saturated, Please delegate to POWER Pool 2');
+	 if(i=='saturated' && val>0.9) val=(val*100).toFixed(1).concat(' % ❌ We are approaching Pool saturation point, Please delegate to POWER Pool 2');
    if(i=='saturated' && val<=1) val=(val*100).toFixed(1).concat(' % ✅');
     if(a.includes(i))  val=(parseInt(val)/1000000000000).toFixed(2);
     if(i=='blocks_lifetime') val=parseInt(val) + parseInt(data.data.blocks_epoch);
