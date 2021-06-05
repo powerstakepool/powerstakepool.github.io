@@ -186,11 +186,11 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 472px;
+    min-height: 531px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: 95px;
+    margin-top: 0;
   }
 
   .u-section-1 .u-tabs-1 {
@@ -239,16 +239,16 @@
   }
 
   .u-section-1 .u-btn-5 {
-    margin-right: 216px;
-    margin-left: 47px;
+    margin-left: 198px;
   }
 
   .u-section-1 .u-btn-6 {
-    margin-left: 294px;
+    margin-right: 309px;
+    margin-left: auto;
   }
 
   .u-section-1 .u-btn-7 {
-    margin-right: 52px;
+    margin-right: 111px;
   }
 }
 
@@ -264,16 +264,12 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 100px;
+    min-height: 527px;
   }
 
   .u-section-1 .u-container-layout-1 {
     padding-left: 30px;
     padding-bottom: 8px;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-top: 0;
   }
 
   .u-section-1 .u-tabs-1 {
@@ -315,18 +311,17 @@
   }
 
   .u-section-1 .u-btn-5 {
-    margin-right: 200px;
-    margin-left: 0;
+    margin-left: 201px;
   }
 
   .u-section-1 .u-btn-6 {
-    margin-left: 95px;
+    margin-right: 88px;
   }
 
   .u-section-1 .u-btn-7 {
     margin-top: 20px;
-    margin-right: 0;
-    margin-left: 95px;
+    margin-right: auto;
+    margin-left: 0;
   }
 }
 
@@ -357,7 +352,7 @@
 
   .u-section-1 .u-text-1 {
     font-size: 1.125rem;
-    margin-top: 55px;
+    margin-top: 74px;
   }
 
   .u-section-1 .u-tabs-1 {
@@ -414,17 +409,16 @@
 
   .u-section-1 .u-btn-4 {
     margin-top: 10px;
-    margin-left: 295px;
-  }
-
-  .u-section-1 .u-btn-5 {
-    margin-top: -46px;
-    margin-right: auto;
     margin-left: 55px;
   }
 
+  .u-section-1 .u-btn-5 {
+    margin-left: 295px;
+  }
+
   .u-section-1 .u-btn-6 {
-    margin-top: 19px;
+    margin-top: 18px;
+    margin-right: auto;
     margin-left: 55px;
   }
 
@@ -511,20 +505,22 @@
   }
 
   .u-section-1 .u-btn-5 {
-    margin-top: -45px;
-    margin-left: 0;
+    margin-top: -44px;
+    margin-right: 0;
+    margin-left: auto;
     padding-left: 7px;
     padding-right: 7px;
   }
 
   .u-section-1 .u-btn-6 {
-    margin-top: 20px;
-    margin-left: 0;
+    margin-top: 19px;
+    margin-left: 1px;
     padding-right: 56px;
     padding-left: 55px;
   }
 
   .u-section-1 .u-btn-7 {
+    margin-right: 0;
     margin-left: auto;
     padding-left: 14px;
     padding-right: 14px;
