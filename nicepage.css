@@ -5507,6 +5507,7 @@ a {
   }
   .u-form-horizontal .u-form-group {
     border: 0.5rem solid transparent !important;
+    margin-right: 0 !important;
   }
   .u-form-horizontal label {
     display: none;
@@ -16804,6 +16805,9 @@ p {
 .u-accordion:not([class*="u-align-"]),
 .u-repeater-item:not([class*="u-align-"]),
 .u-container-style:not([class*="u-align-"]) {
+  text-align: left;
+}
+.u-nav:not([class*="u-align-"]) .u-nav {
   text-align: left;
 }
 .u-text {
@@ -34716,7 +34720,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 114px;
+  min-height: 116px;
 }
 
 .u-footer .u-text-1 {
