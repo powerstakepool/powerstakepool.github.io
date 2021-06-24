@@ -6,43 +6,32 @@
   min-height: 886px;
 }
 
-.u-section-1 .u-line-1 {
-  width: 100px;
-  height: 3px;
-  margin: 60px auto 0;
-}
-
-.u-section-1 .u-btn-1 {
-  align-self: center;
-  margin: 30px auto 0;
-}
-
 .u-section-1 .u-custom-html-1 {
   min-height: 494px;
   background-image: none;
-  margin: 16px 207px 60px 243px;
+  height: auto;
+  margin: 49px 258px 60px 192px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-custom-html-1 {
     width: 570px;
-    margin-left: 143px;
-    margin-right: 107px;
-    height: auto;
+    margin-left: 92px;
+    margin-right: 158px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-custom-html-1 {
-    margin-left: 30px;
-    margin-right: 0;
+    margin-left: 0;
+    margin-right: 30px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-custom-html-1 {
     width: 540px;
-    margin-left: 0;
+    margin-right: 0;
   }
 }
 
