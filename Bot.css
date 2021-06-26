@@ -6,15 +6,11 @@
   min-height: 800px;
 }
 
-.u-section-1 .u-text-1 {
-  margin: -412px auto 0;
-}
-
 .u-section-1 .u-custom-html-1 {
   min-height: 800px;
   height: auto;
   width: 300px;
-  margin: 388px auto 0;
+  margin: 0 auto;
 }
 
 @media (max-width: 1199px) {
