@@ -43,7 +43,6 @@
 .u-section-1 .u-tabs-1 {
   min-height: 285px;
   width: 1075px;
-  height: auto;
   margin: 58px 0 0;
 }
 
@@ -202,6 +201,7 @@
 
   .u-section-1 .u-tabs-1 {
     min-height: 301px;
+    height: auto;
     width: 875px;
     margin-top: 56px;
   }
