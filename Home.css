@@ -109,8 +109,6 @@
 
 .u-section-1 .u-btn-3 {
   background-image: none;
-  margin-top: 26px;
-  padding: 0;
 }
 
 .u-section-1 .u-tab-pane-2 {
@@ -231,8 +229,11 @@
 
   .u-section-1 .u-text-4 {
     width: auto;
-    margin-top: 0;
     margin-right: 108px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    padding: 0;
   }
 
   .u-section-1 .u-text-5 {
