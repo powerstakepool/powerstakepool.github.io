@@ -89,18 +89,21 @@
   height: 120px;
   width: 120px;
   background-image: none;
+  animation-duration: 1000ms;
   margin: -28px auto 0 179px;
 }
 
 .u-section-1 .u-icon-2 {
   height: 120px;
   width: 120px;
+  animation-duration: 1000ms;
   margin: -120px auto 0 440px;
 }
 
 .u-section-1 .u-icon-3 {
   height: 120px;
   width: 120px;
+  animation-duration: 3000ms;
   margin: -120px auto 0 688px;
 }
 
@@ -1385,7 +1388,7 @@
 
 .u-section-4 .u-layout-cell-2 {
   min-height: 230px;
-  animation-duration: 500ms;
+  animation-duration: 1000ms;
 }
 
 .u-section-4 .u-container-layout-2 {
