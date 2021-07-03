@@ -43,7 +43,7 @@
 .u-section-1 .u-tabs-1 {
   min-height: 285px;
   width: 1075px;
-  margin: 58px 0 0;
+  margin: 58px auto 0 0;
 }
 
 .u-section-1 .u-tab-item-1 {
@@ -143,7 +143,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   background-image: none;
-  margin: 36px auto 0 41px;
+  margin: 21px auto 0 0;
   padding: 10px 23px 11px;
 }
 
@@ -154,8 +154,8 @@
   font-size: 0.875rem;
   letter-spacing: 2px;
   background-image: none;
-  margin: -45px auto 0 247px;
-  padding: 9px 17px 10px;
+  margin: -45px auto 0 191px;
+  padding: 10px 17px 11px;
 }
 
 .u-section-1 .u-btn-6 {
@@ -165,8 +165,8 @@
   font-size: 0.875rem;
   letter-spacing: 2px;
   background-image: none;
-  margin: -45px auto 0 450px;
-  padding: 9px 66px 10px 65px;
+  margin: -45px auto 0 380px;
+  padding: 10px 66px 11px 65px;
 }
 
 @media (max-width: 1199px) {
@@ -244,18 +244,11 @@
     width: 815px;
   }
 
-  .u-section-1 .u-btn-4 {
-    margin-top: 19px;
-    margin-left: 0;
-  }
-
   .u-section-1 .u-btn-5 {
-    margin-top: -43px;
     margin-left: 199px;
   }
 
   .u-section-1 .u-btn-6 {
-    margin-top: -43px;
     margin-right: 311px;
     margin-left: auto;
   }
@@ -320,10 +313,6 @@
   .u-section-1 .u-custom-html-3 {
     width: 600px;
     margin-right: 0;
-  }
-
-  .u-section-1 .u-btn-4 {
-    margin-top: 36px;
   }
 
   .u-section-1 .u-btn-5 {
@@ -500,7 +489,6 @@
   }
 
   .u-section-1 .u-btn-5 {
-    margin-top: -45px;
     margin-right: 0;
     margin-left: auto;
     padding-left: 7px;
