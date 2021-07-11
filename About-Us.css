@@ -522,7 +522,6 @@
 .u-section-4 .u-group-1 {
   margin-top: 0;
   margin-bottom: 0;
-  height: auto;
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -538,7 +537,6 @@
   min-height: 77px;
   margin-top: 0;
   margin-bottom: 0;
-  height: auto;
 }
 
 .u-section-4 .u-layout-wrap-1 {
@@ -614,10 +612,6 @@
     min-height: 378px;
   }
 
-  .u-section-4 .u-group-1 {
-    height: auto;
-  }
-
   .u-section-4 .u-container-layout-1 {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -627,6 +621,10 @@
     width: auto;
     margin-top: 0;
     margin-right: 706px;
+  }
+
+  .u-section-4 .u-custom-html-1 {
+    height: auto;
   }
 }
 
