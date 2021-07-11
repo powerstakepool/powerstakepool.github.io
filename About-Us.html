@@ -182,34 +182,52 @@
       </div>
     </section>
     <section class="u-align-left u-clearfix u-white u-section-4" id="sec-4e9f">
-      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-sheet-1">
-        <div class="u-container-style u-expanded-width u-group u-shape-rectangle u-group-1">
-          <div class="u-container-layout u-valign-top-md u-valign-top-sm u-valign-top-xl u-valign-top-xs u-container-layout-1">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-container-style u-expanded-width-lg u-expanded-width-sm u-expanded-width-xl u-expanded-width-xs u-group u-shape-rectangle u-group-1">
+          <div class="u-container-layout u-valign-bottom-xs u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xl u-container-layout-1">
             <h3 class="u-text u-text-1">Performance</h3>
-            <p class="u-text u-text-body-color u-text-2">The ability to produce blocks without failures is a crucial factor to consider when choosing a pool to maximise your rewards. Our awards speak for our performance.</p>
+            <div class="u-clearfix u-custom-html u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-custom-html-1">
+              <style></style>
+              <p></p>
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+              <script> $.getJSON('https://js.adapools.org/pools/e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa/summary.json', function(data) { 
+$.each( data.data, function( i, val ) { 
+    a=new Array('tax_fix','pledge','total_stake');
+   if(i=='tax_ratio') val=val*100;
+	 if(i=='saturated' && val>1) val=(val*100).toFixed(1).concat(' % ❌ We are Saturated, Please delegate to POWER Pool 2');
+   if(i=='saturated' && val<=1) val=(val*100).toFixed(1).concat(' % ✅');
+    if(a.includes(i))  val=(parseInt(val)/1000000000000).toFixed(2);
+    if(i=='blocks_lifetime') val=(((parseInt(val) + parseInt(data.data.blocks_epoch))/100).toFixed(0))*100;
+    $('#e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_'+i).html(val).text();   
+}); 
+		}); </script>
+              <div align="left">The ability to produce blocks without failures is a crucial factor to consider when choosing a pool to maximise your rewards. We have minted over <span style="color:grey"></span>
+                <span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_blocks_lifetime"></span> Blocks. Our awards speak for our performance. 
+              </div>
+            </div>
           </div>
         </div>
-        <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
-          <div class="u-gutter-0 u-layout" style="">
-            <div class="u-layout-row" style="">
-              <div class="u-align-left u-container-style u-layout-cell u-size-15 u-layout-cell-1">
-                <div class="u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-xl u-container-layout-2">
-                  <img src="images/1stblock1.jpg" alt="" class="u-align-center u-expanded-width-lg u-expanded-width-md u-image u-image-contain u-image-round u-radius-10 u-image-1" data-animation-name="rollIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+        <div class="u-clearfix u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-layout-wrap u-layout-wrap-1">
+          <div class="u-gutter-0 u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-size-15 u-size-30-md u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-2">
+                  <img src="images/1stblock1.jpg" alt="" class="u-align-center u-image u-image-contain u-image-round u-radius-10 u-image-1" data-animation-name="rollIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
                 </div>
               </div>
-              <div class="u-container-style u-layout-cell u-size-15 u-layout-cell-2">
+              <div class="u-container-style u-layout-cell u-size-15 u-size-30-md u-layout-cell-2">
                 <div class="u-container-layout u-valign-top u-container-layout-3">
-                  <img alt="" class="u-align-center u-expanded-width-lg u-expanded-width-md u-image u-image-contain u-image-default u-image-2" src="images/10thblock1.jpg" data-animation-name="rollIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                  <img alt="" class="u-align-center u-image u-image-contain u-image-default u-image-2" src="images/10thblock1.jpg" data-animation-name="rollIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
                 </div>
               </div>
-              <div class="u-container-style u-layout-cell u-size-15 u-layout-cell-3">
-                <div class="u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-xl u-container-layout-4">
-                  <img src="images/100thblock1.jpg" alt="" class="u-align-center u-expanded-width-lg u-expanded-width-md u-image u-image-contain u-image-round u-radius-10 u-image-3" data-animation-name="rollIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+              <div class="u-container-style u-layout-cell u-size-15 u-size-30-md u-layout-cell-3">
+                <div class="u-container-layout u-valign-top u-container-layout-4">
+                  <img src="images/100thblock1.jpg" alt="" class="u-align-center u-image u-image-contain u-image-round u-radius-10 u-image-3" data-animation-name="rollIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
                 </div>
               </div>
-              <div class="u-container-style u-layout-cell u-size-15 u-layout-cell-4">
-                <div class="u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-xl u-container-layout-5">
-                  <img src="images/2021-05-2709.32.081.jpg" alt="" class="u-align-center u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-image-contain u-image-default u-image-4" data-image-width="415" data-image-height="407" data-animation-name="rollIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+              <div class="u-container-style u-layout-cell u-size-15 u-size-30-md u-layout-cell-4">
+                <div class="u-container-layout u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-valign-top-lg u-valign-top-xl u-container-layout-5">
+                  <img src="images/2021-05-2709.32.081.jpg" alt="" class="u-align-center u-image u-image-contain u-image-default u-image-4" data-image-width="415" data-image-height="407" data-animation-name="rollIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
                 </div>
               </div>
             </div>
@@ -218,7 +236,7 @@
       </div>
     </section>
     <section class="u-align-left u-black u-clearfix u-section-5" id="carousel_0ed8">
-      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-sheet-1">
         <div class="u-container-style u-expanded-width u-group u-shape-rectangle u-group-1">
           <div class="u-container-layout u-container-layout-1">
             <h3 class="u-text u-text-1">Recognition</h3>
