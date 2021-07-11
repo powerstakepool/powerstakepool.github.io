@@ -138,12 +138,12 @@
 
 .u-section-1 .u-text-5 {
   font-size: 1rem;
-  margin: 0 882px 0 0;
+  margin: 0 883px 0 1px;
 }
 
 .u-section-1 .u-text-6 {
   font-size: 1rem;
-  margin: 0 376px 0 0;
+  margin: 0 377px 0 1px;
 }
 
 .u-section-1 .u-btn-5 {
@@ -156,10 +156,25 @@
   min-height: 65px;
   animation-duration: 1000ms;
   width: 1015px;
-  margin: 0;
+  margin: 0 0 0 1px;
+}
+
+.u-section-1 .u-text-7 {
+  font-size: 1rem;
+  margin: 9px 0 0;
 }
 
 .u-section-1 .u-btn-6 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-btn-7 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-btn-8 {
   border-style: solid;
   font-size: 0.875rem;
   font-weight: 700;
@@ -170,7 +185,7 @@
   padding: 10px 23px 11px;
 }
 
-.u-section-1 .u-btn-7 {
+.u-section-1 .u-btn-9 {
   border-style: solid;
   font-weight: 700;
   text-transform: uppercase;
@@ -181,7 +196,7 @@
   padding: 10px 17px 11px;
 }
 
-.u-section-1 .u-btn-8 {
+.u-section-1 .u-btn-10 {
   border-style: solid;
   font-weight: 700;
   text-transform: uppercase;
@@ -259,11 +274,13 @@
   .u-section-1 .u-text-5 {
     width: auto;
     margin-right: 703px;
+    margin-left: 0;
   }
 
   .u-section-1 .u-text-6 {
     width: auto;
     margin-right: 235px;
+    margin-left: 0;
   }
 
   .u-section-1 .u-custom-html-3 {
@@ -274,16 +291,16 @@
     width: auto;
   }
 
-  .u-section-1 .u-btn-6 {
+  .u-section-1 .u-btn-8 {
     margin-top: 25px;
     margin-left: 0;
   }
 
-  .u-section-1 .u-btn-7 {
+  .u-section-1 .u-btn-9 {
     margin-left: 195px;
   }
 
-  .u-section-1 .u-btn-8 {
+  .u-section-1 .u-btn-10 {
     margin-right: 354px;
     margin-left: auto;
   }
@@ -358,21 +375,21 @@
 
   .u-section-1 .u-custom-html-3 {
     min-height: 65px;
-    width: 660px;
+    width: 661px;
     margin-left: 0;
     margin-right: 0;
   }
 
-  .u-section-1 .u-btn-6 {
+  .u-section-1 .u-btn-8 {
     margin-top: 10px;
     margin-left: 20px;
   }
 
-  .u-section-1 .u-btn-7 {
+  .u-section-1 .u-btn-9 {
     margin-left: 215px;
   }
 
-  .u-section-1 .u-btn-8 {
+  .u-section-1 .u-btn-10 {
     margin-right: 144px;
   }
 }
@@ -459,16 +476,16 @@
     width: 520px;
   }
 
-  .u-section-1 .u-btn-6 {
+  .u-section-1 .u-btn-8 {
     margin-left: 29px;
   }
 
-  .u-section-1 .u-btn-7 {
+  .u-section-1 .u-btn-9 {
     margin-right: 29px;
     margin-left: 35px;
   }
 
-  .u-section-1 .u-btn-8 {
+  .u-section-1 .u-btn-10 {
     margin-top: 15px;
     margin-right: auto;
     margin-left: 29px;
@@ -538,21 +555,21 @@
     width: 320px;
   }
 
-  .u-section-1 .u-btn-6 {
+  .u-section-1 .u-btn-8 {
     margin-top: 30px;
     margin-left: 12px;
     padding-left: 13px;
     padding-right: 13px;
   }
 
-  .u-section-1 .u-btn-7 {
+  .u-section-1 .u-btn-9 {
     margin-right: 10px;
     margin-left: auto;
     padding-left: 7px;
     padding-right: 7px;
   }
 
-  .u-section-1 .u-btn-8 {
+  .u-section-1 .u-btn-10 {
     margin-top: 22px;
     margin-left: 12px;
     padding-right: 56px;

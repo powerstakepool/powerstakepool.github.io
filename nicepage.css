@@ -18341,7 +18341,7 @@ a.pswp__share--download:hover {
 .u-layout-carousel .u-carousel-item .u-back-slide {
   position: relative;
 }
-.u-layout-carousel .u-over-slide {
+.u-layout-carousel:not(.u-gallery-slider) .u-over-slide {
   position: relative;
   height: auto;
 }
