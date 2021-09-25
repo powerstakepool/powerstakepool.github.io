@@ -170,7 +170,7 @@
 
 .u-section-1 .u-text-6 {
   font-size: 1rem;
-  margin: 0 auto 0 0;
+  margin: 0 951px 0 0;
 }
 
 .u-section-1 .u-text-7 {
@@ -270,6 +270,7 @@
 
   .u-section-1 .u-text-6 {
     width: auto;
+    margin-right: 751px;
   }
 
   .u-section-1 .u-text-7 {
@@ -330,6 +331,10 @@
   .u-section-1 .u-text-5 {
     margin-right: 0;
     margin-left: 0;
+  }
+
+  .u-section-1 .u-text-6 {
+    margin-right: 531px;
   }
 
   .u-section-1 .u-custom-html-3 {
@@ -408,6 +413,7 @@
 
   .u-section-1 .u-text-6 {
     font-size: 0.875rem;
+    margin-right: 391px;
   }
 
   .u-section-1 .u-text-7 {
@@ -522,6 +528,7 @@
 
   .u-section-1 .u-text-6 {
     font-size: 0.75rem;
+    margin-right: 191px;
     margin-left: 20px;
   }
 

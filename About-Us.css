@@ -19,12 +19,9 @@
 }
 
 .u-section-1 .u-image-1 {
-  height: 283px;
-  background-image: url("images/E9155E41-9A3F-462C-A36B-CCDD34C1F95F.jpg");
-  background-position: 50% 50%;
-  width: 283px;
-  animation-duration: 2000ms;
-  margin: 1px auto 0;
+  width: 300px;
+  height: 299px;
+  margin: 0 auto;
 }
 
 .u-section-1 .u-layout-cell-2 {
@@ -76,7 +73,6 @@
   .u-section-1 .u-layout-wrap-1 {
     margin-top: 1px;
     margin-bottom: 1px;
-    min-height: 446px;
     margin-right: initial;
     margin-left: initial;
   }
@@ -88,7 +84,6 @@
   .u-section-1 .u-image-1 {
     width: 237px;
     height: 237px;
-    margin-top: 25px;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -97,19 +92,13 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-layout-wrap-1 {
-    min-height: 34px;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-1 .u-layout-cell-1 {
     min-height: 247px;
   }
 
   .u-section-1 .u-image-1 {
-    width: 166px;
-    height: 166px;
+    width: 167px;
+    height: 167px;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -141,12 +130,6 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 0;
-  }
-
-  .u-section-1 .u-image-1 {
-    width: 199px;
-    height: 199px;
-    margin-top: 12px;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -181,12 +164,6 @@
 
   .u-section-1 .u-layout-cell-1 {
     min-height: 251px;
-  }
-
-  .u-section-1 .u-image-1 {
-    width: 191px;
-    height: 191px;
-    margin-top: 0;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -773,13 +750,6 @@
     margin-left: 0;
   }
 
-  .u-section-4 .u-layout-wrap-1 {
-    min-height: 720px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-4 .u-layout-cell-1 {
     min-height: 197px;
   }
@@ -1126,7 +1096,6 @@
 }
 
 .u-section-6 .u-layout-wrap-1 {
-  min-height: 672px;
   margin: 47px 0 0;
 }
 
@@ -1187,7 +1156,6 @@
   .u-section-6 .u-layout-wrap-1 {
     margin-top: 0;
     margin-bottom: 47px;
-    min-height: 436px;
     margin-right: initial;
     margin-left: initial;
   }
@@ -1295,7 +1263,6 @@
 
   .u-section-6 .u-layout-wrap-1 {
     margin-bottom: 20px;
-    min-height: 709px;
     margin-right: initial;
     margin-left: initial;
   }
@@ -1362,7 +1329,6 @@
 
   .u-section-6 .u-layout-wrap-1 {
     margin-bottom: 0;
-    min-height: 457px;
     margin-right: initial;
     margin-left: initial;
   }
