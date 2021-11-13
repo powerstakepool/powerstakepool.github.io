@@ -1,4 +1,4 @@
-.u-section-1 {
+ .u-section-1 {
   background-image: linear-gradient(black, black);
 }
 
@@ -633,7 +633,7 @@
     margin-right: 109px;
     margin-left: 91px;
   }
-}.u-section-2 {
+} .u-section-2 {
   background-image: none;
 }
 
@@ -1015,7 +1015,7 @@
     margin-top: 56px;
     margin-left: 0;
   }
-}.u-section-3 {
+} .u-section-3 {
   background-image: linear-gradient(black, #1a1a1a);
 }
 
@@ -1309,7 +1309,7 @@
     padding-top: 0;
     padding-bottom: 0;
   }
-}.u-section-4 {
+} .u-section-4 {
   background-image: none;
 }
 
@@ -1690,7 +1690,7 @@
     padding-top: 0;
     padding-bottom: 0;
   }
-}.u-section-5 {
+} .u-section-5 {
   background-image: linear-gradient(black, black);
 }
 
@@ -2075,7 +2075,7 @@
     padding-top: 0;
     padding-bottom: 0;
   }
-}.u-section-6 {
+} .u-section-6 {
   background-image: none;
 }
 
@@ -2232,7 +2232,7 @@
     margin-top: 19px;
     margin-right: 10px;
   }
-}.u-section-7 {
+} .u-section-7 {
   background-image: linear-gradient(black, black);
 }
 

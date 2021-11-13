@@ -1,4 +1,4 @@
-.u-section-1 {
+ .u-section-1 {
   background-image: none;
 }
 
@@ -188,7 +188,7 @@
   .u-section-1 .u-layout-cell-1 {
     min-height: 176px;
   }
-}.u-section-2 {
+} .u-section-2 {
   background-image: none;
 }
 
@@ -307,7 +307,7 @@
   .u-section-2 .u-layout-cell-1 {
     min-height: 176px;
   }
-}.u-section-3 {
+} .u-section-3 {
   background-image: none;
 }
 
