@@ -35370,6 +35370,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-icon-2 {
   height: 100%;
+  color: rgb(255, 255, 255) !important;
 }
 
 .u-header .u-icon-3 {
