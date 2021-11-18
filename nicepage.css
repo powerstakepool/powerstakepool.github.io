@@ -35365,12 +35365,10 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-icon-1 {
   height: 100%;
-  color: rgb(255, 255, 255) !important;
 }
 
 .u-header .u-icon-2 {
   height: 100%;
-  color: rgb(255, 255, 255) !important;
 }
 
 .u-header .u-icon-3 {
@@ -35398,6 +35396,14 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 128px;
     margin-top: -36px;
     margin-right: 67px;
+  }
+
+  .u-header .u-icon-1 {
+    color: rgb(255, 255, 255) !important;
+  }
+
+  .u-header .u-icon-2 {
+    color: rgb(255, 255, 255) !important;
   }
 
   .u-header .u-icon-3 {
