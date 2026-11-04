@@ -169,7 +169,7 @@
     var open = more.hidden;
     more.hidden = !open;
     btn.setAttribute("aria-expanded", String(open));
-    btn.textContent = open ? "Show fewer questions" : "Show all 12 questions";
+    btn.textContent = open ? "Show fewer questions" : "Show all questions";
   });
 })();
 
