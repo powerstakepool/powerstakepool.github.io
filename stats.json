@@ -50,7 +50,6 @@
     "length": 432000,
     "blocks": 13
   },
-  "updated": "2026-11-04T13:45:05Z",
   "recent_delegators": [
     {
       "stake": "stake1u9gkvrhzflshwt7p2r0csxapzhlj052ed02zt7ngmgz5yzs93g5uu",
@@ -122,5 +121,6 @@
       "tx": "3cef018fe21b7733f18735aaacabe5890425d5fc38ba68b1bca254396a2acad0",
       "time": 1787292628
     }
-  ]
+  ],
+  "updated": "2026-11-04T14:38:05Z"
 }
