@@ -40,7 +40,7 @@
 
   <main>
     <section class="hero">
-      <canvas class="hero-canvas" id="chain" aria-hidden="true"></canvas>
+      <canvas class="hero-canvas" id="chain" data-anim="chain" aria-hidden="true"></canvas>
       <div class="wrap">
         <span class="eyebrow">Cardano stake pool · Since 2020</span>
         <h1>Stake your ADA with a family-run pool</h1>
@@ -60,7 +60,7 @@
             </div>
             <div class="pool-actions">
               <a class="btn btn-primary" href="#how">Delegate</a>
-              <a class="btn btn-icon" href="https://cardanoscan.io/pool/pool1uk2f28awascuhrhuwrp7x6y87x8ch33vwx8jtmrysp7l5ngq78j" target="_blank" rel="noopener" aria-label="View on Cardanoscan" title="View on Cardanoscan">
+              <a class="btn btn-icon" href="https://cexplorer.io/pool/pool1uk2f28awascuhrhuwrp7x6y87x8ch33vwx8jtmrysp7l5ngq78j" target="_blank" rel="noopener" aria-label="View on Cexplorer" title="View on Cexplorer">
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>
               </a>
             </div>
@@ -83,20 +83,40 @@
               </div>
             </div>
             <div class="stat-group">
-              <div class="group-label">Economics</div>
-              <div class="stats">
-                <div class="stat"><div class="stat-label">Margin</div><div class="stat-value" data-stat="margin">–</div><div class="stat-sub">Variable fee</div></div>
-                <div class="stat"><div class="stat-label">Fixed cost</div><div class="stat-value" data-stat="fixed">–</div><div class="stat-sub">Per epoch</div></div>
-                <div class="stat"><div class="stat-label">Pledge</div><div class="stat-value" data-stat="pledge">–</div><div class="stat-sub" data-stat="pledge-committed"></div></div>
-                <div class="stat"><div class="stat-label">Net return (ROS)</div><div class="stat-value" data-stat="ros">–</div><div class="stat-sub">Avg of last 18 epochs</div></div>
+              <div class="group-label">Fees</div>
+              <div class="fees">
+                <div class="fee-part">
+                  <div class="stat-value" data-stat="margin">–</div>
+                  <div class="stat-label">Margin (commission) on the pool's rewards</div>
+                </div>
+                <div class="fee-plus" aria-hidden="true">+</div>
+                <div class="fee-part">
+                  <div class="stat-value" data-stat="fixed">–</div>
+                  <div class="stat-label">Fixed cost per epoch, for the whole pool</div>
+                </div>
+                <p class="fee-note">The fixed cost is a single amount taken from the pool's total rewards each epoch and shared across all delegators. It is <strong>not charged to each delegator</strong>, and nothing is ever taken from your wallet.</p>
               </div>
             </div>
           </div>
 
           <div class="pool-foot">
-            <span>Search <strong>POWER</strong> in your wallet to delegate.</span>
-            <a href="https://cardanoscan.io/pool/pool1uk2f28awascuhrhuwrp7x6y87x8ch33vwx8jtmrysp7l5ngq78j" target="_blank" rel="noopener">View on Cardanoscan →</a>
+            <span>Search <strong>POWER Stake Pool</strong> in your wallet to delegate.</span>
+            <a href="https://cexplorer.io/pool/pool1uk2f28awascuhrhuwrp7x6y87x8ch33vwx8jtmrysp7l5ngq78j" target="_blank" rel="noopener">View on Cexplorer →</a>
           </div>
+        </div>
+
+        <div class="pool-card blocks-card" id="blocks-card" hidden>
+          <div class="blocks-head">
+            <div>
+              <div class="group-label">Recent blocks</div>
+              <div class="blocks-summary">Epoch <strong id="epoch-no">–</strong> · <strong id="epoch-blocks">–</strong> blocks minted so far</div>
+            </div>
+            <div class="epoch-progress" aria-label="Epoch progress">
+              <div class="epoch-bar"><span id="epoch-fill"></span></div>
+              <small id="epoch-left"></small>
+            </div>
+          </div>
+          <ol class="timeline" id="timeline"></ol>
         </div>
       </div>
     </section>
@@ -120,7 +140,7 @@
           </div>
           <div class="step">
             <div class="step-num">3</div>
-            <h3>Delegate to POWER</h3>
+            <h3>Delegate to POWER Stake Pool</h3>
             <p>In your wallet's staking section, search for <strong>POWER</strong> and confirm. Rewards start arriving after a few epochs.</p>
           </div>
         </div>
@@ -147,6 +167,7 @@
     </div>
   </footer>
 
+  <script src="animations.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

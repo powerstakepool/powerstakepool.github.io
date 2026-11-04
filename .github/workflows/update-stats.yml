@@ -2,7 +2,7 @@ name: Update pool stats
 
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 */3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -21,23 +21,27 @@ jobs:
           curl -sf -m 30 -X POST https://api.koios.rest/api/v1/pool_info \
             -H 'Content-Type: application/json' \
             -d "{\"_pool_bech32_ids\":[\"$POOL\"]}" > info.json
-          curl -sf -m 30 "https://api.koios.rest/api/v1/pool_history?_pool_bech32=$POOL&order=epoch_no.desc&limit=24" > history.json
-          # ros = average return of the last 18 epochs with rewards calculated.
-          jq -n --slurpfile i info.json --slurpfile h history.json '
+          curl -sf -m 30 "https://api.koios.rest/api/v1/pool_blocks?_pool_bech32=$POOL&order=block_height.desc&limit=40" > blocks.json
+          curl -sf -m 30 "https://api.koios.rest/api/v1/tip" > tip.json
+          jq -n --slurpfile i info.json --slurpfile b blocks.json --slurpfile t tip.json '
             $i[0][0] as $p
-            | ([$h[0][] | select((.epoch_ros // 0) > 0) | .epoch_ros][:18]) as $r
             | {
                 live_stake: $p.live_stake, active_stake: $p.active_stake,
                 live_delegators: $p.live_delegators, live_saturation: $p.live_saturation,
                 margin: $p.margin, fixed_cost: $p.fixed_cost,
-                pledge: $p.pledge, live_pledge: $p.live_pledge,
                 block_count: $p.block_count,
-                ros: (if ($r | length) > 0 then ($r | add / length) else null end),
+                recent_blocks: [$b[0][:6][] | {height: .block_height, time: .block_time, epoch: .epoch_no, hash: .block_hash}],
+                epoch: ($t[0][0] as $tip | {
+                  no: $tip.epoch_no,
+                  start: ($tip.block_time - $tip.epoch_slot),
+                  length: 432000,
+                  blocks: ([$b[0][] | select(.epoch_no == $tip.epoch_no)] | length)
+                }),
                 updated: (now | todate)
               }' > stats.new.json
           jq -e '.live_stake != null' stats.new.json
           mv stats.new.json stats.json
-          rm info.json history.json
+          rm info.json blocks.json tip.json
 
       - name: Commit if changed
         run: |

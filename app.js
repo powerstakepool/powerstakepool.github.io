@@ -42,6 +42,65 @@
     age.textContent = " · " + years + " years ago";
   }
 
+  function ago(seconds) {
+    var s = Math.max(0, Math.round(Date.now() / 1000 - seconds));
+    if (s < 3600) return Math.max(1, Math.round(s / 60)) + " min ago";
+    if (s < 86400) { var hrs = Math.round(s / 3600); return hrs + (hrs === 1 ? " hour ago" : " hours ago"); }
+    var d = Math.round(s / 86400); return d + (d === 1 ? " day ago" : " days ago");
+  }
+
+  // Recent blocks timeline + current epoch progress.
+  function renderBlocks(p) {
+    var card = document.getElementById("blocks-card");
+    var list = document.getElementById("timeline");
+    if (!card || !list || !p.recent_blocks || !p.recent_blocks.length) return;
+    var blocks = p.recent_blocks.slice().reverse(); // oldest on the left, newest on the right
+    list.innerHTML = "";
+    blocks.forEach(function (b, i) {
+      var li = document.createElement("li");
+      if (i === blocks.length - 1) li.className = "latest";
+      var a = document.createElement("a");
+      a.href = "https://cexplorer.io/block/" + encodeURIComponent(b.hash);
+      a.target = "_blank"; a.rel = "noopener";
+      a.title = new Date(b.time * 1000).toLocaleString();
+      a.innerHTML = '<span class="block-icon" aria-hidden="true"><i></i><i></i><i></i></span>' +
+        '<span class="block-height"></span><span class="block-ago" data-time=""></span><span class="block-epoch"></span>';
+      a.querySelector(".block-height").textContent = "#" + Number(b.height).toLocaleString();
+      var agoEl = a.querySelector(".block-ago");
+      agoEl.setAttribute("data-time", b.time);
+      agoEl.textContent = (i === blocks.length - 1 ? "Latest · " : "") + ago(b.time);
+      a.querySelector(".block-epoch").textContent = "Epoch " + b.epoch;
+      li.appendChild(a);
+      list.appendChild(li);
+    });
+
+    var e = p.epoch;
+    if (e) {
+      document.getElementById("epoch-no").textContent = e.no;
+      document.getElementById("epoch-blocks").textContent = e.blocks;
+    }
+    function tickTimes() {
+      var els = list.querySelectorAll(".block-ago");
+      for (var i = 0; i < els.length; i++) {
+        els[i].textContent = (i === els.length - 1 ? "Latest · " : "") + ago(Number(els[i].getAttribute("data-time")));
+      }
+      if (e) {
+        var frac = Math.min(1, Math.max(0, (Date.now() / 1000 - e.start) / e.length));
+        var left = Math.max(0, e.start + e.length - Date.now() / 1000);
+        document.getElementById("epoch-fill").style.width = (frac * 100).toFixed(1) + "%";
+        var d = Math.floor(left / 86400), h = Math.round((left % 86400) / 3600);
+        if (h === 24) { d += 1; h = 0; }
+        var parts = [];
+        if (d) parts.push(d + (d === 1 ? " day" : " days"));
+        if (h || !d) parts.push(Math.max(h, d ? 0 : 1) + (h === 1 ? " hour" : " hours"));
+        document.getElementById("epoch-left").textContent = Math.round(frac * 100) + "% through · " + parts.join(", ") + " left";
+      }
+    }
+    tickTimes();
+    setInterval(tickTimes, 60000);
+    card.hidden = false;
+  }
+
   // stats.json is refreshed from Koios by .github/workflows/update-stats.yml
   // (Koios doesn't allow direct browser requests from other sites).
   fetch("stats.json", { cache: "no-cache" })
@@ -56,10 +115,8 @@
       set("blocks", Number(p.block_count).toLocaleString());
       set("margin", pct(p.margin * 100, 2));
       set("fixed", ada(p.fixed_cost));
-      set("pledge", ada(p.live_pledge || p.pledge));
-      if (p.pledge) set("pledge-committed", "Committed " + ada(p.pledge));
-      if (p.ros != null) set("ros", pct(p.ros, 2)); else set("ros", "–");
       stats.hidden = false;
+      renderBlocks(p);
       window.dispatchEvent(new Event("resize")); // card grew; re-place the hero animation
     })
     .catch(function () { /* Stats stay hidden; the explorer link still works. */ });
@@ -73,108 +130,15 @@
   }
 })();
 
-// Hero animation: rows of linked blocks drift left; each new block is "minted"
-// on the right with a soft glow while its transaction lines fill in.
+// Hero background animation (see animations.js). Pick one with data-anim on the canvas.
 (function () {
   var canvas = document.getElementById("chain");
-  if (!canvas || !canvas.getContext) return;
-  var ctx = canvas.getContext("2d");
+  if (!canvas || !window.PowerAnim) return;
   var hero = canvas.parentElement;
-  var card = hero.querySelector(".pool-card");
-  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  var dpr = Math.min(window.devicePixelRatio || 1, 2);
-  var w = 0, h = 0, rgb = "127,167,255", rows = [];
-  var SIZE = 30, GAP = 34, STEP = SIZE + GAP, MINT_MS = 1400;
-
-  function readColor() {
-    rgb = getComputedStyle(document.documentElement).getPropertyValue("--anim").trim() || rgb;
-  }
-
-  function makeRow(y, speed, alpha) {
-    var blocks = [], n = Math.ceil(w / STEP) + 2;
-    for (var i = 0; i < n; i++) {
-      blocks.push({ x: i * STEP, txs: 1 + ((Math.random() * 3) | 0), born: -1e9 });
-    }
-    return { y: y, speed: speed, alpha: alpha, blocks: blocks };
-  }
-
-  function resize() {
-    var r = hero.getBoundingClientRect();
-    w = r.width; h = r.height;
-    canvas.width = w * dpr; canvas.height = h * dpr;
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    var c = card && card.getBoundingClientRect();
-    var cardMid = c ? c.top - r.top + c.height * 0.55 : h * 0.7;
-    rows = [makeRow(34, 0.22, 1), makeRow(cardMid, 0.14, 0.7)];
-  }
-
-  function rr(x, y, s, r) {
-    ctx.beginPath();
-    if (ctx.roundRect) ctx.roundRect(x, y, s, s, r); else ctx.rect(x, y, s, s);
-  }
-
-  function draw(now) {
-    ctx.clearRect(0, 0, w, h);
-    for (var r = 0; r < rows.length; r++) {
-      var row = rows[r], a = row.alpha, top = row.y - SIZE / 2;
-      ctx.lineWidth = 1;
-      for (var i = 0; i < row.blocks.length; i++) {
-        var b = row.blocks[i];
-        var age = (now - b.born) / MINT_MS;
-        var glow = age < 1 ? 1 - age : 0;
-        var fill = age < 1 ? Math.min(1, age * 1.6) : 1;
-
-        // Link to the next block.
-        ctx.strokeStyle = "rgba(" + rgb + "," + (0.22 * a).toFixed(3) + ")";
-        ctx.beginPath(); ctx.moveTo(b.x + SIZE, row.y); ctx.lineTo(b.x + STEP, row.y); ctx.stroke();
-        ctx.fillStyle = "rgba(" + rgb + "," + (0.35 * a).toFixed(3) + ")";
-        ctx.beginPath(); ctx.arc(b.x + SIZE + GAP / 2, row.y, 1.6, 0, Math.PI * 2); ctx.fill();
-
-        // Glow halo for a freshly minted block.
-        if (glow > 0) {
-          ctx.fillStyle = "rgba(" + rgb + "," + (0.18 * glow * a).toFixed(3) + ")";
-          rr(b.x - 6, top - 6, SIZE + 12, 9); ctx.fill();
-        }
-
-        // The block itself.
-        ctx.fillStyle = "rgba(" + rgb + "," + ((0.06 + glow * 0.2) * a).toFixed(3) + ")";
-        ctx.strokeStyle = "rgba(" + rgb + "," + ((0.32 + glow * 0.5) * a).toFixed(3) + ")";
-        rr(b.x, top, SIZE, 6); ctx.fill(); ctx.stroke();
-
-        // Transaction lines inside the block.
-        ctx.fillStyle = "rgba(" + rgb + "," + ((0.3 + glow * 0.4) * a).toFixed(3) + ")";
-        var shown = Math.ceil(b.txs * fill);
-        for (var t = 0; t < shown; t++) {
-          var lw = (t === b.txs - 1 ? 0.45 : 0.7) * (SIZE - 14);
-          ctx.fillRect(b.x + 7, top + 8 + t * 6, lw, 2);
-        }
-      }
-    }
-  }
-
-  var last = 0;
-  function tick(now) {
-    var dt = Math.min(50, now - (last || now)) / 16.7; last = now;
-    for (var r = 0; r < rows.length; r++) {
-      var row = rows[r], bl = row.blocks;
-      for (var i = 0; i < bl.length; i++) bl[i].x -= row.speed * dt;
-      if (bl[0].x < -STEP) {
-        var b = bl.shift();
-        b.x = bl[bl.length - 1].x + STEP;
-        b.txs = 1 + ((Math.random() * 3) | 0);
-        b.born = now;
-        bl.push(b);
-      }
-    }
-    draw(now);
-    requestAnimationFrame(tick);
-  }
-
-  readColor();
-  resize();
-  window.addEventListener("resize", function () { resize(); if (reduce) draw(0); });
-  document.addEventListener("themechange", function () { readColor(); if (reduce) draw(0); });
-  if (reduce) draw(0); else requestAnimationFrame(tick);
+  window.PowerAnim.start(canvas, canvas.getAttribute("data-anim") || "rings", {
+    center: hero.querySelector("h1"),
+    band: hero.querySelector(".pool-card")
+  });
 })();
 
 // Light / dark mode toggle (initial theme is set by the inline script in <head>).

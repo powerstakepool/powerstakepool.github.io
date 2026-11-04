@@ -297,8 +297,7 @@ section { padding: 64px 0; }
   position: absolute; inset: 0;
   width: 100%; height: 100%;
   pointer-events: none;
-  -webkit-mask-image: linear-gradient(to right, transparent, #000 12%, #000 88%, transparent);
-          mask-image: linear-gradient(to right, transparent, #000 12%, #000 88%, transparent);
+  /* mask-image is set per animation by animations.js */
 }
 
 @media (max-width: 560px) {
@@ -355,4 +354,85 @@ section { padding: 64px 0; }
   .theme-toggle { width: 32px; height: 32px; }
   .pool-ident { align-items: flex-start; gap: 12px; }
   .pool-title { gap: 2px 10px; }
+}
+
+/* Combined fees */
+.fees {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px 16px;
+  background: var(--bg-raised);
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+.fee-part .stat-value { font-size: 26px; margin: 0 0 2px; }
+.fee-plus { font-family: var(--font-display); font-size: 22px; color: var(--text-muted); }
+.fee-note {
+  grid-column: 1 / -1;
+  margin: 4px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--text-muted);
+}
+.fee-note strong { color: var(--text); font-weight: 600; }
+@media (max-width: 560px) {
+  .fees { grid-template-columns: 1fr; }
+  .fee-plus { display: none; }
+}
+
+/* Recent blocks timeline */
+.blocks-card { margin-top: 16px; }
+.blocks-card[hidden] { display: none; }
+.blocks-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; }
+.blocks-head .group-label { margin-bottom: 4px; }
+.blocks-summary { font-size: 15px; color: var(--text-muted); }
+.blocks-summary strong { color: var(--text); font-weight: 600; }
+.epoch-progress { min-width: 200px; text-align: right; }
+.epoch-bar { height: 6px; border-radius: 999px; background: var(--bg-raised); overflow: hidden; }
+.epoch-bar span { display: block; height: 100%; width: 0; background: var(--accent-strong); border-radius: inherit; transition: width 0.6s; }
+.epoch-progress small { display: block; margin-top: 6px; font-size: 12.5px; color: var(--text-muted); }
+
+.timeline {
+  list-style: none; margin: 22px 0 0; padding: 0;
+  display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 14px;
+  position: relative;
+}
+.timeline::before {           /* the chain link running through the blocks */
+  content: ""; position: absolute; left: 8%; right: 8%; top: 22px;
+  border-top: 1px dashed var(--border-hover);
+}
+.timeline li { position: relative; }
+.timeline a {
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+  text-align: center; color: var(--text); padding: 4px 2px;
+  border-radius: 10px;
+}
+.timeline a:hover { text-decoration: none; background: var(--bg-raised); }
+.block-icon {
+  width: 36px; height: 36px; margin-bottom: 8px;
+  display: flex; flex-direction: column; justify-content: center; gap: 4px; padding: 0 8px;
+  background: var(--bg-card); border: 1px solid var(--border-hover); border-radius: 8px;
+  position: relative; z-index: 1;
+}
+.block-icon i { display: block; height: 2px; border-radius: 2px; background: var(--accent); opacity: 0.6; }
+.block-icon i:last-child { width: 55%; }
+.latest .block-icon { background: var(--accent-strong); border-color: var(--accent-strong); box-shadow: 0 0 0 5px var(--tint); }
+.latest .block-icon i { background: #fff; opacity: 0.9; }
+.block-height { font-family: var(--font-display); font-weight: 600; font-size: 14px; font-variant-numeric: tabular-nums; }
+.block-ago { font-size: 13px; color: var(--text-muted); }
+.latest .block-ago { color: var(--accent); }
+.block-epoch { font-size: 12px; color: var(--text-faint); }
+
+@media (max-width: 760px) {
+  .timeline { display: flex; flex-direction: column-reverse; gap: 0; }   /* newest on top */
+  .timeline::before { left: 18px; right: auto; top: 18px; bottom: 18px; border-top: 0; border-left: 1px dashed var(--border-hover); }
+  .timeline a { flex-direction: row; justify-content: flex-start; gap: 12px; text-align: left; padding: 6px 0; }
+  .block-icon { margin-bottom: 0; flex: none; }
+  .block-height { min-width: 0; }
+  .block-ago { margin-left: auto; white-space: nowrap; }
+  .block-epoch { display: none; }   /* shown in the card heading instead */
+  .epoch-progress { width: 100%; min-width: 0; text-align: left; }
 }
