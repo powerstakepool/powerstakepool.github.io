@@ -144,6 +144,8 @@
       if (p.live_saturation > 0) set("cap", "of " + ada(Number(p.live_stake) / (p.live_saturation / 100)) + " cap");
       set("delegators", Number(p.live_delegators).toLocaleString());
       set("blocks", Number(p.block_count).toLocaleString());
+      var proof = document.querySelector('[data-proof="blocks"]');
+      if (proof && p.block_count >= 1000) proof.textContent = (Math.floor(p.block_count / 500) * 500).toLocaleString() + "+";
       set("margin", pct(p.margin * 100, 2));
       set("fixed", ada(p.fixed_cost));
       stats.hidden = false;
