@@ -141,6 +141,38 @@
   });
 })();
 
+// FAQ: only one answer open at a time, and clicking anywhere outside the
+// list closes it. (name="faq" on <details> does the first part natively in
+// newer browsers; this covers older ones too.)
+(function () {
+  var faq = document.querySelector(".faq");
+  if (!faq) return;
+  var items = faq.querySelectorAll("details");
+  for (var i = 0; i < items.length; i++) {
+    items[i].addEventListener("toggle", function (e) {
+      if (!e.target.open) return;
+      for (var j = 0; j < items.length; j++) if (items[j] !== e.target) items[j].open = false;
+    });
+  }
+  document.addEventListener("click", function (e) {
+    if (faq.contains(e.target) || e.target.closest("#faq-toggle")) return;
+    for (var j = 0; j < items.length; j++) items[j].open = false;
+  });
+})();
+
+// FAQ: show the first five questions, reveal the rest on request.
+(function () {
+  var btn = document.getElementById("faq-toggle");
+  var more = document.getElementById("faq-more");
+  if (!btn || !more) return;
+  btn.addEventListener("click", function () {
+    var open = more.hidden;
+    more.hidden = !open;
+    btn.setAttribute("aria-expanded", String(open));
+    btn.textContent = open ? "Show fewer questions" : "Show all 12 questions";
+  });
+})();
+
 // Light / dark mode toggle (initial theme is set by the inline script in <head>).
 (function () {
   var btn = document.getElementById("theme-toggle");

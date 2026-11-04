@@ -156,55 +156,58 @@
           <p>The things delegators ask us most.</p>
         </div>
         <div class="faq">
-          <details>
+          <details name="faq">
             <summary>Is my ADA locked when I stake?</summary>
             <p>No. Your ADA never leaves your wallet and there's no lock-up period. You can spend, send or move it at any time, and your delegation simply follows whatever balance is in the wallet.</p>
           </details>
-          <details>
+          <details name="faq">
             <summary>Can I lose my ADA by staking?</summary>
             <p>No. Cardano has no "slashing", and the pool operator never has access to your funds. Delegating only points your stake at a pool. The worst case is earning fewer rewards for an epoch if a pool has a quiet one.</p>
           </details>
-          <details>
+          <details name="faq">
             <summary>When will I get my first rewards?</summary>
             <p>Your first rewards arrive about 15–20 days (3–4 epochs) after you delegate. That's because of how Cardano takes stake snapshots. After that, rewards arrive every epoch, which is every 5 days.</p>
           </details>
-          <details>
+          <details name="faq">
             <summary>Do I need to claim or re-stake my rewards?</summary>
             <p>No. Rewards are added to your wallet automatically and are already counted as part of your stake, so they compound on their own. You only need to withdraw them if you want to move or spend them.</p>
           </details>
-          <details>
+          <details name="faq">
             <summary>Is there a minimum amount, and what does it cost?</summary>
             <p>There's no minimum. The first time you delegate, your wallet takes a 2 ADA deposit to register your stake key, which you get back if you ever stop staking. You also pay a small network fee, around 0.2 ADA.</p>
           </details>
-          <details>
+          <div class="more" id="faq-more" hidden>
+          <details name="faq">
             <summary>Can I switch pools later?</summary>
             <p>Yes, any time, for a small network fee. There's no new deposit, and you won't lose rewards that are already on their way from your previous pool.</p>
           </details>
-          <details>
+          <details name="faq">
             <summary>What fees does POWER charge?</summary>
             <p>A small margin (commission) on the pool's rewards plus a fixed cost per epoch. Both are shown, kept up to date, in the pool card above. The fixed cost is taken once from the whole pool's rewards and shared by everyone. It isn't charged to each delegator, and nothing is ever taken from your wallet.</p>
           </details>
-          <details>
+          <details name="faq">
             <summary>What is saturation, and why does it matter?</summary>
             <p>Each pool has a saturation point. Above it, rewards per ADA start to drop for everyone in the pool. POWER is well below saturation, as the pool card above shows, so you get full rewards.</p>
           </details>
-          <details>
+          <details name="faq">
             <summary>Why do my rewards change from epoch to epoch?</summary>
             <p>Blocks are assigned to pools by a lottery weighted by stake. Some epochs a pool gets a few more blocks than expected and some a few fewer. Over months it evens out, which is why it's best to judge a pool by its long-term record.</p>
           </details>
-          <details>
+          <details name="faq">
             <summary>Can I stake ADA that's on an exchange?</summary>
             <p>Not with POWER. To choose your own pool, the ADA must be in a Cardano wallet you control. Some exchanges offer their own staking, but they pick the pool and hold your keys.</p>
           </details>
-          <details>
+          <details name="faq">
             <summary>My wallet asks me to choose a DRep. What's that?</summary>
             <p>Since Cardano's governance upgrade, your stake key also needs to delegate its voting power to a DRep (delegated representative) before you can withdraw rewards. It's separate from choosing a stake pool and doesn't affect your rewards. If you're unsure, pick "Always abstain". Your rewards keep building up either way.</p>
           </details>
-          <details>
+          <details name="faq">
             <summary>Can I use a hardware wallet?</summary>
             <p>Yes. Hardware wallets work with staking through any Cardano wallet that supports them. Your keys stay on the device the whole time.</p>
           </details>
+          </div>
         </div>
+        <button class="btn faq-toggle" type="button" id="faq-toggle" aria-controls="faq-more" aria-expanded="false">Show all 12 questions</button>
         <p class="note">Still have a question? Message us on X at <a href="https://x.com/power_cardano" target="_blank" rel="noopener">@power_cardano</a>.</p>
       </div>
     </section>
