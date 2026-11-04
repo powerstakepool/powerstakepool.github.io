@@ -25,7 +25,7 @@
     <div class="wrap">
       <a class="brand" href="index.html"><img class="brand-mark" src="images/logo1.png" alt="">POWER <span class="brand-sub">Stake Pool</span></a>
       <nav class="nav">
-        <a href="index.html" aria-current="page">Home</a>
+        <a class="nav-home" href="index.html" aria-current="page">Home</a>
         <a href="about.html">About</a>
         <a class="icon-link" href="https://x.com/power_cardano" aria-label="POWER on X (Twitter)" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
@@ -48,26 +48,54 @@
 
         <div class="pool-card">
           <div class="pool-head">
-            <div class="ticker">POWER<small>POWER Stake Pool</small></div>
-            <span class="status">Active</span>
+            <div class="pool-ident">
+              <img class="pool-logo" src="images/logo1.png" alt="">
+              <div>
+                <div class="pool-title"><span class="ticker">POWER</span><span class="pool-name">POWER Stake Pool</span></div>
+                <div class="pool-meta">
+                  <span class="status">Active</span>
+                  <span>Registered Aug 4, 2020<span id="pool-age"></span></span>
+                </div>
+              </div>
+            </div>
+            <div class="pool-actions">
+              <a class="btn btn-primary" href="#how">Delegate</a>
+              <a class="btn btn-icon" href="https://cardanoscan.io/pool/pool1uk2f28awascuhrhuwrp7x6y87x8ch33vwx8jtmrysp7l5ngq78j" target="_blank" rel="noopener" aria-label="View on Cardanoscan" title="View on Cardanoscan">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>
+              </a>
+            </div>
           </div>
 
           <div class="pool-id">
+            <span class="pool-id-label">Pool ID</span>
             <code id="pool-id">pool1uk2f28awascuhrhuwrp7x6y87x8ch33vwx8jtmrysp7l5ngq78j</code>
-            <button class="btn" type="button" id="copy-btn">Copy ID</button>
+            <button class="btn" type="button" id="copy-btn">Copy</button>
           </div>
 
-          <div class="stats" id="stats" hidden>
-            <div class="stat"><div class="stat-label">Live stake</div><div class="stat-value" data-stat="stake">–</div></div>
-            <div class="stat"><div class="stat-label">Delegators</div><div class="stat-value" data-stat="delegators">–</div></div>
-            <div class="stat"><div class="stat-label">Saturation</div><div class="stat-value" data-stat="saturation">–</div></div>
-            <div class="stat"><div class="stat-label">Fee</div><div class="stat-value" data-stat="fee">–</div><div class="stat-sub" data-stat="fixed"></div></div>
-            <div class="stat"><div class="stat-label">Blocks minted</div><div class="stat-value" data-stat="blocks">–</div></div>
+          <div id="stats" hidden>
+            <div class="stat-group">
+              <div class="group-label">Live position</div>
+              <div class="stats">
+                <div class="stat"><div class="stat-label">Live stake</div><div class="stat-value" data-stat="stake">–</div><div class="stat-sub" data-stat="active"></div></div>
+                <div class="stat"><div class="stat-label">Saturation</div><div class="stat-value" data-stat="saturation">–</div><div class="stat-sub" data-stat="cap"></div></div>
+                <div class="stat"><div class="stat-label">Delegators</div><div class="stat-value" data-stat="delegators">–</div><div class="stat-sub">Stake addresses</div></div>
+                <div class="stat"><div class="stat-label">Lifetime blocks</div><div class="stat-value" data-stat="blocks">–</div><div class="stat-sub">Minted since 2020</div></div>
+              </div>
+            </div>
+            <div class="stat-group">
+              <div class="group-label">Economics</div>
+              <div class="stats">
+                <div class="stat"><div class="stat-label">Margin</div><div class="stat-value" data-stat="margin">–</div><div class="stat-sub">Variable fee</div></div>
+                <div class="stat"><div class="stat-label">Fixed cost</div><div class="stat-value" data-stat="fixed">–</div><div class="stat-sub">Per epoch</div></div>
+                <div class="stat"><div class="stat-label">Pledge</div><div class="stat-value" data-stat="pledge">–</div><div class="stat-sub" data-stat="pledge-committed"></div></div>
+                <div class="stat"><div class="stat-label">Net return (ROS)</div><div class="stat-value" data-stat="ros">–</div><div class="stat-sub">Avg of last 18 epochs</div></div>
+              </div>
+            </div>
           </div>
 
           <div class="pool-foot">
             <span>Search <strong>POWER</strong> in your wallet to delegate.</span>
-            <a href="https://cardanoscan.io/pool/pool1uk2f28awascuhrhuwrp7x6y87x8ch33vwx8jtmrysp7l5ngq78j" target="_blank" rel="noopener">View on explorer →</a>
+            <a href="https://cardanoscan.io/pool/pool1uk2f28awascuhrhuwrp7x6y87x8ch33vwx8jtmrysp7l5ngq78j" target="_blank" rel="noopener">View on Cardanoscan →</a>
           </div>
         </div>
       </div>

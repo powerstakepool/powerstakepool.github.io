@@ -15,14 +15,29 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Fetch stats from Koios
+        env:
+          POOL: pool1uk2f28awascuhrhuwrp7x6y87x8ch33vwx8jtmrysp7l5ngq78j
         run: |
           curl -sf -m 30 -X POST https://api.koios.rest/api/v1/pool_info \
             -H 'Content-Type: application/json' \
-            -d '{"_pool_bech32_ids":["pool1uk2f28awascuhrhuwrp7x6y87x8ch33vwx8jtmrysp7l5ngq78j"]}' \
-          | jq '.[0] | {live_stake, live_delegators, live_saturation, margin, fixed_cost, block_count, updated: (now | todate)}' \
-          > stats.new.json
+            -d "{\"_pool_bech32_ids\":[\"$POOL\"]}" > info.json
+          curl -sf -m 30 "https://api.koios.rest/api/v1/pool_history?_pool_bech32=$POOL&order=epoch_no.desc&limit=24" > history.json
+          # ros = average return of the last 18 epochs with rewards calculated.
+          jq -n --slurpfile i info.json --slurpfile h history.json '
+            $i[0][0] as $p
+            | ([$h[0][] | select((.epoch_ros // 0) > 0) | .epoch_ros][:18]) as $r
+            | {
+                live_stake: $p.live_stake, active_stake: $p.active_stake,
+                live_delegators: $p.live_delegators, live_saturation: $p.live_saturation,
+                margin: $p.margin, fixed_cost: $p.fixed_cost,
+                pledge: $p.pledge, live_pledge: $p.live_pledge,
+                block_count: $p.block_count,
+                ros: (if ($r | length) > 0 then ($r | add / length) else null end),
+                updated: (now | todate)
+              }' > stats.new.json
           jq -e '.live_stake != null' stats.new.json
           mv stats.new.json stats.json
+          rm info.json history.json
 
       - name: Commit if changed
         run: |

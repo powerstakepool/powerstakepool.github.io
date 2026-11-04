@@ -1,9 +1,13 @@
 {
   "live_stake": "14247111704947",
+  "active_stake": "12568275441500",
   "live_delegators": 5883,
   "live_saturation": 18.28,
   "margin": 0.0097,
   "fixed_cost": "540000000",
+  "pledge": "135000000000",
+  "live_pledge": "154850353548",
   "block_count": 9512,
-  "updated": "2026-11-04T13:04:02Z"
+  "ros": 2.0449372769444447,
+  "updated": "2026-11-04T13:25:42Z"
 }

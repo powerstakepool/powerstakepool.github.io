@@ -9,7 +9,7 @@
     copyBtn.addEventListener("click", function () {
       var done = function () {
         copyBtn.textContent = "Copied";
-        setTimeout(function () { copyBtn.textContent = "Copy ID"; }, 1800);
+        setTimeout(function () { copyBtn.textContent = "Copy"; }, 1800);
       };
       if (navigator.clipboard) {
         navigator.clipboard.writeText(POOL_ID).then(done, function () {});
@@ -22,14 +22,24 @@
 
   function ada(lovelace) {
     var n = Number(lovelace) / 1e6;
-    if (n >= 1e6) return "₳" + (n / 1e6).toFixed(1) + "M";
-    if (n >= 1e3) return "₳" + Math.round(n / 1e3) + "K";
+    if (n >= 1e6) return "₳" + (n / 1e6).toFixed(2).replace(/\.?0+$/, "") + "M";
+    if (n >= 1e3) return "₳" + (n / 1e3).toFixed(1).replace(/\.0$/, "") + "K";
     return "₳" + Math.round(n);
+  }
+
+  function pct(x, digits) {
+    return Number(x).toFixed(digits).replace(/\.?0+$/, "") + "%";
   }
 
   function set(key, value) {
     var el = stats.querySelector('[data-stat="' + key + '"]');
     if (el) el.textContent = value;
+  }
+
+  var age = document.getElementById("pool-age");
+  if (age) {
+    var years = Math.floor((Date.now() - Date.UTC(2020, 7, 4)) / (365.25 * 864e5));
+    age.textContent = " · " + years + " years ago";
   }
 
   // stats.json is refreshed from Koios by .github/workflows/update-stats.yml
@@ -39,11 +49,16 @@
     .then(function (p) {
       if (!p || p.live_stake == null) return;
       set("stake", ada(p.live_stake));
+      if (p.active_stake) set("active", "Active " + ada(p.active_stake));
+      set("saturation", pct(p.live_saturation, 2));
+      if (p.live_saturation > 0) set("cap", "of " + ada(Number(p.live_stake) / (p.live_saturation / 100)) + " cap");
       set("delegators", Number(p.live_delegators).toLocaleString());
-      set("saturation", Number(p.live_saturation).toFixed(1) + "%");
-      set("fee", (Number(p.margin) * 100).toFixed(2).replace(/\.?0+$/, "") + "%");
-      set("fixed", "+ " + ada(p.fixed_cost) + " per epoch");
       set("blocks", Number(p.block_count).toLocaleString());
+      set("margin", pct(p.margin * 100, 2));
+      set("fixed", ada(p.fixed_cost));
+      set("pledge", ada(p.live_pledge || p.pledge));
+      if (p.pledge) set("pledge-committed", "Committed " + ada(p.pledge));
+      if (p.ros != null) set("ros", pct(p.ros, 2)); else set("ros", "–");
       stats.hidden = false;
       window.dispatchEvent(new Event("resize")); // card grew; re-place the hero animation
     })

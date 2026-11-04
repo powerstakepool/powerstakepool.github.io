@@ -141,7 +141,7 @@ h1, h2, h3 { font-family: var(--font-display); line-height: 1.2; margin: 0; }
 
 /* Pool card */
 .pool-card {
-  max-width: 720px;
+  max-width: 900px;
   margin: 48px auto 0;
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -322,3 +322,37 @@ section { padding: 64px 0; }
 [data-theme="dark"] .theme-toggle .icon-sun { display: block; }
 [data-theme="dark"] .theme-toggle .icon-moon { display: none; }
 [data-theme="light"] .brand-mark { box-shadow: 0 0 0 1px var(--border); }
+
+/* Pool card (explorer-style header, live position, economics) */
+.pool-ident { display: flex; align-items: center; gap: 16px; min-width: 0; }
+.pool-logo { width: 56px; height: 56px; border-radius: 50%; background: #fff; padding: 4px; flex: none; box-shadow: 0 0 0 1px var(--border); }
+.pool-title { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.pool-title .ticker { font-size: 28px; }
+.pool-name { font-family: var(--font-display); font-size: 18px; font-weight: 600; color: var(--text-muted); }
+.pool-meta { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 6px; font-size: 14px; color: var(--text-muted); }
+.pool-actions { display: flex; gap: 8px; }
+.btn-icon { width: 38px; padding: 0; }
+.btn-icon svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.pool-id-label { font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); flex: none; }
+.pool-id code { color: var(--accent); }
+.stat-group { margin-top: 22px; }
+.group-label { font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 10px; }
+.stat-group .stats { margin-top: 0; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.stat-value { font-variant-numeric: tabular-nums; }
+#stats[hidden] { display: none; }
+
+@media (max-width: 760px) {
+  .stat-group .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pool-actions { width: 100%; }
+  .pool-actions .btn-primary { flex: 1; }
+}
+@media (max-width: 560px) {
+  .pool-logo { width: 44px; height: 44px; }
+  .pool-title .ticker { font-size: 24px; }
+  .pool-name { font-size: 15px; }
+  .pool-id-label { display: none; }
+  .nav-home { display: none; }          /* the logo already links home */
+  .theme-toggle { width: 32px; height: 32px; }
+  .pool-ident { align-items: flex-start; gap: 12px; }
+  .pool-title { gap: 2px 10px; }
+}
