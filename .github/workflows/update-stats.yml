@@ -1,0 +1,36 @@
+name: Update pool stats
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch stats from Koios
+        run: |
+          curl -sf -m 30 -X POST https://api.koios.rest/api/v1/pool_info \
+            -H 'Content-Type: application/json' \
+            -d '{"_pool_bech32_ids":["pool1uk2f28awascuhrhuwrp7x6y87x8ch33vwx8jtmrysp7l5ngq78j"]}' \
+          | jq '.[0] | {live_stake, live_delegators, live_saturation, margin, fixed_cost, block_count, updated: (now | todate)}' \
+          > stats.new.json
+          jq -e '.live_stake != null' stats.new.json
+          mv stats.new.json stats.json
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -I '"updated"' -- stats.json; then
+            echo "No change"; git checkout -- stats.json; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats.json
+          git commit -m "Update pool stats"
+          git push
