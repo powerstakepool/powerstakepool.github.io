@@ -101,6 +101,37 @@
     card.hidden = false;
   }
 
+  // Newest delegators (most recent first).
+  function renderDelegators(p) {
+    var card = document.getElementById("deleg-card");
+    var list = document.getElementById("deleg-list");
+    var ds = p.recent_delegators;
+    if (!card || !list || !ds || !ds.length) return;
+    var current = p.epoch && p.epoch.no;
+    list.innerHTML = "";
+    ds = ds.slice().sort(function (x, y) { return (y.epoch - x.epoch) || ((y.time || 0) - (x.time || 0)); });
+    ds.slice(0, 10).forEach(function (d) {
+      var li = document.createElement("li");
+      var a = document.createElement("a");
+      a.href = "https://cexplorer.io/stake/" + encodeURIComponent(d.stake);
+      a.target = "_blank"; a.rel = "noopener";
+      a.title = d.stake;
+      a.innerHTML = '<span class="deleg-dot" aria-hidden="true"></span><span class="deleg-addr"></span><span class="deleg-amt"></span><span class="deleg-when"></span>';
+      a.querySelector(".deleg-addr").textContent = d.stake.slice(0, 9) + "…" + d.stake.slice(-6);
+      a.querySelector(".deleg-amt").textContent = ada(d.amount);
+      var when = a.querySelector(".deleg-when");
+      if (current && d.epoch > current) {
+        when.textContent = "New · active from epoch " + d.epoch;
+        li.className = "is-new";
+      } else {
+        when.remove();
+      }
+      li.appendChild(a);
+      list.appendChild(li);
+    });
+    card.hidden = false;
+  }
+
   // stats.json is refreshed from Koios by .github/workflows/update-stats.yml
   // (Koios doesn't allow direct browser requests from other sites).
   fetch("stats.json", { cache: "no-cache" })
@@ -117,6 +148,7 @@
       set("fixed", ada(p.fixed_cost));
       stats.hidden = false;
       renderBlocks(p);
+      renderDelegators(p);
       window.dispatchEvent(new Event("resize")); // card grew; re-place the hero animation
     })
     .catch(function () { /* Stats stay hidden; the explorer link still works. */ });

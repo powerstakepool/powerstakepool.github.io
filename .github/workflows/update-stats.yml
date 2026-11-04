@@ -11,19 +11,50 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
       - name: Fetch stats from Koios
         env:
           POOL: pool1uk2f28awascuhrhuwrp7x6y87x8ch33vwx8jtmrysp7l5ngq78j
+          API: https://api.koios.rest/api/v1
         run: |
-          curl -sf -m 30 -X POST https://api.koios.rest/api/v1/pool_info \
+          cp stats.json stats.old.json 2>/dev/null || echo '{}' > stats.old.json
+
+          curl -sf -m 30 -X POST "$API/pool_info" \
             -H 'Content-Type: application/json' \
             -d "{\"_pool_bech32_ids\":[\"$POOL\"]}" > info.json
-          curl -sf -m 30 "https://api.koios.rest/api/v1/pool_blocks?_pool_bech32=$POOL&order=block_height.desc&limit=40" > blocks.json
-          curl -sf -m 30 "https://api.koios.rest/api/v1/tip" > tip.json
-          jq -n --slurpfile i info.json --slurpfile b blocks.json --slurpfile t tip.json '
+          curl -sf -m 30 "$API/pool_blocks?_pool_bech32=$POOL&order=block_height.desc&limit=40" > blocks.json
+          curl -sf -m 30 "$API/tip" > tip.json
+
+          # 10 most recent delegators. Koios has to go through every delegator to
+          # sort them (~75-130 s) and its gateway gives up at 120 s, so try up to
+          # 3 times. If every try fails, keep the previous list.
+          ok=no
+          for attempt in 1 2 3; do
+            if curl -sf -m 130 "$API/pool_delegators?_pool_bech32=$POOL&select=stake_address,amount,active_epoch_no,latest_delegation_tx_hash&order=active_epoch_no.desc.nullslast&limit=10" > deleg.json \
+               && jq -e 'length > 0' deleg.json > /dev/null; then
+              ok=yes; break
+            fi
+            echo "Delegator lookup attempt $attempt failed"; sleep 15
+          done
+          if [ "$ok" = yes ]; then
+            jq '{_tx_hashes: [.[].latest_delegation_tx_hash | select(. != null)]}' deleg.json > hashes.json
+            curl -sf -m 60 -X POST "$API/tx_info?select=tx_hash,tx_timestamp" \
+              -H 'Content-Type: application/json' -d @hashes.json > txs.json || echo '[]' > txs.json
+            jq -n --slurpfile d deleg.json --slurpfile x txs.json '
+              ($x[0] | map({(.tx_hash): .tx_timestamp}) | add // {}) as $time
+              | [$d[0][] | {
+                  stake: .stake_address, amount: .amount, epoch: .active_epoch_no,
+                  tx: .latest_delegation_tx_hash, time: $time[.latest_delegation_tx_hash // ""]
+                }]' > recent_delegators.json
+          else
+            echo "Delegator lookup failed; keeping the previous list"
+            jq '.recent_delegators // []' stats.old.json > recent_delegators.json
+          fi
+
+          jq -n --slurpfile i info.json --slurpfile b blocks.json --slurpfile t tip.json --slurpfile rd recent_delegators.json '
             $i[0][0] as $p
             | {
                 live_stake: $p.live_stake, active_stake: $p.active_stake,
@@ -37,11 +68,12 @@ jobs:
                   length: 432000,
                   blocks: ([$b[0][] | select(.epoch_no == $tip.epoch_no)] | length)
                 }),
+                recent_delegators: $rd[0],
                 updated: (now | todate)
               }' > stats.new.json
           jq -e '.live_stake != null' stats.new.json
           mv stats.new.json stats.json
-          rm info.json blocks.json tip.json
+          rm -f info.json blocks.json tip.json deleg.json hashes.json txs.json recent_delegators.json stats.old.json
 
       - name: Commit if changed
         run: |
@@ -52,4 +84,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add stats.json
           git commit -m "Update pool stats"
+          git pull --rebase --quiet
           git push
