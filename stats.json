@@ -5,8 +5,14 @@
   "live_saturation": 18.27,
   "margin": 0.0097,
   "fixed_cost": "540000000",
-  "block_count": 9516,
+  "block_count": 9517,
   "recent_blocks": [
+    {
+      "height": 14170922,
+      "time": 1794077475,
+      "epoch": 666,
+      "hash": "026648ade4840a12ef53de3a606aab892be58a8439282dd969ac377b6fb48ead"
+    },
     {
       "height": 14166380,
       "time": 1793984431,
@@ -36,19 +42,13 @@
       "time": 1793768779,
       "epoch": 665,
       "hash": "d8590e1c93109e52fca35e279718e9dd9bdf29966ee07cc207e9930fbebdf9fd"
-    },
-    {
-      "height": 14153906,
-      "time": 1793734602,
-      "epoch": 665,
-      "hash": "4c05f11d85e6a76604cceb3170d94b7f45cb548e0a602e5177ac8694f6fd0415"
     }
   ],
   "epoch": {
     "no": 666,
     "start": 1793915091,
     "length": 432000,
-    "blocks": 2
+    "blocks": 3
   },
   "recent_delegators": [
     {
@@ -122,5 +122,5 @@
       "time": 1787292628
     }
   ],
-  "updated": "2026-11-07T05:58:01Z"
+  "updated": "2026-11-07T19:26:47Z"
 }
