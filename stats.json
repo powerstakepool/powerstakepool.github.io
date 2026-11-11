@@ -1,12 +1,30 @@
 {
-  "live_stake": "14266525165440",
-  "active_stake": "14252356989735",
+  "live_stake": "14279490803590",
+  "active_stake": "14251044405499",
   "live_delegators": 5881,
-  "live_saturation": 18.30,
+  "live_saturation": 18.31,
   "margin": 0.0097,
   "fixed_cost": "540000000",
-  "block_count": 9522,
+  "block_count": 9525,
   "recent_blocks": [
+    {
+      "height": 14185408,
+      "time": 1794373357,
+      "epoch": 667,
+      "hash": "5e7640e5d0baae6cf39ce8ed4b625665a168c255eb3c3f44fda1c545f212729f"
+    },
+    {
+      "height": 14185268,
+      "time": 1794370431,
+      "epoch": 667,
+      "hash": "67c90f9a85b58f3850e5478f5a0e36b1d0ae786c1809b14e6d6bddabd0fc2847"
+    },
+    {
+      "height": 14185002,
+      "time": 1794365061,
+      "epoch": 667,
+      "hash": "68f5469e3a48b824fe726fb125d6aa5ba0fc8ca2413004da3fd32e11b6387a78"
+    },
     {
       "height": 14183040,
       "time": 1794325317,
@@ -24,103 +42,85 @@
       "time": 1794298342,
       "epoch": 666,
       "hash": "74ac4cb8c1cf3a4b83d8af3b286d4938fa364bf322734c9be9e1a01504764718"
-    },
-    {
-      "height": 14172994,
-      "time": 1794119708,
-      "epoch": 666,
-      "hash": "9edf83a09b6e91dfd0d802c77bdc90186a10b55e70bc9b55da8b5cf0ac5176e3"
-    },
-    {
-      "height": 14171959,
-      "time": 1794099582,
-      "epoch": 666,
-      "hash": "eafe85bade3125c636fe993a563c07729375dbda37893e9ddc74b942e394810b"
-    },
-    {
-      "height": 14170922,
-      "time": 1794077475,
-      "epoch": 666,
-      "hash": "026648ade4840a12ef53de3a606aab892be58a8439282dd969ac377b6fb48ead"
     }
   ],
   "epoch": {
-    "no": 666,
-    "start": 1793915091,
+    "no": 667,
+    "start": 1794347091,
     "length": 432000,
-    "blocks": 8
+    "blocks": 3
   },
   "recent_delegators": [
     {
       "stake": "stake1u9gkvrhzflshwt7p2r0csxapzhlj052ed02zt7ngmgz5yzs93g5uu",
-      "amount": "1704827283237",
+      "amount": "1705219409582",
       "epoch": 666,
       "tx": "20b773c7cb75f3a0608a33a16dbd6f26c148ef9b19898b4162016fb66fe94c52",
       "time": 1793139643
     },
     {
       "stake": "stake1uyzgawgwmeen7chlslwycwu0h9l7jx2932qa87jzszc3qxc5e4y5k",
-      "amount": "153767425",
+      "amount": "153812676",
       "epoch": 660,
       "tx": "46a8047a9385dd1896a47acf000779bb026a7eba5b5935ca23e87e5b13dc966d",
       "time": 1790625870
     },
     {
       "stake": "stake1uy64wua6lzaj02w97xfdq35chdfcx3v4nd9l43j22fwd6qcuzt0h3",
-      "amount": "18675017775",
+      "amount": "18680513539",
       "epoch": 659,
       "tx": "5f5a0ac5b455df7c2290c7a96e82b192a16c681e9ff4f7fa67746db41e5d8d56",
       "time": 1790329734
     },
     {
       "stake": "stake1u9234mcyj0jvddzl0n9pyngmu3c3l9ed5e05tw2t42nq9jqn3ycs9",
-      "amount": "18334136460",
+      "amount": "18339531908",
       "epoch": 657,
       "tx": "55f724b6c14de01b75b93de1b10290a379b2fc1bb13683923fd1e7bc8f3b37d8",
       "time": 1789419854
     },
     {
       "stake": "stake1ux5qxwxf8ywrdj966s7ezlatl0dhq97t2trmla4y6fckhxc27h0fu",
-      "amount": "84972935",
+      "amount": "84997941",
       "epoch": 657,
       "tx": "44bbdb5987bd8722ce0ee0eabf73cd75e06fa014da0797825d8da91da31de3b3",
       "time": 1789182737
     },
     {
       "stake": "stake1u9gy787vkpjuxgplv9s6ljg7krl0d4qupnxqteld92lv2zsa68tr5",
-      "amount": "3752070481",
+      "amount": "3753174656",
       "epoch": 653,
       "tx": "45955704ad9e493c95ed5fbee21c58932bb73e1d65f424bc29dc7f7c3702bf01",
       "time": 1787571641
     },
     {
       "stake": "stake1u85pj5fc4mdttry48xfxw83tmnvghfcwzqxw4k306svwhpgrpkzkg",
-      "amount": "601886944480",
+      "amount": "602064070352",
       "epoch": 653,
       "tx": "c32621f24d26ad7f9fb073e9c3f7c2a913d850bed2f4cb9c032e89d2b90de578",
       "time": 1787611889
     },
     {
       "stake": "stake1uycqs09h068xjxv085jag7ecv7xt2vug2uy4sydkvj66jsqfsqw6u",
-      "amount": "1693393626",
+      "amount": "1693891965",
       "epoch": 653,
       "tx": "fc51b33856e0326eecfdf743ddbe133dd65b19b6eb1dbbb40aadee63ae503df2",
       "time": 1787497160
     },
     {
       "stake": "stake1uxv9as0h9wuxmmw0ktyw337aw0hmm7mcp97ey2dzg27ahuc4fqp2r",
-      "amount": "2451237",
+      "amount": "2451958",
       "epoch": 653,
       "tx": "a65f6e8d8891ba2a7921492b48380acbc3b9622e8447183d90d77040f3cf30b4",
       "time": 1787773366
     },
     {
       "stake": "stake1ux0c4lp05rks2y6qxqkqcerkwheerknnxtpgq3f6lf835jq2mzeqa",
-      "amount": "231044095",
+      "amount": "231112087",
       "epoch": 652,
       "tx": "3cef018fe21b7733f18735aaacabe5890425d5fc38ba68b1bca254396a2acad0",
       "time": 1787292628
     }
   ],
-  "updated": "2026-11-10T21:21:34Z"
+  "updated": "2026-11-11T06:16:39Z"
 }
