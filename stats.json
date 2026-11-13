@@ -1,5 +1,5 @@
 {
-  "live_stake": "14296575140249",
+  "live_stake": "14297108800402",
   "active_stake": "14251044405499",
   "live_delegators": 5881,
   "live_saturation": 18.33,
@@ -122,5 +122,5 @@
       "time": 1787292628
     }
   ],
-  "updated": "2026-11-12T23:42:49Z"
+  "updated": "2026-11-13T06:44:28Z"
 }
