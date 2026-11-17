@@ -1,8 +1,8 @@
 {
-  "live_stake": "14240886835287",
+  "live_stake": "14229531331946",
   "active_stake": "14271947388975",
-  "live_delegators": 5879,
-  "live_saturation": 18.26,
+  "live_delegators": 5878,
+  "live_saturation": 18.24,
   "margin": 0.0097,
   "fixed_cost": "540000000",
   "block_count": 9536,
@@ -122,5 +122,5 @@
       "time": 1787292628
     }
   ],
-  "updated": "2026-11-16T19:36:06Z"
+  "updated": "2026-11-17T03:53:51Z"
 }
