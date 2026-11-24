@@ -1,12 +1,36 @@
 {
-  "live_stake": "13750484826609",
+  "live_stake": "13738512733285",
   "active_stake": "14240258286744",
-  "live_delegators": 5870,
-  "live_saturation": 17.62,
+  "live_delegators": 5869,
+  "live_saturation": 17.61,
   "margin": 0.0097,
   "fixed_cost": "540000000",
-  "block_count": 9559,
+  "block_count": 9563,
   "recent_blocks": [
+    {
+      "height": 14242092,
+      "time": 1795519260,
+      "epoch": 669,
+      "hash": "22cc033f2204b2571cf35cc48f749e01b4b81d2b5b745f4eb7dfa1fc8cb214b7"
+    },
+    {
+      "height": 14241853,
+      "time": 1795514180,
+      "epoch": 669,
+      "hash": "8f7456628bd9f99829ba3e626c219a22e91e643b3cedfc4b4f73b110902ef4dc"
+    },
+    {
+      "height": 14241655,
+      "time": 1795509841,
+      "epoch": 669,
+      "hash": "0c72d6dc6999d3e65741a2ac7c8ce01abfe26c74a3373b8e29601f9b1fbc0357"
+    },
+    {
+      "height": 14241578,
+      "time": 1795508406,
+      "epoch": 669,
+      "hash": "8e64cb3f4027bf6547df01b95bd0a510f03e2a1a2c5fc30cb65e10ffd712f5e0"
+    },
     {
       "height": 14235734,
       "time": 1795392419,
@@ -18,37 +42,13 @@
       "time": 1795361447,
       "epoch": 669,
       "hash": "24fb139cc8fc982c7b403f5b6209264c15238438d6973ce7ff45069f00fc73d9"
-    },
-    {
-      "height": 14233318,
-      "time": 1795343908,
-      "epoch": 669,
-      "hash": "476c78f052c60661060319ebff3fddafb79b240aaa94089d7399d3565d578e8a"
-    },
-    {
-      "height": 14233265,
-      "time": 1795342977,
-      "epoch": 669,
-      "hash": "b62efec6d1ffe1febafe2ebf350d309520dec5adeef0601db3ac8f8ab7a01a72"
-    },
-    {
-      "height": 14233186,
-      "time": 1795341244,
-      "epoch": 669,
-      "hash": "818039d7677209164de6c71e68687d26b22834ba3bda20c246113837e597dd38"
-    },
-    {
-      "height": 14231603,
-      "time": 1795309125,
-      "epoch": 669,
-      "hash": "25b9e3a4a21d7272f4991b25e006c744b9be9fedf48160e5d11abf27d24b159e"
     }
   ],
   "epoch": {
     "no": 669,
     "start": 1795211091,
     "length": 432000,
-    "blocks": 9
+    "blocks": 13
   },
   "recent_delegators": [
     {
@@ -122,5 +122,5 @@
       "time": 1787292628
     }
   ],
-  "updated": "2026-11-24T02:18:15Z"
+  "updated": "2026-11-24T13:42:31Z"
 }
