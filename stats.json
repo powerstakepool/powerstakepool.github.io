@@ -1,12 +1,18 @@
 {
-  "live_stake": "13727668256393",
+  "live_stake": "13729651961410",
   "active_stake": "13803763506492",
-  "live_delegators": 5869,
+  "live_delegators": 5868,
   "live_saturation": 17.59,
   "margin": 0.0097,
   "fixed_cost": "540000000",
-  "block_count": 9569,
+  "block_count": 9570,
   "recent_blocks": [
+    {
+      "height": 14250233,
+      "time": 1795682786,
+      "epoch": 670,
+      "hash": "cf712adc096b14c88740f040eca9ce666c3bcecf075b8117726ab8a997b6aaf5"
+    },
     {
       "height": 14248262,
       "time": 1795643128,
@@ -36,21 +42,22 @@
       "time": 1795562060,
       "epoch": 669,
       "hash": "1bf59dc60c2173107b9acd343811d8b662ec1b2d28f4c406c21a26a9fb388e28"
-    },
-    {
-      "height": 14243537,
-      "time": 1795548017,
-      "epoch": 669,
-      "hash": "ea1ddf3116512d20ebae422de01ecb66c5a13976f49727ca710ca83fdddd2a6b"
     }
   ],
   "epoch": {
     "no": 670,
     "start": 1795643091,
     "length": 432000,
-    "blocks": 1
+    "blocks": 2
   },
   "recent_delegators": [
+    {
+      "stake": "stake1u80ts9yy7n0ux7exdm9eu5cuyqflkus7ecm0fpxvl4drtpssezn4q",
+      "amount": "8438480930",
+      "epoch": 671,
+      "tx": "28f57e578f3b8e153d07bb0e362287bfc8da00d3c89dc08f2954d57ae3493beb",
+      "time": 1795642831
+    },
     {
       "stake": "stake1u9gkvrhzflshwt7p2r0csxapzhlj052ed02zt7ngmgz5yzs93g5uu",
       "amount": "1706234085637",
@@ -94,13 +101,6 @@
       "time": 1787571641
     },
     {
-      "stake": "stake1u85pj5fc4mdttry48xfxw83tmnvghfcwzqxw4k306svwhpgrpkzkg",
-      "amount": "602422307249",
-      "epoch": 653,
-      "tx": "c32621f24d26ad7f9fb073e9c3f7c2a913d850bed2f4cb9c032e89d2b90de578",
-      "time": 1787611889
-    },
-    {
       "stake": "stake1uycqs09h068xjxv085jag7ecv7xt2vug2uy4sydkvj66jsqfsqw6u",
       "amount": "1694899854",
       "epoch": 653,
@@ -115,12 +115,12 @@
       "time": 1787773366
     },
     {
-      "stake": "stake1ux0c4lp05rks2y6qxqkqcerkwheerknnxtpgq3f6lf835jq2mzeqa",
-      "amount": "231249601",
-      "epoch": 652,
-      "tx": "3cef018fe21b7733f18735aaacabe5890425d5fc38ba68b1bca254396a2acad0",
-      "time": 1787292628
+      "stake": "stake1u85pj5fc4mdttry48xfxw83tmnvghfcwzqxw4k306svwhpgrpkzkg",
+      "amount": "602422307249",
+      "epoch": 653,
+      "tx": "c32621f24d26ad7f9fb073e9c3f7c2a913d850bed2f4cb9c032e89d2b90de578",
+      "time": 1787611889
     }
   ],
-  "updated": "2026-11-26T03:37:04Z"
+  "updated": "2026-11-26T16:54:06Z"
 }
