@@ -1,12 +1,24 @@
 {
-  "live_stake": "13729620889245",
+  "live_stake": "13728529284026",
   "active_stake": "13803763506492",
-  "live_delegators": 5867,
+  "live_delegators": 5866,
   "live_saturation": 17.59,
   "margin": 0.0097,
   "fixed_cost": "540000000",
-  "block_count": 9571,
+  "block_count": 9573,
   "recent_blocks": [
+    {
+      "height": 14254121,
+      "time": 1795761488,
+      "epoch": 670,
+      "hash": "3fa65291aa0af7ec1ad1dbf489c3d0113850af70adf2ce6adc2133fa3b3961da"
+    },
+    {
+      "height": 14254042,
+      "time": 1795760009,
+      "epoch": 670,
+      "hash": "5ee6b20532fe6162c7504188e40edbeddeeb3b374706a43c841f0fbeeb7c7ab2"
+    },
     {
       "height": 14252232,
       "time": 1795723353,
@@ -30,25 +42,13 @@
       "time": 1795620167,
       "epoch": 669,
       "hash": "40a08fcb35f288d5c49a483c8aed72644df40e9a7e2308d6e7e88ac4a2a9a94c"
-    },
-    {
-      "height": 14246458,
-      "time": 1795607391,
-      "epoch": 669,
-      "hash": "29e7c909dd0cb2f7d67a276d50402f18726265f6f20da417306626ab06857f45"
-    },
-    {
-      "height": 14245522,
-      "time": 1795588590,
-      "epoch": 669,
-      "hash": "da891774a3fc3680489399aba9a6111bed4d27f6c17afc77239644ae56996654"
     }
   ],
   "epoch": {
     "no": 670,
     "start": 1795643091,
     "length": 432000,
-    "blocks": 3
+    "blocks": 5
   },
   "recent_delegators": [
     {
@@ -122,5 +122,5 @@
       "time": 1787611889
     }
   ],
-  "updated": "2026-11-27T01:44:56Z"
+  "updated": "2026-11-27T12:16:27Z"
 }
